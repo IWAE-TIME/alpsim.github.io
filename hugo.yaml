@@ -1,0 +1,73 @@
+# Configuration
+baseURL: 'https://alps.comp-phys.com/'
+title: 'Algorithms and Libraries for Physics Simulations'
+
+enableRobotsTXT: true
+enableGitInfo: true
+enableEmoji: true
+hasCJKLanguage: true
+enableInlineShortcodes: true
+copyright: ALPS
+
+outputs:
+  home: [HTML]
+  page: [HTML]
+  section: [HTML, RSS]
+
+defaultContentLanguage: en
+
+module:
+  hugoVersion:
+    extended: true
+    min: "0.112.0"
+  imports:
+    - path: github.com/iskakoff/hextra
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+params:
+  description: "International collaboration for developing opensource softwares for simulation of quantum lattice models, such as quantum spin systems, electron systems, etc"
+  headTitle: "ALPS - Algorithms and Libraries for Physics Simulations"
+  theme:
+    # light | dark | system
+    default: system
+    displayToggle: true
+  page:
+    width: normal
+  editURL:
+    enable: true
+    base: "https://github.com/ALPSim/alpsim.github.io/edit/main/content"
+  navbar:
+    displayLogo: true
+    logo:
+      path: logo/alps.png
+      dark: logo/alps.png
+      width: 48px
+  footer:
+    displayCopyright: true
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      pageRef: /about
+      weight: 4
+    - name: Search
+      weight: 5
+      params:
+        type: search
+    - name: GitHub
+      weight: 6
+      url: "https://github.com/ALPSim"
+      params:
+        icon: github
+    - name: Toggle
+      weight: 7
+      params:
+        type: toggle
+        icon: sun
