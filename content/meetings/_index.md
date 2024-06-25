@@ -6,7 +6,7 @@ toc: false
 ---
 ## Upcoming Meetings
 
-- January 13-15, 2005 at University of Michigan: [more info](michigan.md)
+- January 13-15, 2005 at University of Michigan: [more info](../michigan.md)
 
 - June 9-11, 2005 in Trento Italy
 
