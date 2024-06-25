@@ -1,6 +1,6 @@
 # Configuration
 baseURL: 'https://alps.comp-phys.com/'
-title: 'Algorithms and Libraries for Physics Simulations'
+title: 'ALPS Software Package'
 
 enableRobotsTXT: true
 enableGitInfo: true
