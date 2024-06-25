@@ -11,5 +11,5 @@ The ALPS libraries aim to provide a set of well tested, robust, and standardized
 
 
 {{< cards >}}
-  {{< card link="meetings" title="Meetings" icon="user-group" >}}
+  {{< card link="meetings" title="Meetings" >}}
 {{< /cards >}}
