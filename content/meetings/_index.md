@@ -6,11 +6,11 @@ toc: false
 ---
 ## Upcoming Meetings
 
-- January 13-15, 2005 at University of Michigan: [more info](../michigan.md)
+- January 13-15, 2025 at University of Michigan: [more info](../michigan)
 
-- June 9-11, 2005 in Trento Italy
+- June 9-11, 2025 in Trento Italy
 
-- August 4-6, 2005 in Arlington, VA
+- August 4-6, 2025 in Arlington, VA
 
 ## Past Meetings
 
