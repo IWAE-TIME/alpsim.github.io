@@ -5,4 +5,4 @@ layout: alps-home
 toc: false
 ---
 
-## Welcome
+## Welcome to the ALPS Software Package
