@@ -6,9 +6,9 @@ toc: false
 ---
 ## Upcoming Meetings
 
-- January 13-15, 2025 at University of Michigan: [more info](/content/meetings/michigan.md)
+- January 13-15, 2025 at University of Michigan: [more info](michigan.md)
 
-- June 9-11, 2025 in Trento Italy
+- June 9-11, 2025 in Trento, Italy: [more info](trento.md)
 
 - August 4-6, 2025 in Arlington, VA
 
