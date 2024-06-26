@@ -6,7 +6,7 @@ toc: false
 ---
 ## Upcoming Meetings
 
-- January 13-15, 2025 at University of Michigan: [more info](michigan.md)
+- January 13-15, 2025 at University of Michigan: [more info](https://github.com/ALPSim/alpsim.github.io/content/meetings/michigan.md)
 
 - June 9-11, 2025 in Trento Italy
 
