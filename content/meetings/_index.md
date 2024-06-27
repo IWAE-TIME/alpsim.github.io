@@ -10,7 +10,7 @@ toc: false
 
 - June 9-11, 2025 in Trento, Italy: [more info](trento)
 
-- August 4-6, 2025 in Arlington, VA
+- August 4-6, 2025 in Arlington, VA: [more info](arlington)
 
 ## Past Meetings
 
