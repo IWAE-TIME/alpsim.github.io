@@ -1,5 +1,5 @@
 ---
-title: University of Michaigan (Jan. 13-15, 2025)
+title: University of Michigan (Jan. 13-15, 2025)
 linkTitle: michigan
 description: "First Developer Meeting"
 toc: false
