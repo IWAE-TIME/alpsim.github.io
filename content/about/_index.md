@@ -1,5 +1,7 @@
 ---
-title: "About ALPS"
+title: About
+description: "About ALPS"
+toc: false
 ---
 
 ALPS is the leading software package for computational physics...

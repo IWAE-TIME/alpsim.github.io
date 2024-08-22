@@ -1,6 +1,6 @@
 ---
-title: Trento, Italy (Jun. 9-11, 2025)
-linkTitle: trento
+title: San Sebastian, Spain (Jun. 23-26, 2025)
+linkTitle: sanSebastian
 description: "Second Developer Meeting"
 toc: false
 ---

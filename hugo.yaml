@@ -57,6 +57,26 @@ menu:
       name: About
       pageRef: /about
       weight: 4
+    - identifier: installation
+      name: Installation
+      pageRef: /install/
+      weight: 4
+    - identifier: documentation
+      name: Documentation
+      pageRef: /document/
+      weight: 4
+    - identifier: tutorials
+      name: Tutorials
+      pageRef: /tutorials/
+      weight: 4
+    - identifier: events
+      name: Events
+      pageRef: /events/
+      weight: 4
+    - identifier: govern
+      name: Governance
+      pageRef: /govern
+      weight: 4
     - name: Search
       weight: 5
       params:
