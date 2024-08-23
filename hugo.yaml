@@ -59,19 +59,19 @@ menu:
       weight: 4
     - identifier: installation
       name: Installation
-      pageRef: /install/
+      pageRef: /install
       weight: 4
     - identifier: documentation
       name: Documentation
-      pageRef: /document/
+      pageRef: /documentation
       weight: 4
     - identifier: tutorials
       name: Tutorials
-      pageRef: /tutorials/
+      pageRef: /tutorials
       weight: 4
     - identifier: events
       name: Events
-      pageRef: /events/
+      pageRef: /events
       weight: 4
     - identifier: govern
       name: Governance
