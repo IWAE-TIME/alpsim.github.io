@@ -11,7 +11,7 @@ ALPS constantly organizes developer meetings and user workshops.
 
 - June 23-26, 2025 in San Sebastian, Spain: [more info](2025/sanSebastian)
 
-- August 6-8, 2025 at Northeastern University, Boston, MA: [more info](2025/northeastern)
+- July 30 - August 1, 2025 at Northeastern University, Boston, MA: [more info](2025/northeastern)
 
 ## Past Meetings
 

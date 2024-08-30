@@ -1,5 +1,5 @@
 ---
-title: Northeastern University, Boston MA (Aug. 6-8, 2025)
+title: Northeastern University, Boston MA (Jul. 30 - Aug. 1, 2025)
 description: "Developer Meeting at Northeastern University"
 toc: false
 ---
