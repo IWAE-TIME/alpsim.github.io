@@ -9,7 +9,7 @@ ALPS documentation includes basic theory, code and data structure of various sim
   {{< hextra/feature-card
     title="Basic Theory"
     subtitle="Theory about various lattice models"
-    link="basicTheory"
+    link="/basicTheory"
     icon=""
   >}}
   {{< hextra/feature-card
