@@ -2,6 +2,8 @@
 ---
 title: Documentation
 description: "ALPS Documentation"
+cascade:
+    type: docs
 ---
 ALPS documentation includes basic theory, code and data structure of various simulation models, as well as available libraries and API calls.<br><br>
 
@@ -9,7 +11,7 @@ ALPS documentation includes basic theory, code and data structure of various sim
   {{< hextra/feature-card
     title="Basic Theory"
     subtitle="Theory about various lattice models"
-    link="basicTheory"
+    link="theory"
     icon=""
   >}}
   {{< hextra/feature-card
