@@ -9,6 +9,12 @@ ALPS documentation includes basic theory, code and data structure of various sim
 
 {{< hextra/feature-grid maxcolumns="2" >}}
   {{< hextra/feature-card
+    title="Legacy ALPS"
+    subtitle="Documentation For Legacy ALPS"
+    link="legacyalps"
+    icon=""
+  >}}
+  {{< hextra/feature-card
     title="Basic Theory"
     subtitle="Theory about various lattice models"
     link="theory"
