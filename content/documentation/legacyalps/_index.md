@@ -15,13 +15,13 @@ toc: true
   {{< hextra/feature-card
     title="ALPS Libraries (2.1.0)"
     subtitle="List of Libraries in Legacy ALPS"
-    link="libraries"
+    link=""
     icon=""
   >}}
   {{< hextra/feature-card
     title="ALPS Python Modules API"
     subtitle="API Reference Manual for Python in Legacy ALPS"
-    link="pythonAPI"
+    link=""
     icon=""
   >}}
 {{< /hextra/feature-grid >}}

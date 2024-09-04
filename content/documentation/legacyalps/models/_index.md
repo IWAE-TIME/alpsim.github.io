@@ -18,15 +18,33 @@ description: "Available Models and Methods"
     icon=""
   >}}
   {{< hextra/feature-card
-    title="Worm Algorithm"
+    title="Worm"
     subtitle="Worm Algorithm for QMC Simulations"
     link="worm"
     icon=""
   >}}
   {{< hextra/feature-card
-    title="Directed Worm Algorithm"
+    title="dwa"
     subtitle="Directed Worm Algorithm for QMC Simulations"
     link="dwa"
+    icon=""
+  >}}
+  {{< hextra/feature-card
+    title="qwl"
+    subtitle="Quantum Wang-Landau Algorithm"
+    link="qwl"
+    icon=""
+  >}}
+{{< hextra/feature-card
+    title="sparsediag"
+    subtitle="Sparse Diagonalization (Lanczos)"
+    link="sparsediag"
+    icon=""
+  >}}
+{{< hextra/feature-card
+    title="fulldiag"
+    subtitle="Full Diagonalization"
+    link="fulldiag"
     icon=""
   >}}
 {{< /hextra/feature-grid >}}
