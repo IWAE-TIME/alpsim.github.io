@@ -71,6 +71,18 @@ description: "Available Models and Methods"
     link="tebd"
     icon=""
   >}}
+  {{< hextra/feature-card
+    title="Bose Glass"
+    subtitle="Disordered models"
+    link="boseglass"
+    icon=""
+  >}}
+  {{< hextra/feature-card
+    title="VisTrails"
+    subtitle="VisTrails LaTex extensions"
+    link="vistrails"
+    icon=""
+  >}}
 {{< /hextra/feature-grid >}}
 
 
