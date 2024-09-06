@@ -35,16 +35,40 @@ description: "Available Models and Methods"
     link="qwl"
     icon=""
   >}}
-{{< hextra/feature-card
+ {{< hextra/feature-card
     title="sparsediag"
     subtitle="Sparse Diagonalization (Lanczos)"
     link="sparsediag"
     icon=""
   >}}
-{{< hextra/feature-card
+  {{< hextra/feature-card
     title="fulldiag"
     subtitle="Full Diagonalization"
     link="fulldiag"
+    icon=""
+  >}}
+  {{< hextra/feature-card
+    title="Non-interacting DMRG"
+    subtitle="Particle in a box"
+    link="nonintdmrg"
+    icon=""
+  >}}
+  {{< hextra/feature-card
+    title="DMRG"
+    subtitle="Density Matrix Renormalization Group"
+    link="dmrg"
+    icon=""
+  >}}
+  {{< hextra/feature-card
+    title="DMFT"
+    subtitle="Dynamical Mean Field Theory and Impurity Solvers"
+    link="dmft"
+    icon=""
+  >}}
+  {{< hextra/feature-card
+    title="TEBD"
+    subtitle="Time-Evolving Block Decimation"
+    link="tebd"
     icon=""
   >}}
 {{< /hextra/feature-grid >}}
