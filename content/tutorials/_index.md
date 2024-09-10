@@ -2,9 +2,17 @@
 ---
 title: Tutorials
 description: "ALPS Tutorials"
-toc: false
+cascade:
+    type: docs
 ---
-ALPS provides simulation codes for the following lattice models, along with the standard for input/output files for Physics simulations.
+Below are available tutorials for running various simulations with ALPS.
 
-
+{{< hextra/feature-grid maxcolumns="2" >}}
+  {{< hextra/feature-card
+    title="Legacy ALPS Tutorials"
+    subtitle="Tutorials For Legacy ALPS"
+    link="legacytutorials"
+    icon=""
+  >}}
+{{< /hextra/feature-grid >}}
 
