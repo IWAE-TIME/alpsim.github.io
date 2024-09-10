@@ -3,3 +3,4 @@ resources
 public
 .idea
 go.sum
+.hugo_build.lock
