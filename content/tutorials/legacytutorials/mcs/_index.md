@@ -12,7 +12,7 @@ toc: true
 - [MC-04 Custom measurements in the QMC codes](mc04) 
 - [MC-05 Simulating the Bose-Hubbard model using the worm QMC code](mc05) 
 - [MC-06 Extended ensemble simulations (Quantum Wang-Landau)](mc06) 
-- MC-07 Phase transition in the Ising model 
+- [MC-07 Phase transition in the Ising model](mc07)
 - MC-08 Quantum phase transition in a quantum spin model 
 - Comments: Which QMC code should you choose for your problem?
 
