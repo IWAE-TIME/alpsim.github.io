@@ -175,5 +175,13 @@ You will get curves looking like the ones below. Now the errors have converged a
 - Can you explain why cluster updates are more efficient than local updates?
 
 
-    
+## Contributors
+
+- Simon Trebst
+- Fabien Alet
+- Matthias Troyer
+- Synge Todo 
+- Emanuel Gull
+
+
 
