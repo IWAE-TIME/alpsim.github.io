@@ -3,6 +3,8 @@
 title: Events
 description: "Developer Meetings and User Workshops"
 toc: false
+sidebar:
+  exclude: true
 ---
 ALPS constantly organizes developer meetings and user workshops.
 ## Upcoming Developer Meetings
