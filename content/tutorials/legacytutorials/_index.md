@@ -17,6 +17,11 @@ toc: true
     link="mcs"
     icon=""
   >}}
+  {{< hextra/feature-card
+    title="Monte Carlo simulations - Directed worm algorithm"
+    link="worm"
+    icon=""
+  >}}
 {{< /hextra/feature-grid >}}
 
 
