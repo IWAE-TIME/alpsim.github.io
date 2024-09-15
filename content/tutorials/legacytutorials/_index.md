@@ -22,6 +22,16 @@ toc: true
     link="worm"
     icon=""
   >}}
+  {{< hextra/feature-card
+    title="Exact Diagonalization"
+    link="ed"
+    icon=""
+  >}}
+  {{< hextra/feature-card
+    title="Density Matrix Renormalization Group"
+    link="dmrg"
+    icon=""
+  >}}
 {{< /hextra/feature-grid >}}
 
 
