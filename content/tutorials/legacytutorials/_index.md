@@ -28,8 +28,18 @@ toc: true
     icon=""
   >}}
   {{< hextra/feature-card
-    title="Density Matrix Renormalization Group"
+    title="Density Matrix Renormalization Group (DMRG)"
     link="dmrg"
+    icon=""
+  >}}
+  {{< hextra/feature-card
+    title="Matrix Product State (MPS)"
+    link="mps"
+    icon=""
+  >}}
+  {{< hextra/feature-card
+    title="Time-Evolving Block Decimation (TEBD)"
+    link="tebd"
     icon=""
   >}}
 {{< /hextra/feature-grid >}}
