@@ -70,6 +70,9 @@ The following combinations of `Boost`, Python and c++ compiler has been tested:
   - GCC 10.5.0, Python 3.9.19 and `Boost` 1.76.0
   - GCC 11.4.0, Python 3.10.14 and `Boost` 1.81.0
   - GCC 12.3.0, Python 3.10.14 and `Boost` 1.81.0
+  - Clang 13.0.1, Python 3.10.14 and `Boost` 1.81.0
+  - Clang 14.0.0, Python 3.10.14 and `Boost` 1.81.0
+  - Clang 15.0.7, Python 3.10.14 and `Boost` 1.81.0
 
 If you have a non-standard installation location of the dependent packages installed in step 1, cmake will fail to find the package. ALPS uses the standard cmake mechanism (FindXXX.cmake) to find packages. The following pointers may help:
   - For MPI: Follow the instructions on [cmake with mpi](https://cmake.org/cmake/help/latest/module/FindMPI.html)
