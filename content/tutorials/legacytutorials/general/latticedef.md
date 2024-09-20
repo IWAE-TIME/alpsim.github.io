@@ -1,6 +1,6 @@
 
 ---
-title: ALPS Lattice Definitions
+title: ALPS LatticeHOWTO
 toc: true
 ---
 
