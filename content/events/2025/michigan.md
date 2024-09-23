@@ -6,9 +6,16 @@ toc: false
 sidebar:
   exclude: true
 ---
-## Travel
+## Location
 
-travel info here...
+The meeting will be held at the University of Michigan, Ann Arbor, in the West Conference Room of the Rackham Graduate school.
+
+Room information can be found [here https://rackham.umich.edu/about/rackham-building/east-and-west-conference-rooms/].
+
+Information about Rackham (with directions and driving information) is available [here https://rackham.umich.edu/about/rackham-building/driving-directions/].
+
+## Accommodations
+Accommodations are currently being arranged. More info will follow.
 
 ## Meeting Schedule
 
