@@ -24,4 +24,4 @@ meeting schedule here...
 ## Meeting Participants
 
 ## Contact Info
-Please contact [Sergei Iskakov mailto:siskakov@umich.edu] and [Emanuel Gull mailto:egull@umich.edu] for more information.
+Please contact [Sergei Iskakov siskakov@umich.edu] and [Emanuel Gull egull@umich.edu] for more information.
