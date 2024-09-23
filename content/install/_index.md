@@ -44,7 +44,7 @@ Please make sure to have python and the following dependencies:
 
 Download and unpack boost library. The following will download and unpack Boost `v1.81.0`
   ```ShellSession
-  $ wget https://archives.boost.io/release/1.76.0/source/boost_1_81_0.tar.gz
+  $ wget https://archives.boost.io/release/1.81.0/source/boost_1_81_0.tar.gz
   $ tar -xzf boost_1_81_0.tar.gz
   ```
 
@@ -66,7 +66,7 @@ The following instructions will download and build `ALPS` (replace /path/to/inst
 
 #### Build notes
 
-The following combinations of `Boost`, Python and c++ compiler has been tested:
+The following combinations of `Boost`, Python and c++ compiler have been tested:
   - GCC 10.5.0, Python 3.9.19 and `Boost` 1.76.0
   - GCC 11.4.0, Python 3.10.14 and `Boost` 1.81.0
   - GCC 12.3.0, Python 3.10.14 and `Boost` 1.81.0
@@ -88,6 +88,6 @@ To install the code run:
   ```ShellSession
   $ cmake --install alps-build
   ```
-Your install directory will be created; if everything was successful you can find the executable mbpt.exe under the bin directory of your installation path.
+Your install directory will be created; if everything was successful you can find ALPS executables such as `mc' or `fulldiag' under the bin directory of your installation path.
 
 {{% /steps %}}
