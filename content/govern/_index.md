@@ -4,7 +4,7 @@ description: "ALPS Governance"
 toc: false
 ---
 
-To ensure the long-term success of ALPS, a steering board is formed to guide strategic development of ALPS.
+We are currently reworking the governance of ALPS. Work on the future structure will be performed at our workshops and announced here. If you are interesteed in getting involved please let the current leadership know.
 
 ## ALPS Steering Board
 
