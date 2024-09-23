@@ -20,3 +20,8 @@ Accommodations are currently being arranged. More info will follow.
 ## Meeting Schedule
 
 meeting schedule here...
+
+## Meeting Participants
+
+## Contact Info
+Please contact [Sergei Iskakov mailto:siskakov@umich.edu] and [Emanuel Gull mailto:egull@umich.edu] for more information.
