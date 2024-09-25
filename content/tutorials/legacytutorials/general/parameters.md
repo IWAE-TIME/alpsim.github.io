@@ -3,6 +3,7 @@
 title: Common Parameters
 math: true
 toc: true
+weight: 5
 ---
 
 The following input parameters are common to most of the ALPS applications

@@ -2,6 +2,7 @@
 ---
 title: ALPS Model Definitions
 toc: true
+weight: 3
 ---
 
 As part of the ALPS project we need to describe quantum lattice models in a common format. The lattice descriptions using the lattice schema are associated with basis and Hamiltonian descriptions for each site and bond in the lattice.

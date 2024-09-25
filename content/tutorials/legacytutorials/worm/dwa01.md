@@ -3,6 +3,7 @@
 title: DWA-01 Revisiting MC05
 math: true
 toc: true
+weight: 1
 ---
 
 ## Quantum phase transitions in the Bose-Hubbard model

@@ -3,6 +3,7 @@
 title: Code-01 Python
 math: true
 toc: true
+weight: 2
 ---
 
 ## Getting started with ALPS using Python

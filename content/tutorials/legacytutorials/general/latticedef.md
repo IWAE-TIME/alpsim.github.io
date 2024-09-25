@@ -2,6 +2,7 @@
 ---
 title: ALPS LatticeHOWTO
 toc: true
+weight: 2
 ---
 
 ## Definition of lattices

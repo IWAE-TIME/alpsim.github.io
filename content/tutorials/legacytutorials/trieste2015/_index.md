@@ -3,6 +3,7 @@
 title: ALPS 2 Tutorials:Trieste
 description: "Tutorials for the Legacy ALPS"
 toc: true
+weight: 9
 ---
 
 ## Download

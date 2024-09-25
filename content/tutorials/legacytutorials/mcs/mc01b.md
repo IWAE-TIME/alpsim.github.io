@@ -3,6 +3,7 @@
 title: MC-01 Equilibration
 math: true
 toc: true
+weight: 2
 ---
 
 **Rule of thumb: All Monte Carlo simulations have to be equilibrated before taking measurements.**

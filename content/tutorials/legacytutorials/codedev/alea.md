@@ -3,6 +3,7 @@
 title: AleaHOWTO
 math: true
 toc: true
+weight: 8
 ---
 
 ## ALEA Library

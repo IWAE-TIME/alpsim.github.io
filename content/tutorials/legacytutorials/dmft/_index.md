@@ -3,6 +3,7 @@
 title: Dynamical Mean Field Theory (DMFT) Solvers
 description: "Tutorials for the Legacy ALPS"
 toc: true
+weight: 7
 ---
 
 - [DMFT-01 An introduction to DMFT](dmft01)

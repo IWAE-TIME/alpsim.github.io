@@ -3,6 +3,7 @@
 title: ALPS code development tutorials
 description: "Tutorials for the Legacy ALPS"
 toc: true
+weight: 11
 ---
 
 - [Using the ALPS libraries in your projects.](usealps)

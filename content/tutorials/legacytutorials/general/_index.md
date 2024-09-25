@@ -3,35 +3,19 @@
 title: General introduction to running simulations using ALPS
 description: "Tutorials for the Legacy ALPS"
 toc: true
+weight: 1
 ---
 
-{{< hextra/feature-grid maxcolumns="2" >}}
-  {{< hextra/feature-card
-    title="Running and evaluating simulations"
-    link="runsimulations"
-    icon=""
-  >}}
-  {{< hextra/feature-card
-    title="Definition of lattices"
-    link="latticedef"
-    icon=""
-  >}}
-  {{< hextra/feature-card
-    title="Definition of models"
-    link="modeldef"
-    icon=""
-  >}}
-  {{< hextra/feature-card
-    title="Definition of custom measurements"
-    link="measuredef"
-    icon=""
-  >}}
-  {{< hextra/feature-card
-    title="Common parameters"
-    link="parameters"
-    icon=""
-  >}}
-{{< /hextra/feature-grid >}}
+- [Running and evaluating simulations using ALPS](runsimulations)
+    - [Using the command line](commandline) (with limited evaluation tools)
+    - [Using Python](usepython)
+    - [Using the provenance-enabled Vistrails workflow system](usevistrails)    
+- [Definition of lattices](latticedef)
+- [Definition of models](modeldef)
+- [Definition of custom measurements](measuredef)
+- [Common parameters](parameters)
+- [Common hardcoded measurements](hardcoded)
+- [The tools](tools)
 
 
 

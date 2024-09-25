@@ -3,6 +3,7 @@
 title: DWA-03 Time of Flight Images
 math: true
 toc: true
+weight: 3
 ---
 
 As a third example of the dwa QMC code, we shall study the time-of-flight images of an optical lattice in an harmonic trap.

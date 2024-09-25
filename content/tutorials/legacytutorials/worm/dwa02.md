@@ -3,6 +3,7 @@
 title: DWA-02 Density Profile
 math: true
 toc: true
+weight: 2
 ---
 
 ## Density profile

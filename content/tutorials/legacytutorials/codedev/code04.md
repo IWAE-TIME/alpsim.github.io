@@ -3,6 +3,7 @@
 title: Code-04 Vistrails Package simple
 math: true
 toc: true
+weight: 5
 ---
 
 In this tutorial we will use our Ising example to illustrate how one can create a Vistrails package. Go to your vistrails userpackages directory:
