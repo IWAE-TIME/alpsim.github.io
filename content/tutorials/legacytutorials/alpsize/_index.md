@@ -3,6 +3,7 @@
 title: ALPSize tutorial
 description: "Tutorials for the Legacy ALPS"
 toc: true
+weight: 12
 ---
 How to 'alpsize' your application program written in C, C++, or Fortran step by step. It easily becomes possible to use ALPS functionalities, such as Parameters and Alea, as well as ALPS scheduler by packaging with CMake and setting the link with the ALPS library.
 

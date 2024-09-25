@@ -3,6 +3,7 @@
 title: Monte Carlo simulations - Directed worm algorithm
 description: "Tutorials for the Legacy ALPS"
 toc: true
+weight: 3
 ---
 
 - [DWA-01 Simulating the Bose Hubbard model using dwa QMC code (revisiting tutorial MC-05)](dwa01)

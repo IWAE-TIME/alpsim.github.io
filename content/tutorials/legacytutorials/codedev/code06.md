@@ -3,6 +3,7 @@
 title: Code-06 MonteCarloHOWTO
 math: true
 toc: true
+weight: 7
 ---
 
 ## Introduction

@@ -6,10 +6,10 @@ toc: true
 ---
 ## ALPS tutorials
 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 {{< hextra/feature-grid maxcolumns="2" >}}
   {{< hextra/feature-card
     title="General Introduction"
-    subtitle="Running Simulations in ALPS"
     link="general"
     icon=""
   >}}

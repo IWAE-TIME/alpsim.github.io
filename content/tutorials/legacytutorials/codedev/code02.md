@@ -3,6 +3,7 @@
 title: Code-02 C++
 math: true
 toc: true
+weight: 3
 ---
 
 This tutorial shows how to write a Monte Carlo simulation in C++ using the ALPS alea library for the evaluation of observables. In a second step we will write the measurements into a standard HDF5 file format which allows us to use tools from the ALPS suite for further data analysis and plotting.

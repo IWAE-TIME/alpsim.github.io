@@ -3,6 +3,7 @@
 title: MC-01 Autocorrelations
 math: true
 toc: true
+weight: 1
 ---
 
 The first tutorial is an introduction to an important topic in Monte Carlo simulations: autocorrelation time. The input files for this tutorial are available in your ALPS distribution, in a directory called `mc-01-autocorrelations`.

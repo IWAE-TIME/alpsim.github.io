@@ -3,6 +3,7 @@
 title: Using ALPS in your projects
 math: true
 toc: true
+weight: 1
 ---
 
 ## Using CMake

@@ -3,6 +3,7 @@
 title: Monte Carlo simulations using ALPS
 description: "Tutorials for the Legacy ALPS"
 toc: true
+weight: 2
 ---
 
 - [MC-01(a) Classical Monte Carlo simulations and autocorrelations](mc01a)

@@ -3,6 +3,7 @@
 title: Matrix Product State
 description: "Tutorials for the Legacy ALPS"
 toc: true
+weight: 6
 ---
 
 - [MPS-01 Density Matrix Renormalization Group Introduction](mps01)

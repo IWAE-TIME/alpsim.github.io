@@ -2,6 +2,7 @@
 ---
 title: ALPS Custom Measurement
 toc: true
+weight: 4
 ---
 
 ## Defining your custom measurements
