@@ -12,5 +12,5 @@ The ALPS libraries aim to provide a set of well tested, robust, and standardized
 
 <br>
 <div class="mb-6">
-{{< cta-button text="Get involved" link="get_involved" icon="rocket_launch"  prim="yes" >}}
+{{< cta-button text="Get involved" link="projects" icon="rocket_launch"  prim="yes" >}}
 </div>

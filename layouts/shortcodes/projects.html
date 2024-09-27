@@ -1,0 +1,8 @@
+{{ range (where .Site.RegularPages "File.Dir" "projects/").ByWeight }}
+  <div>
+    <article>
+    <h2><a href="{{ .RelPermalink }}" class="not-prose"><span class="material-symbols-outlined" style="padding: 1px; margin-right:2px; padding-top:2px;">{{ if eq .Params.avail "yes" }}person_check{{else}}person_alert{{ end }}</span>{{ .Title }}</a></h2>
+    <p>{{ .Summary | safeHTML }}</p>
+    </article>
+  </div>
+{{ end }}
