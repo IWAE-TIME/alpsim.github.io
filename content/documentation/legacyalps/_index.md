@@ -21,7 +21,7 @@ toc: true
   {{< hextra/feature-card
     title="ALPS Python Modules API"
     subtitle="API Reference Manual for Python in Legacy ALPS"
-    link=""
+    link="pythonapi"
     icon=""
   >}}
 {{< /hextra/feature-grid >}}
