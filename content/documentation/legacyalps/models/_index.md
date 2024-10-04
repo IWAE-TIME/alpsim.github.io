@@ -2,6 +2,7 @@
 ---
 title: Models and Methods in Legacy ALPS
 description: "Available Models and Methods"
+weight: 1
 ---
 
 {{< hextra/feature-grid maxcolumns="2" >}}

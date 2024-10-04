@@ -15,7 +15,7 @@ toc: true
   {{< hextra/feature-card
     title="ALPS Libraries (2.1.0)"
     subtitle="List of Libraries in Legacy ALPS"
-    link=""
+    link="lib"
     icon=""
   >}}
   {{< hextra/feature-card
