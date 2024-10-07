@@ -1,7 +1,7 @@
 
 ---
 linkTitle: Installation
-title: ALPS installation on Linux from sources
+title: ALPS installation on Mac/Linux from sources
 description: "ALPS Installation"
 toc: true
 ---
@@ -66,13 +66,27 @@ The following instructions will download and build `ALPS` (replace /path/to/inst
 
 #### Build notes
 
+{{% tabs items="Linux,Mac" %}}
+{{% tab %}}
 The following combinations of `Boost`, Python and c++ compiler have been tested:
   - GCC 10.5.0, Python 3.9.19 and `Boost` 1.76.0
-  - GCC 11.4.0, Python 3.10.14 and `Boost` 1.81.0
-  - GCC 12.3.0, Python 3.10.14 and `Boost` 1.81.0
-  - Clang 13.0.1, Python 3.10.14 and `Boost` 1.81.0
-  - Clang 14.0.0, Python 3.10.14 and `Boost` 1.81.0
-  - Clang 15.0.7, Python 3.10.14 and `Boost` 1.81.0
+  - GCC 11.4.0, Python 3.10.14 and `Boost` 1.81.0, 1.86.0
+  - GCC 12.3.0, Python 3.10.14 and `Boost` 1.81.0, 1.86.0
+  - Clang 13.0.1, Python 3.10.14 and `Boost` 1.81.0, 1.86.0
+  - Clang 14.0.0, Python 3.10.14 and `Boost` 1.81.0, 1.86.0
+  - Clang 15.0.7, Python 3.10.14 and `Boost` 1.81.0, 1.86.0
+{{% /tab %}}
+{{% tab %}}
+`ALPS` has been tested on ARM-based MacOS using both default compiler and `Homebrew` gcc compiler with `Boost` 1.86.0.
+On MacOS >=14.6 in order to succesfully build `ALPS` using Homebrew gcc compiler, the following environment variable have to be set:
+
+```ShellSession
+export SDKROOT=/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/
+```
+
+{{% /tab %}}
+
+{{% /tabs %}}
 
 If you have a non-standard installation location of the dependent packages installed in step 1, cmake will fail to find the package. ALPS uses the standard cmake mechanism (FindXXX.cmake) to find packages. The following pointers may help:
   - For MPI: Follow the instructions on [cmake with mpi](https://cmake.org/cmake/help/latest/module/FindMPI.html)
