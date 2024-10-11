@@ -19,30 +19,30 @@ weight: 2
     - [The Random Library](random/random)
     - [Reference](random/reference)
     
-4. Alps/Osiris Library
+4. [Alps/Osiris Library](osiris)
     - Introduction
-    - Reference
+    - [Reference](osiris/reference)
     
-5. Alps/Parser Library
+5. [Alps/Parser Library](parser)
     - Introduction
-    - Reference
+    - [Reference](parser/reference)
     
-6. Alps/Alea Library
+6. [Alps/Alea Library](alea)
     - Introduction
     - Analyzing Monte-Carlo data
-    - Reference
+    - [Reference](alea/reference)
     
-7. Alps/Lattice Library
+7. [Alps/Lattice Library](lattice)
     - Introduction
-    - Reference
+    - [Reference](lattice/reference)
     
-8. Alps/Model Library
+8. [Alps/Model Library](model)
     - Introduction
-    - Reference
+    - [Reference](model/reference)
     
-9. Alps/Scheduler Library
+9. [Alps/Scheduler Library](scheduler)
     - Introduction
-    - Reference
+    - [Reference](scheduler/reference)
     
 10. Tools
     - Introduction
