@@ -11,7 +11,7 @@ description: "ALPS Random Number Generator"
 - [Parallel random number generators](random#parallel-random-number-generators)
 - [Wrappers to the SPRNG parallel random number library](random#wrappers-to-the-sprng-parallel-random-number-library)
 
-## Reference
+## [Reference](reference)
 
 - [Header <alps/random/buffered_generator.hpp>](reference#header-alpsrandombuffered_generatorhpp)
 - [Header <alps/random/buffered_rng.h>](reference#header-alpsrandombuffered_rngh)
