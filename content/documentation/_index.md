@@ -9,38 +9,38 @@ ALPS documentation includes basic theory, code and data structure of various sim
 
 {{< hextra/feature-grid maxcolumns="2" >}}
   {{< hextra/feature-card
-    title="Legacy ALPS"
-    subtitle="Documentation For Legacy ALPS"
-    link="legacyalps"
+    title="Models and Methods"
+    subtitle="What does ALPS simulate?"
+    link="models"
+    icon=""
+  >}}
+    {{< hextra/feature-card
+    title="ALPS Libraries"
+    subtitle="What libraries are available in ALPS?"
+    link="lib"
+    icon=""
+  >}}
+  {{< hextra/feature-card
+    title="API Reference"
+    subtitle="What API calls are available in ALPS?"
+    link="pythonapi"
     icon=""
   >}}
   {{< hextra/feature-card
     title="Basic Theory"
-    subtitle="Theory about various lattice models"
+    subtitle="What is basic theory about simulations?"
     link="theory"
     icon=""
   >}}
   {{< hextra/feature-card
     title="Code Structure"
-    subtitle="Illustration of how codes are organized in ALPS"
+    subtitle="How are codes organized in ALPS?"
     link=""
     icon=""
   >}}
   {{< hextra/feature-card
     title="Data Structure"
-    subtitle="Explanation of data structure in ALPS"
-    link=""
-    icon=""
-  >}}
-  {{< hextra/feature-card
-    title="ALPS Libraries"
-    subtitle="List of libraries in ALPS"
-    link=""
-    icon=""
-  >}}
-  {{< hextra/feature-card
-    title="API Reference"
-    subtitle="List of API calls in ALPS"
+    subtitle="How are data organized in ALPS?"
     link=""
     icon=""
   >}}
