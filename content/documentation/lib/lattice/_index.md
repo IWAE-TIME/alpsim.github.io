@@ -5,7 +5,7 @@ description: "ALPS Lattice Library"
 weight: 7
 ---
 
-## Introduction
+## [Introduction](intro)
 
 ## [Reference](reference)
 

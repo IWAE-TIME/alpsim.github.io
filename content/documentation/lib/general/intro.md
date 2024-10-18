@@ -1,7 +1,7 @@
 
 ---
 title: Introduction
-description: "ALPS General Library"
+description: "Introduction to ALPS General Library"
 weight: 1
 ---
 

@@ -9,4 +9,4 @@ weight: 11
 
 ## [Sub Graph Embedding](subgraph)
 
-## Acknowledgement
+## [Acknowledgement](ackn)

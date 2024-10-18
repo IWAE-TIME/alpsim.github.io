@@ -1,11 +1,11 @@
 
 ---
-title: Chapter 8. Alps/Model Library
+title: Chapter 8. ALPS/Model Library
 description: "ALPS Model Library"
 weight: 8
 ---
 
-## Introduction
+## [Introduction](intro)
 
 ## [Reference](reference)
 

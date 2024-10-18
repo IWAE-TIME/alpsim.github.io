@@ -5,7 +5,9 @@ description: "ALPS Alea Library"
 weight: 6
 ---
 
-## Introduction
+## [Introduction](intro)
+
+## [Analyzing Monte-Carlo data](analyze)
 
 ## [Reference](reference)
 

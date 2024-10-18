@@ -5,7 +5,7 @@ description: "ALPS Data Format"
 weight: 12
 ---
 
-## Supported Types
+## [Supported Types](types)
 
 ## [Examples](example)
 
