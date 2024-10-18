@@ -54,7 +54,7 @@ We have tested building `ALPS` with `Boost` versions `1.76.0` through `1.81.0` (
 The following instructions will download and build `ALPS` (replace /path/to/install/directory with the directory where you'd like to install the code):
 
   ```ShellSession
-  $ git clone https://github.com/alpsim/legacy alps-src
+  $ git clone https://github.com/alpsim/ALPS alps-src
   $ cmake -S alps-src -B alps-build                                     \
          -DCMAKE_INSTALL_PREFIX=</path/to/install/dir>                  \
          -DBoost_ROOT_DIR=</directory/with/boost/sources>/boost_1_81_0  \
