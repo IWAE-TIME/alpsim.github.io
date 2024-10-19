@@ -78,12 +78,6 @@ weight: 1
     link="boseglass"
     icon=""
   >}}
-  {{< hextra/feature-card
-    title="VisTrails"
-    subtitle="VisTrails LaTex extensions"
-    link="vistrails"
-    icon=""
-  >}}
 {{< /hextra/feature-grid >}}
 
 
