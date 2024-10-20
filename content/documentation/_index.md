@@ -44,6 +44,12 @@ ALPS documentation includes basic theory, code and data structure of various sim
     link=""
     icon=""
   >}}
+  {{< hextra/feature-card
+    title="Publications"
+    subtitle="What papers to cite for using ALPS?"
+    link="pubs"
+    icon=""
+  >}}
 {{< /hextra/feature-grid >}}
 
 

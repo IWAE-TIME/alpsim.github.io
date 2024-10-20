@@ -1,9 +1,9 @@
 
 ---
 title: Exact Diagonalization
-description: "Tutorials for the Legacy ALPS"
+description: "Tutorials for ALPS"
 toc: true
-weight: 4
+weight: 3
 ---
 
 - [ED-01 Sparse Diagonalization (Lanczos)](ed01)

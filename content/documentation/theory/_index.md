@@ -2,6 +2,7 @@
 ---
 title: Basic Theory
 description: "Basic Theory of Lattice Models"
+weight: 4
 ---
 Introduction to various lattice models and physical quantities measured in numerical simulations.<br><br>
 

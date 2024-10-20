@@ -1,9 +1,9 @@
 
 ---
 title: Density Matrix Renormalization Group
-description: "Tutorials for the Legacy ALPS"
+description: "Tutorials for ALPS"
 toc: true
-weight: 5
+weight: 4
 ---
 
 - [DMRG-01 Density Matrix Renormalization Group Introduction](dmrg01)

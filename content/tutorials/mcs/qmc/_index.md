@@ -1,6 +1,6 @@
 
 ---
-title: QMC Tutorials
+title: MC-09 Quantum Monte Carlo
 math: true
 toc: true
 weight: 9
