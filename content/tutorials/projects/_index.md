@@ -1,8 +1,8 @@
 ---
-title: 
+title: Projects for Undergraduate students
 layout: alps-home
-icon: diversity_3
 toc: false
+weight: 11
 ---
 
 ## Projects for Undergraduate students

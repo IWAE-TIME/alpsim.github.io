@@ -1,9 +1,9 @@
 
 ---
-title: Dynamical Mean Field Theory (DMFT) Solvers
+title: Example of DMFT
 description: "Examples for ALPS"
 toc: true
-weight: 10
+weight: 8
 ---
 
 - [Néel transition in single site DMFT](neel)

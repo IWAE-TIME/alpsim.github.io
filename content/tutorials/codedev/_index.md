@@ -1,9 +1,9 @@
 
 ---
 title: ALPS code development tutorials
-description: "Tutorials for the Legacy ALPS"
+description: "Tutorials for ALPS"
 toc: true
-weight: 11
+weight: 9
 ---
 
 - [Code-00: Using the ALPS libraries in your projects.](usealps)

@@ -56,6 +56,3 @@ $$
 M=\sum_i\sigma_i,
 $$
 which represents a preferred spin orientation direction. Without an external magnetic field, all lattice sites will have the same spin orientation (all $+1$ or $-1$ values) at zero temperature for ferromagnetic interactions ($J\gt 0$). The system will spontaneously pick one of the two states at zero temperature, resulting in the lowest energy for the lattice and the maximum value of magnetization $M$. As temperature increases, the perfect ferromagnetic state is disturbed, leading to a smaller $M$. As expected, the external magnetic field $h$ can also influence the spin orientations by aligning spins along the direction of the magnetic field to lower the system's energy.
-
-## Pseudo Code
-

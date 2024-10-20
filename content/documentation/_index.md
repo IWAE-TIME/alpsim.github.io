@@ -27,12 +27,6 @@ ALPS documentation includes basic theory, code and data structure of various sim
     icon=""
   >}}
   {{< hextra/feature-card
-    title="Basic Theory"
-    subtitle="What is basic theory about simulations?"
-    link="theory"
-    icon=""
-  >}}
-  {{< hextra/feature-card
     title="Publications"
     subtitle="What papers to cite for using ALPS?"
     link="pubs"

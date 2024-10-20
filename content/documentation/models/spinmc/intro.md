@@ -1,16 +1,14 @@
 
 ---
-title: Monte Carlo Simulations of Spins
+title: Introduction
 math: true
 weight: 1
 ---
 
-## Introduction
-
 The spinmc package is one of the applications of the ALPS project. It provides a a generic implementation of local and cluster updates for classical spin systems.
 The applications supports the following models on arbitrary lattices:
 
-- Ising models
+- [Ising models](../ising)
 - XY models
 - Heisenberg models
 - 3-, 4- and 10-state Potts models

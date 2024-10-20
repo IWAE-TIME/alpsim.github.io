@@ -64,5 +64,14 @@ The code development section shows you how to quickly develop your own code usin
   >}}
 {{< /hextra/feature-grid >}}
 
+## Getting involved
 
+If you are interested in testing ALPS, we invite you to contact us. A list of available projects is shown in the following.
+<br><br>
+ {{< hextra/feature-grid maxcolumns="1" >}}
+  {{< hextra/feature-card
+    title="Projects for Undergraduate Students"
+    link="projects"
+  >}}
+{{< /hextra/feature-grid >}}
 
