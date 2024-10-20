@@ -3,7 +3,7 @@
 title: Which code to choose for your calculation
 math: true
 toc: true
-weight: 10
+weight: 1
 ---
 
 There are currently four QMC representations / algorithms: looper, dirloop_sse, worm, and quantum Wang-Landau.
