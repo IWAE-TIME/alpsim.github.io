@@ -2,7 +2,7 @@
 ---
 title: Publications
 description: "ALPS Publications"
-weight: 7
+weight: 5
 ---
 The following is a list of publications related to ALPS releases. If you use ALPS in your research, we would appreciate your citing the related ALPS paper(s) in your publication(s).
 

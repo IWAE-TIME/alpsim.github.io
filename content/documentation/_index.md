@@ -33,18 +33,6 @@ ALPS documentation includes basic theory, code and data structure of various sim
     icon=""
   >}}
   {{< hextra/feature-card
-    title="Code Structure"
-    subtitle="How are codes organized in ALPS?"
-    link=""
-    icon=""
-  >}}
-  {{< hextra/feature-card
-    title="Data Structure"
-    subtitle="How are data organized in ALPS?"
-    link=""
-    icon=""
-  >}}
-  {{< hextra/feature-card
     title="Publications"
     subtitle="What papers to cite for using ALPS?"
     link="pubs"
