@@ -52,20 +52,26 @@ h4 {
   <div>
     <h4>Adrian Feiguin</h4>
     <h6>Professor of Physics<br>
-    Northeastern University</h6>
+    Northeastern University<br>
+    <a href="mailto:a.feiguin@northeastern.edu">a.feiguin@northeastern.edu</a>
+    </h6>
   </div>
   
   <div>
     <h4>Emanuel Gull</h4>
     <h6>Professor of Physics<br>
-    University of Michigan</h6>
+    University of Michigan<br>
+    <a href="mailto:egull@umich.edu">egull@umich.edu</a>
+    </h6>
   </div>
   
   <div>
     <p>
     <h4>Vito Scarola</h4>
     <h6>Professor of Physics<br>
-    Virginia Tech</h6>
+    Virginia Tech<br>
+    <a href="mailto:scarola@vt.edu">scarola@vt.edu</a>
+    </h6>
     </p>
   </div>
   
