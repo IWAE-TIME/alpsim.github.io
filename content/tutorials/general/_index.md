@@ -11,8 +11,6 @@ weight: 1
 - [Definition of models](modeldef)
 - [Definition of custom measurements](measuredef)
 - [Common parameters](parameters)
-- [Common hardcoded measurements](hardcoded)
-- [The tools](tools)
 
 
 
