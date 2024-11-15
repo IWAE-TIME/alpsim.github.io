@@ -38,8 +38,8 @@ and an example task file like:
     
 Here we will discuss how to prepare, run, and evaluate ALPS simulations. ALPS 2 supports two ways of performing simulations:
 
-- [Using the command line \(with limited evaluation tools\)](commandline)
-- [Using Python](usepython)
+- [Using the command line \(with limited evaluation tools\)](../commandline)
+- [Using Python](../usepython)
 
 Both ways produce the same output files. Command line and Python can be mixed and matched as you desire. The common features are the three phases of a simulation:
 
