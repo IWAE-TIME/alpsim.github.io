@@ -1,10 +1,19 @@
 
 ---
 linkTitle: Installation
-title: ALPS installation on Mac/Linux from sources
+title: ALPS installation
 description: "ALPS Installation"
 toc: true
 ---
+
+## ALPS installation on Mac/Linux from binaries
+
+[`pyALPS`](https://pypi.org/project/pyalps/) can be installed on most Linux and MacOS mcachines from prebuilt biniaries available on [PyPi](https://pypi.org). `pyALPS` can be installed using pip Python package manager:
+
+    pip install pyalps
+
+
+## ALPS installation on Mac/Linux from sources
 
 {{% steps %}}
 
@@ -105,3 +114,5 @@ To install the code run:
 Your install directory will be created; if everything was successful you can find ALPS executables such as `mc' or `fulldiag' under the bin directory of your installation path.
 
 {{% /steps %}}
+
+
