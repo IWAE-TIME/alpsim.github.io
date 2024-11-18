@@ -3,6 +3,7 @@
 title: Python Scripts
 description: "Tutorials for ALPS in Python Scripts"
 toc: true
+weight: 1
 cascade:
     type: docs
 ---

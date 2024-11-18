@@ -6,7 +6,15 @@ toc: true
 cascade:
     type: docs
 ---
-We provide tutorials for ALPS in both Python scripts and Jupyter notebooks. According to your preference, you can check out the tutorials below. 
+We provide tutorials for ALPS in both Python scripts and Jupyter notebooks. According to your preference, you can check out the tutorials below. <br><br>
 
-- [Python Scripts](python)
-- [Jupyter Notebooks](jupyter)
+{{< hextra/feature-grid maxcolumns="2" >}}
+  {{< hextra/feature-card
+    title="Python Scripts"
+    link="python"
+  >}}
+    {{< hextra/feature-card
+    title="Jupyter Notebooks"
+    link="jupyter"
+  >}}
+{{< /hextra/feature-grid >}}
