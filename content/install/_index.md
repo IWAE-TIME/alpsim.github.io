@@ -1,9 +1,10 @@
 
 ---
-linkTitle: Installation
 title: ALPS installation
 description: "ALPS Installation"
 toc: true
+cascade:
+    type: docs
 ---
 
 We support ALPS installations on Mac/Linux machines with the following two methods:<br><br>
