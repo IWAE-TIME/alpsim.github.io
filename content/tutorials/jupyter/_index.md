@@ -9,4 +9,5 @@ cascade:
 ---
 Below are a collection of ALPS simulations in Jupyter notebooks.
 
-- Transverse Field Quantum Ising Model: <a href = "codes/isingTransverseField.ipynb" download>isingTransverseField.ipynb</a>
+- Transverse Field Quantum Ising Model: <a href = "codes/ed/isingTransverseField.ipynb" download>isingTransverseField.ipynb</a>
+- Energy Gap of a Spin-1 Heisenberg Chain: <a href = "codes/ed/spinGapSpinOneHeisenbergChain.ipynb" download>spinGapSpinOneHeisenbergChain.ipynb</a>
