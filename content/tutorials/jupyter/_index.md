@@ -7,7 +7,9 @@ wright: 2
 cascade:
     type: docs
 ---
-Below are a collection of ALPS simulations in Jupyter notebooks.
+Below are a collection of ALPS simulations in Jupyter notebooks. You can learn about the simulations by clicking on the titles or by downloading and running the Jupyter notebook files on your computer.
 
-- Transverse Field Quantum Ising Model: <a href = "codes/ed/isingTransverseField.ipynb" download>isingTransverseField.ipynb</a>
-- Energy Gap of a Spin-1 Heisenberg Chain: <a href = "codes/ed/spinGapSpinOneHeisenbergChain.ipynb" download>spinGapSpinOneHeisenbergChain.ipynb</a>
+## Exact Diagonalizations
+
+- [Transverse Field Quantum Ising Model](pages/ed/isingTransverseField): <a href = "codes/ed/isingTransverseField.ipynb" download style="color:blue">Download</a>
+- [Energy Gap of a Spin-1 Heisenberg Chain](pages/ed/spinGapSpinOneHeisenbergChain): <a href = "codes/ed/spinGapSpinOneHeisenbergChain.ipynb" download style="color:blue">Download</a>
