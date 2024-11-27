@@ -1,8 +1,9 @@
 ---
-title: Criticality of Ising Chain in a Transverse Field
+title: Transverse Field Quantum Ising Model
 description: "Jupyter md file for transverse field ising"
 toc: true
 math: true
+weight: 1
 cascade:
     type: docs
 ---

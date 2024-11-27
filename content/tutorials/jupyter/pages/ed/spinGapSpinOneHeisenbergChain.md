@@ -1,8 +1,9 @@
 ---
-title: Spin Gaps of a Spin-1 Heisenberg Chain
+title: Spin Gap of a Spin-1 Heisenberg Chain
 description: "Jupyter md file for spin gaps"
 toc: true
 math: true
+weight: 2
 cascade:
     type: docs
 ---

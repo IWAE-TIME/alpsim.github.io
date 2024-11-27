@@ -18,7 +18,7 @@ Please make sure to have the following third-party software installed and availa
     - HDF5 >= 1.10.0
     - BLAS
     - CMake >= 2.8
-    - 3.9 \< Python \<= 3.12 (if Python bindings are enabled)
+    - Python > 3.9 (if Python bindings are enabled)
     - Boost sources >= 1.68
 
   These packages are external to ALPS. Their installation will depend on your computer. MPI is the Message Passing Interface, several standard implementations exist, including [OpenMPI](https://www.open-mpi.org/) and [MPICH](https://www.mpich.org/).

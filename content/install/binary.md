@@ -12,4 +12,4 @@ The prebuilt binary [`pyALPS`](https://pypi.org/project/pyalps/) can be installe
 
     pip install pyalps
 
-Please make sure your version of Python is 3.9 \< Python \<= 3.12.
+Please make sure your version of Python is Python > 3.9.
