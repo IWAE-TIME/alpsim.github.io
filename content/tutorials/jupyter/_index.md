@@ -17,4 +17,4 @@ Below are a collection of ALPS simulations in Jupyter notebooks. You can learn a
 
 ## Time-evolving Block Decimation
 
-- [Quench of Hardcore Boson Model](pages/tebd/quenchbosonmodel): <a href = "codes/temd/quenchBosonModel.ipynb" download style="color:blue">Download</a>
+- [Quench of Hardcore Boson Model](pages/tebd/quenchbosonmodel): <a href = "codes/tebd/quenchBosonModel.ipynb" download style="color:blue">Download</a>
