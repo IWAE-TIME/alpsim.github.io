@@ -3,7 +3,7 @@ title: Quench of Hardcore Boson Model
 description: "Jupyter md file for quenched hardcore boson model"
 toc: true
 math: true
-weight: 1
+weight: 11
 cascade:
     type: docs
 ---

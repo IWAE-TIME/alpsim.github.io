@@ -20,6 +20,7 @@ We explain the following issues:
 ## Existing lattices (graphs) in the ALPS Lattice library
 
 ### Most common lattices (graphs) at a glance
+![Common lattices (graphs) in ALPS](../figs/commonalpslattices.jpg)
 
 ### Entire archive of lattices (graphs)
 

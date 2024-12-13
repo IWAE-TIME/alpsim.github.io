@@ -11,7 +11,7 @@ Here we describe the representation of simple graphs in XML format. For such gra
 
 Our first graph will be the following simple graph with five vertices and five edges:
 
-(missing picture)
+![The first simple graph.](../figs/tutoriallatticehowtograph1.gif)
 
 This graph is specified in XML in the following way, where the edges attribute to the `<GRAPH>` element is optional, since the number of edges can be obtained by counting the number of `<EDGE>` elements:
 
@@ -26,7 +26,8 @@ This graph is specified in XML in the following way, where the edges attribute t
 ## Colored graphs
 
 Graphs with colored edges and vertices can also be represented:
-(missing picture)
+
+![A graph with colored edges and vertices.](../figs/tutoriallatticehowtograph2.jpg)
 
 We represent this graph in XML by introducing additional `<VERTEX>` elements to describe the vertices, and type attributes for vertices and edges to specify their type (color). Vertex types 0,1 and 2 refer to the red, green and blue vertices respectively, while edge types 0 and 1 refer to the solid and dashed lines in our example:
 

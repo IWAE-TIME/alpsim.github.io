@@ -11,6 +11,8 @@ In the simulation of lattice models, one usually considers a model defined on an
 
 Lattices are created by replicating a unit cell through translation by integer multiples of the basic vectors of the lattice, as shown here in two dimensions:
 
+![Infinite lattice with unit cell.](../figs/tutoriallatticehowtolattice1.gif)
+
 Such a lattice is described by an (optional) name and the dimensionality. Additionally we can specify the cartesian coordinates of the basis vectors of the lattice. For above lattice this would be:
 
     <LATTICE name="2D" dimension="2">
@@ -38,7 +40,7 @@ Basis vectors can also be specified in a symbolic and parametrized way, such as:
 
 Most (but not all) computer simulations do not work on the infinite lattice presented above, but instead on a finite part of the lattice. There are many ways in which such a finite lattice can be defined. Any finite subset of a lattice is a finite lattice, the possibilities are infinite. To start with we define the most widespread lattice fo finite extent, where a cell is translated at most a finite number of times in any direction, e.g. a square, rectangular, cubic or hypercubic lattice, where we specify the extent in any of the dimensions.
 
-(missing picture)
+![A finite lattice](../figs/tutoriallatticehowtolattice2.gif)
 
 To create a finite lattice one defines
 
@@ -57,7 +59,7 @@ If the dimension attribute is omitted, the extent is assumed to apply to all dim
 
 Not all dimensions need to be finite, and an infinite strip of width two can be specified as
 
-(missing picture)
+![A mixed lattice with finite and infinite dimensions](../figs/tutoriallatticehowtolattice3.gif)
 
     <FINITELATTICE name="strip">
     <LATTICE name="2D" dimension="2"/>

@@ -11,15 +11,15 @@ In the simulation of lattice models, one usually considers a model defined on an
 
 The graphs in most physics simulations are not irregular graphs, but built up regularly, like a lattice
 
-(missing picture)
+![The first simple graph.](../figs/tutoriallatticehowtolatticegraph1.gif)
 
 We can capture the regularity of this graph by putting it down onto a lattice:
 
-(missing picture)
+![The graph on a lattice.](../figs/tutoriallatticehowtolatticegraph2.gif)
 
 This lattice can be described by a unit cell, and the graph built up from a "unit cell graph" on the unit cell:
 
-(missing picture)
+![Unit cell graph.](../figs/tutoriallatticehowtolatticegraph3.gif)
 
 The "unit cell graph" consists of a single vertex, and there is a edge to the same vertex in the neighboring cell. We can describe such a graph on a lattice in XML, by combining a LATTICE or FINITELATTICE with a UNITCELL element describing the graph on the unit cell from which the full graph is created:
 
@@ -47,11 +47,11 @@ To describe an infinite chain we would use a LATTICE element instead of the FINI
 
 We can again describe graphs with colored edges and vertices, or add other attributes like coordinates to the vertices. Also, for the description of the lattice the full machinery described for the lattice is available. We will show one example for a complex periodic graph on an L x W rectangular lattice:
 
-(missing picture)
+![A complex periodic graph on a lattice.](../figs/tutoriallatticehowtolatticegraph4.jpg)
 
-This graph on a lattice can be built from this complex unit cell graph deorating the rectangular lattice:
+This graph on a lattice can be built from this complex unit cell graph decorating the rectangular lattice:
 
-(missing picture)
+![A complex graph in a unit cell.](../figs/tutoriallatticehowtolatticegraph5.jpg)
 
 The XML description is:
 
