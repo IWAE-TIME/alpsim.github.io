@@ -11,10 +11,10 @@ Below are a collection of ALPS simulations in Jupyter notebooks. You can learn a
 
 ## Exact Diagonalizations
 
-- [Transverse Field Quantum Ising Model](pages/ed/isingtransversefield): <a href = "codes/ed/isingTransverseField.ipynb" download style="color:blue">Download</a>
-- [Energy Gap of a Spin-1 Heisenberg Chain](pages/ed/spingapspinoneheisenbergchain): <a href = "codes/ed/spinGapSpinOneHeisenbergChain.ipynb" download style="color:blue">Download</a>
-- [Energy Spectra of 1D Systems: Chain, Ladder, and Isomers](pages/ed/spectra1dsystems): <a href = "codes/ed/spectra1DSystems.ipynb" download style="color:blue">Download</a>
+- [Transverse Field Quantum Ising Model](pages/ed/isingtransversefield) <a href="codes/ed/isingTransverseField.ipynb" download><span class="material-icons" style="vertical-align:bottom;padding-left: 1px; padding-right: 5px;">download</span></a>
+- [Energy Gap of a Spin-1 Heisenberg Chain](pages/ed/spingapspinoneheisenbergchain) <a href = "codes/ed/spinGapSpinOneHeisenbergChain.ipynb" download><span class="material-icons" style="vertical-align:bottom;padding-left: 1px; padding-right: 5px;">download</span></a>
+- [Energy Spectra of 1D Systems: Chain, Ladder, and Isomers](pages/ed/spectra1dsystems) <a href = "codes/ed/spectra1DSystems.ipynb" download><span class="material-icons" style="vertical-align:bottom;padding-left: 1px; padding-right: 5px;">download</span></a>
 
 ## Time-evolving Block Decimation
 
-- [Quench of Hardcore Boson Model](pages/tebd/quenchbosonmodel): <a href = "codes/tebd/quenchBosonModel.ipynb" download style="color:blue">Download</a>
+- [Quench of Hardcore Boson Model](pages/tebd/quenchbosonmodel) <a href = "codes/tebd/quenchBosonModel.ipynb" download><span class="material-icons" style="vertical-align:bottom;padding-left: 1px; padding-right: 5px;">download</span></a>

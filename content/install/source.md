@@ -59,7 +59,7 @@ The following instructions will download and build `ALPS` (replace /path/to/inst
   $ git clone https://github.com/alpsim/ALPS alps-src
   $ cmake -S alps-src -B alps-build                                     \
          -DCMAKE_INSTALL_PREFIX=</path/to/install/dir>                  \
-         -DBoost_ROOT_DIR=</directory/with/boost/sources>/boost_1_81_0  \
+         -DBoost_SRC_DIR=</directory/with/boost/sources>/boost_1_81_0  \
          -DCMAKE_CXX_FLAGS="-DBOOST_NO_AUTO_PTR                         \
          -DBOOST_FILESYSTEM_NO_CXX20_ATOMIC_REF"
   $ cmake --build alps-build -j 8
