@@ -135,7 +135,7 @@ The tutorial sample code can be found at http://todo.ap.t.u-tokyo.ac.jp/archive/
 08\_scheduler
 
 - encapsulated code: Worker class
-- Function, must be implement by Worker Class
+- Function, must be implemented by Worker Class
     - constructor、init_obserbables member function
     - run member function
     - is_thermalized&progress member function

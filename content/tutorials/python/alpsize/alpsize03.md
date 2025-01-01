@@ -12,7 +12,7 @@ ALPS Fortran is the Fortran interface modules of ALPS. Using ALPS Fortran, You c
 
 The following figure shows the relationship diagram between ALPS system,ALPS Fortran,and user fortran program.
 
-(ALPS Fortran module)(missing picture)
+![ALPS Fortran module](../figs/fortranmodule.png)
 
 ALPS Fortran is called from the ALPS, call the Subroutine of the user program as necessary.Thus, ALPS can control the Program has been implemented in Fortran as well as the C++ Program.On the other hand, ALPS Fortran has provided a Subroutine call the functions of ALPS.Therefore, user program will be able to use the ALPS functions as well as to call the normal Fortran Subroutine.
 
@@ -20,7 +20,7 @@ ALPS Fortran is called from the ALPS, call the Subroutine of the user program as
 
 The following figure shows the flow chart of the ALPS system and user program. Subroutines for each of the below, refer to the [2.3.3].
 
-(missing picture)
+![Call flow](../figs/callflow.png)
 
 ## Preparation fortran source code
 

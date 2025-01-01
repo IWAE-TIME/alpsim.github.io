@@ -55,19 +55,8 @@ Then, let us set up the parameters for two system sizes. Be careful to use the t
 
 
 ```python
-# Some general parameters
-parms_ = {
-    'LATTICE'    : "chain lattice",
-    'MODEL'      : "spin",
-    'local_S'    : 0.5,
-    'Jxy'        : 0,
-    'Jz'         : -1,
-    'Gamma'      : 0.5,
-    'NUMBER_EIGENVALUES' : 5
-}
-
+# Some general parameters with different lattice sizes:
 parms = []
-# Change system sizes here, if desired
 for L in [10,12]:
     parms.append({
         'LATTICE'    : "chain lattice",

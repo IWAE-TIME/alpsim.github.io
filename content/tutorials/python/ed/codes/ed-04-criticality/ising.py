@@ -32,19 +32,8 @@ import matplotlib.pyplot as plt
 import copy
 import math
 
-# Some general parameters
-parms_ = {
-    'LATTICE'    : "chain lattice",
-    'MODEL'      : "spin",
-    'local_S'    : 0.5,
-    'Jxy'        : 0,
-    'Jz'         : -1,
-    'Gamma'      : 0.5,
-    'NUMBER_EIGENVALUES' : 5
-}
-
+# Some general parameters and change system sizes here, if desired
 parms = []
-# Change system sizes here, if desired
 for L in [10,12]:
     parms.append({
         'LATTICE'    : "chain lattice",
