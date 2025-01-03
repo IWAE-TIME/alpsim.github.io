@@ -4,7 +4,7 @@ description: "About ALPS"
 toc: false
 ---
 
-ALPS is a software package for simulating correlated systems, with codes for classical spin systems, quantum spin systems, bosonic systems, and fermion systems. ALPS 
+ALPS is a software package for simulating correlated systems, with codes for classical spin systems, quantum spin systems, bosonic systems, and fermion systems.
 
 ## Licensing
 
