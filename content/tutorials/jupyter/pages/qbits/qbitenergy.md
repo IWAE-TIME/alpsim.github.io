@@ -29,6 +29,10 @@ We first use the 4-site mixed graph in the lattice configuration file: `lattices
   <EDGE type="1" source="2" target="4"/>
 </GRAPH> 
 ```
+
+The lattice configuration is illustrated in the following diagram:
+![mixed-4-site configuration](../../../../figs/qbits/mixed4sitesconfig.png)
+
 In this lattice configuration there are two types of vertices, labeled as "0" for sites 1 and 3 and "1" for sites 2 and 4. For each qbit site there is a transverse magnetic field with strength Gamma. There are also two types of bonds, labeled as "0" for bonds between sites (1,2), (2,3), (3,4), and (4,1), and "1" for bonds between sites (1,3) and (2,4). For bond type "0", we will assign an interaction J1 for bond type "0" and J2 for bond type "1". All these is done in the model configuration file: `models.xml`
 ```
 <HAMILTONIAN name="qbit operation">
@@ -80,7 +84,7 @@ We then set up parameters for the system and loop over the second coupling const
 ```python
 parms = []
 # Loop over second coupling constant
-for J2 in [0.0, 0.5, 1.0, 1.5]:
+for J2 in [0.0, 0.2, 0.4, 0.6, 0.8, 1.0, 1.2, 1.4, 1.6]:
     parms.append({
         'GRAPH'      : "4-site mixed",
         'MODEL'      : "qbit operation",
@@ -101,32 +105,29 @@ res = pyalps.runApplication('sparsediag', input_file)
 data = pyalps.loadEigenstateMeasurements(pyalps.getResultFiles(prefix=prefix))
 ```
 
-We then iterate through parameter J2 and plot 5 lowest energy levels for each J2.
+We then iterate through parameter J2 and plot the lowest energy level for each J2.
 
 
 ```python
+x = []
+E0 = []
 for Lsets in data:
     J2 = pyalps.flatten(Lsets)[0].props['J2']
-    # Make a list of energy values for each J2
-    x = []
-    allE = []
-    for q in pyalps.flatten(Lsets):
-        x += list(q.x)
-        allE += list(q.y)
-    allE = np.sort(allE)
-
-    # Set the scatter plot label
-    lbl="J2=" + str(J2)
-    plt.scatter(x,allE, label=lbl)
-
-    plt.legend()
+    x.append(J2)
+    lowestE = pyalps.flatten(Lsets)[0].y[0]
+    E0.append(lowestE)
     
-plt.xlabel("level")
+# Set the scatter plot label
+lbl="J1=1.0, Gamma=0.5"
+plt.scatter(x,E0, label=lbl)
+plt.legend()
+plt.xlabel("J2")
 plt.ylabel("E")
 plt.title("4-site Mixed Graph")
 plt.show()
+
 ```
 
-The resulting energy spectrums for the lowest 5 energies for various coupling constants J2 are shown in the following diagram:
+The resulting energy spectrums for the lowest energies for various coupling constants J2 are shown in the following diagram:
 ![Lowest energies vs. J2](../../../../figs/qbits/sites4mixed.png)
 
