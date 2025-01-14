@@ -59,7 +59,7 @@ menu:
       weight: 1
     - identifier: installation
       name: Installation
-      pageRef: /install
+      pageRef: /documentation/install
       weight: 2
     - identifier: documentation
       name: Documentation
