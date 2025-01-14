@@ -82,15 +82,15 @@ h4 {
 <div class="mycontainer">
 
   <div>
-    {{< figure src="m_troyer.png" width="150" height="150">}}
+    {{< figure src="m_troyer150.png" width="150" height="150">}}
   </div>
   
   <div>
-    {{< figure src="maier.png" width="150" height="150">}}
+    {{< figure src="maier150.png" height="150">}}
   </div>
   
   <div>
-    {{< figure src="chamon.png" width="150" height="150">}}
+    {{< figure src="chamon150.png" width="150" height="150">}}
   </div>
   
 </div>
@@ -131,7 +131,7 @@ h4 {
   </div>
   
   <div>
-    {{< figure src="bostonu_logo_chamon.png" width="150" height="150">}}
+    {{< figure src="bostonu_logo_chamon150.png" width="100">}}
   </div>
   
 </div>
@@ -140,7 +140,7 @@ h4 {
 <div class="mycontainer">
 
   <div>
-    {{< figure src="maestro.png" width="150" height="150">}}
+    {{< figure src="maestro150.png" width="150" height="150">}}
   </div>
   
 </div>
