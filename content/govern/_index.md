@@ -211,14 +211,14 @@ The external advisory board will recommend:
 
 - To report a bug or request a feature please visit our GitHub [repository](https://github.com/ALPSim/ALPS/issues). 
 
-- To get help with using ALPS please visit our user forum on [Discord](https://discord.com/invite/JRNWnnva9g).
+- To get help with using ALPS please visit our user forum on [Discord](https://discord.gg/JRNWnnva9g).
 
     
-- To contribute to ALPS please contact our a member of the [governing council](#alps-community-steering-committee).
+- To contribute to ALPS please contact a member of the [Governing Council](#alps-community-steering-committee).
 
 ### Decision making process 
 
-Contributions and changes to ALPS occur using a consensus model.  Proposals for modifications will be reviewed by both maintainers and core maintainers once posted to the GitHub repository.  Modifications will be accepted if no comments are made within XXX weeks or if all maintainers agree on the modifications.  Controversial proposals decisions can be appealed to the governing council.
+Contributions and changes to ALPS occur using a consensus model.  Proposals for modifications will be reviewed by both maintainers and core maintainers once posted to the GitHub repository.  Modifications will be accepted if no comments are made within 6 weeks or if all maintainers agree on the modifications.  Controversial proposals decisions can be appealed to the governing council.
 
 ### Contribution process
 
