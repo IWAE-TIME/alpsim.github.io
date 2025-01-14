@@ -50,7 +50,7 @@ h4 {
 <div class="mycontainer">
 
   <div>
-    <h4>Adrian Feiguin</h4>
+    <h4><a href="https://cos.northeastern.edu/people/adrian-feiguin/">Adrian Feiguin</a></h4>
     <h6>Professor of Physics<br>
     Northeastern University<br>
     <a href="mailto:a.feiguin@northeastern.edu">a.feiguin@northeastern.edu</a>
@@ -58,7 +58,7 @@ h4 {
   </div>
   
   <div>
-    <h4>Emanuel Gull</h4>
+    <h4><a href="https://lsa.umich.edu/physics/people/faculty/egull.html">Emanuel Gull</a></h4>
     <h6>Professor of Physics<br>
     University of Michigan<br>
     <a href="mailto:egull@umich.edu">egull@umich.edu</a>
@@ -67,7 +67,7 @@ h4 {
   
   <div>
     <p>
-    <h4>Vito Scarola</h4>
+    <h4><a href="https://scarola.phys.vt.edu/">Vito Scarola</a></h4>
     <h6>Professor of Physics<br>
     Virginia Tech<br>
     <a href="mailto:scarola@vt.edu">scarola@vt.edu</a>
@@ -98,21 +98,21 @@ h4 {
 <div class="mycontainer">
 
   <div>
-    <h4>Matthias Troyer</h4>
-    <h6>Corporate Vice President of Quantum<br>
+    <h4><a href="https://www.microsoft.com/en-us/research/people/mtroyer/">Matthias Troyer</a></h4>
+    <h6>Technical Fellow and Corporate Vice President of Quantum<br>
     Microsoft<br>
     </h6>
   </div>
   
   <div>
-    <h4>Thomas Maier</h4>
+    <h4><a href="https://www.ornl.gov/staff-profile/thomas-maier">Thomas Maier</a></h4>
     <h6>Distinguished Research Staff and Section Head<br>
     Oak Ridge National Lab<br>
     </h6>
   </div>
   
   <div>
-    <h4>Claudio Chamon</h4>
+    <h4><a href="https://www.bu.edu/eng/profile/claudio-chamon/">Claudio Chamon</a></h4>
     <h6>Professor of Physics<br>
     Boston University<br>
     </h6>
@@ -148,8 +148,10 @@ h4 {
 <div class="mycontainer">
 
   <div>
-    <h4>Adrian Del Maeastro</h4>
-    <h6>Professor of Physics<br>
+    <h4><a href="https://quantum.utk.edu/people/adrian-del-maestro-2/">Adrian Del Maestro</a></h4>
+    <h6>Professor<br>
+    Department of Physics & Astronomy and <br> 
+    Department of Electrical Engineering and Computer Science <br>
     University of Tennessee<br>
     </h6>
   </div>
