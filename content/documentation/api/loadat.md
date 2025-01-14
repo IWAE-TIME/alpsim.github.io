@@ -6,17 +6,6 @@ toc: true
 weight: 2
 ---
 
-| **API Functions** |       |
-| :---------------- | :---- |
-| `pyalps.getResultFiles([dirname, pattern, ...])`  |  get all result files matching the given pattern or prefix |
-| `pyalps.loadMeasurements(files[, what, ...])`  |  loads ALPS measurements from ALPS HDF5 result files |
-| `pyalps.loadBinningAnalysis(files[, what, ...])`  |  loads MC binning analysis from ALPS HDF5 result files |
-| `pyalps.loadEigenstateMeasurements(files[, ...])`  |  loads ALPS eigenstate measurements from ALPS HDF5 result files |
-| `pyalps.loadSpectra(files[, verbose])`  |  loads ALPS spectra from ALPS HDF5 result files |
-| `pyalps.loadDMFTIterations(files[, ...])`  |  loads ALPS measurements from ALPS HDF5 result files |
-| `pyalps.loadProperties(files[, proppath, ...])`   | loads properties (parameters) of simulations from ALPS HDF5 result files |
-| `pyalps.loadObservableList(files[, proppath, ...])`  |  loads lists of existing measurements from ALPS HDF5 result files |
-
 
 `pyalps.getResultFiles(dirname='.', pattern=None, prefix=None, format=None)`[source](../../pythonapi/sourcetools#pyalpsgetresultfiles)
 get all result files matching the given pattern or prefix

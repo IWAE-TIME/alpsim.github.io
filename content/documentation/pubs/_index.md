@@ -2,7 +2,7 @@
 ---
 title: Publications
 description: "ALPS Publications"
-weight: 4
+weight: 10
 ---
 
 - [ALPS Release Papers](papers)

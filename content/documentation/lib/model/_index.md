@@ -1,6 +1,6 @@
 
 ---
-title: Chapter 8. ALPS/Model Library
+title: ALPS/Model Library
 description: "ALPS Model Library"
 weight: 8
 ---

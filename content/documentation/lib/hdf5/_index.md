@@ -1,6 +1,6 @@
 
 ---
-title: Chapter 12. HDF5 Library
+title: HDF5 Library
 description: "ALPS Data Format"
 weight: 12
 ---

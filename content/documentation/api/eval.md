@@ -1,28 +1,14 @@
 
 ---
-title: Evaluation
+title: Data Evaluation
+linkTitle: Evaluation
 math: true
 toc: true
 weight: 3
 ---
 
-| **API Functions** |       |
-| :---------------- | :---- |
-| `pyalps.DataSet([x, y, props])`  |  The DataSet class stores a set of data, usually in XY format, along with all the properties describing the data, such as input parameters to the simulation etc. |
-| `pyalps.collectXY(sets, x, y[, foreach, ...])`  |  collects specified data from a list of DataSet objects |
-| `pyalps.groupSets(groups[, for_each])`  |  groups a list of DataSet objects into a list of lists |
-| `pyalps.select(inp, condition)`    |   |
-| `pyalps.select_by_property(data, proplist)`    |  |
-| `pyalps.mergeDataSets(dsets)`   |   |
-| `pyalps.mergeMeasurements(measurements)`   |  | 
-| `pyalps.select(inp, condition)`    |  |
-| `pyalps.fit_wrapper.Parameter(value)`    |  |
-| `pyalps.fit_wrapper.fit(self, function, ...)`   |  | 
-| `pyalps.SetLabels(data, proplist)`  |  Set labels according to the properties given in ‘proplist’. |
-| `pyalps.CycleColors(data, foreach[, colors])`  |  Cyclically assign colors to the lines/markers that will be used to display the DataSets, based on the properties in ‘foreach’. |
-| `pyalps.CycleMarkers(data, foreach[, markers])`  |  Cyclically assign markers to the lines/markers that will be used to display the DataSets, based on the properties in ‘foreach’. |
-| `pyalps.collectXY(sets, x, y[, foreach, ...])`  |  collects specified data from a list of DataSet objects |
 
+### DataSet
 
 `*class* pyalps.DataSet(x=None, y=None, props=None)`[source](../../pythonapi/sourcedata#pyalpsdataset)
 

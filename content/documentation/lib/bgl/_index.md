@@ -1,6 +1,6 @@
 
 ---
-title: Chapter 11. BGL Extension 1.0
+title: BGL Extension 1.0
 description: "ALPS BGL Extension"
 weight: 11
 ---

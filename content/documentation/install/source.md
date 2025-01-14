@@ -18,8 +18,9 @@ Please make sure to have the following third-party software installed and availa
     - HDF5 >= 1.10.0
     - BLAS
     - CMake >= 2.8
-    - Python > 3.9 (if Python bindings are enabled)
+    - Python >= 3.9 (if Python bindings are enabled)
     - Boost sources >= 1.68
+      - Boost 1.87.0 is needed if you have numpy 2.0 and newer or Python 3.13 and newer
 
   These packages are external to ALPS. Their installation will depend on your computer. MPI is the Message Passing Interface, several standard implementations exist, including [OpenMPI](https://www.open-mpi.org/) and [MPICH](https://www.mpich.org/).
   High performance computers will have proprietary MPI installations, and most clusters provide a version for all users. [HDF5](https://www.hdfgroup.org/solutions/hdf5/) is a library for binary data storage. 

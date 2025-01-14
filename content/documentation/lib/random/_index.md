@@ -1,6 +1,6 @@
 
 ---
-title: Chapter 3. ALPS.Random
+title: ALPS Random
 description: "ALPS Random Number Generator"
 weight: 3
 ---

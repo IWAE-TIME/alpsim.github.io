@@ -1,6 +1,6 @@
 
 ---
-title: Chapter 2. Alps/General Library
+title: Alps/General Library
 description: "ALPS General Library"
 weight: 2
 ---

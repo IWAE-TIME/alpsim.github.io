@@ -2,7 +2,7 @@
 ---
 title: Models and Methods in ALPS
 description: "Available Models and Methods"
-weight: 1
+weight: 3
 ---
 <br>
 {{< hextra/feature-grid maxcolumns="2" >}}

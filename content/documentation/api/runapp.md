@@ -6,18 +6,6 @@ toc: true
 weight: 1
 ---
 
-| **API Functions** |       |
-| :---------------- | :---- |
-| `pyalps.writeParameterFile(fname, parms)`  |  This function writes a text input file for simple ALPS applications like DMFT |
-| `pyalps.writeInputFiles(fname, parms[, baseseed])`  |  This function writes the XML input files for ALPS |
-| `pyalps.runApplication(appname, parmfiles[, ...])`  |  run an ALPS application |
-| `pyalps.runDMFT(infiles[, apppath])`  |  run the ALPS DMFT application |
-| `pyalps.evaluateLoop(infiles[, appname, ...])`   | evaluate results of the looper QMC application |
-| `pyalps.evaluateSpinMC(infiles[, appname, ...])`  |  evaluate results of the spinmc application |
-| `pyalps.evaluateQWL(infiles[, appname, ...])` |   evaluate results of the quantum Wang-Landau application |
-| `pyalps.evaluateFulldiagVersusT(infiles[, ...])`  |  evaluate results of the fulldiag application as a function of temperature |
-| `pyalps.evaluateFulldiagVersusH(infiles[, ...])`  |  evaluate results of the fulldiag application as a function of magnetic field h |
-
 
 `pyalps.writeParameterFile(fname, parms)`[source](../../pythonapi/sourcetools#pyalpswriteparameterfile) 
 
