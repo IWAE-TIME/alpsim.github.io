@@ -35,5 +35,3 @@ ALPS documentation includes basic theory, code and data structure of various sim
 {{< /hextra/feature-grid >}}
 
 
-
-

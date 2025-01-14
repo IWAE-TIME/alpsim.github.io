@@ -12,6 +12,21 @@ cascade:
 
 The ALPS quick examples section illustrates how to set up input parameters and collect simulation data. The example simulations are for small system sizes, so the results can be obtained in minutes.   
 
+
+## Exact Diagonalization
+
+## Classical Monte Carlo Simulations
+
+
+## Quantum Monte Carlo Simulations
+
+## Dynamical Mean Field Theory
+
+## Density Matrix Renormalization
+
+
+
+
 <br>
 {{< hextra/feature-grid maxcolumns="2" >}}
   {{< hextra/feature-card

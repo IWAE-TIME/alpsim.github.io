@@ -77,3 +77,89 @@ h4 {
   
 </div>
 
+## ALPS External Advisory Board:
+
+<div class="mycontainer">
+
+  <div>
+    {{< figure src="m_troyer.png" width="150" height="150">}}
+  </div>
+  
+  <div>
+    {{< figure src="maier.png" width="150" height="150">}}
+  </div>
+  
+  <div>
+    {{< figure src="chamon.png" width="150" height="150">}}
+  </div>
+  
+</div>
+
+<div class="mycontainer">
+
+  <div>
+    <h4>Matthias Troyer</h4>
+    <h6>Corporate Vice President of Quantum<br>
+    Microsoft<br>
+    </h6>
+  </div>
+  
+  <div>
+    <h4>Thomas Maier</h4>
+    <h6>Distinguished Research Staff and Section Head<br>
+    Oak Ridge National Lab<br>
+    </h6>
+  </div>
+  
+  <div>
+    <h4>Claudio Chamon</h4>
+    <h6>Professor of Physics<br>
+    Boston University<br>
+    </h6>
+  </div>
+  
+</div>
+
+<div class="mycontainer">
+
+  <div>
+    {{< figure src="microsoft_logo_troyer.png" width="150" height="150">}}
+  </div>
+  
+  <div>
+    {{< figure src="ornl_logo_maier.png" width="150" height="150">}}
+  </div>
+  
+  <div>
+    {{< figure src="bostonu_logo_chamon.png" width="150" height="150">}}
+  </div>
+  
+</div>
+
+
+<div class="mycontainer">
+
+  <div>
+    {{< figure src="maestro.png" width="150" height="150">}}
+  </div>
+  
+</div>
+
+<div class="mycontainer">
+
+  <div>
+    <h4>Adrian Del Maeastro</h4>
+    <h6>Professor of Physics<br>
+    University of Tennessee<br>
+    </h6>
+  </div>
+  
+</div>
+
+<div class="mycontainer">
+
+  <div>
+    {{< figure src="utk_logo_maestro.jpeg" width="150" height="150">}}
+  </div>
+  
+</div>
