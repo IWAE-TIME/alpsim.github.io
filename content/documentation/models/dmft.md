@@ -53,13 +53,13 @@ weight: 10
 | **Name** | **Description** |
 | :------- | :-------------- |
 | H_INIT | magnetic field in the quantization axis (conventionally $z$) direction, which is used in computation of the non-interacting initial G0 (if it is not loaded) |
-| G0OMEGA_INPUT | name for the text file specifying the Weiss field in Matsubara frequencies $i\omega_n$ (expected 1+FLAVORS columns, and total NMATSUBARA rows) (use only with OMEGA_LOOP) |
-| G0TAU_INPUT | name for the text file specifying the Weiss field in imaginary time representation (expected 1+FLAVORS columns, and total N+1 rows) (only with OMEGA_LOOP switched off) ｜
-｜ GOMEGA_input ｜ specifies the name for the text file where the initial G0 in Matsubara representation will be written (by default it is not written, as it is identical with G0_omega_1) ｜
-｜ G0TAU_input ｜ name for the text file for the output of the initial G0 in imaginary time (by default it is not written, as it is identical with G0_tau_1) ｜
-｜ G0OMEGA_output ｜ name for the output file containing the final Weiss field in Matsubara frequencies (by default G0omega_output)(with OMEGA_LOOP) ｜
-｜ G0TAU_output ｜ name for the output file containing the final Weiss field in Matsubara frequencies (by default G0tau_output) (with OMEGA_LOOP off) ｜
-｜ INSULATING ｜ if you have specified this option, then the initial G0 will be set up in the insulating limit ｜
+| G0OMEGA_INPUT | name for the text file specifying the Weiss field in Matsubara frequencies $i\omega_n$ (expected 1+FLAVORS columns, and total NMATSUBARA rows, use only with OMEGA_LOOP) |
+| G0TAU_INPUT | name for the text file specifying the Weiss field in imaginary time representation (expected 1+FLAVORS columns, and total $N+1$ rows, only with OMEGA_LOOP switched off) |
+| GOMEGA_input | specifies the name for the text file where the initial G0 in Matsubara representation will be written (by default it is not written, as it is identical with G0_omega_1) |
+| G0TAU_input | name for the text file for the output of the initial G0 in imaginary time (by default it is not written, as it is identical with G0_tau_1) |
+| G0OMEGA_output | name for the output file containing the final Weiss field in Matsubara frequencies (by default G0omega_output)(with OMEGA_LOOP) |
+| G0TAU_output | name for the output file containing the final Weiss field in Matsubara frequencies (by default G0tau_output) (with OMEGA_LOOP off) |
+| INSULATING | if you have specified this option, then the initial G0 will be set up in the insulating limit |
 
 ### Parameters setting the precision of representation of the Green's function and the Weiss field
 
@@ -68,7 +68,7 @@ weight: 10
 | NMATSUBARA | number of Matsubara frequencies used to represent the Green's function and the Weiss field (usually equals N) |
 | N | number of bins for the Green's function and the Weiss field in imaginary time (represented in total by N+1 values) (recommended: roughly 1000 for the continuous-time solvers) |
 
-### Hybridization1 expansion impurity solver parameters
+### Hybridization expansion impurity solver parameters
 
 | **Name** | **Description** |
 | :------- | :-------------- |
