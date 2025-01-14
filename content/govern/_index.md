@@ -79,18 +79,72 @@ h4 {
 
 ## ALPS External Advisory Board
 
+<br>
 <div class="mycontainer">
 
   <div>
-    {{< figure src="m_troyer150.png" width="150" height="150">}}
+    {{< figure src="chamon150.png" width="150" height="150">}}
+  </div>
+
+  <div>
+    {{< figure src="maestro150.png" width="150" height="150">}}
   </div>
   
   <div>
     {{< figure src="maier150.png" height="150">}}
   </div>
   
+</div>
+
+<div class="mycontainer">
+
   <div>
-    {{< figure src="chamon150.png" width="150" height="150">}}
+    <h4><a href="https://www.bu.edu/eng/profile/claudio-chamon/">Claudio Chamon</a></h4>
+    <h6>Professor of Physics<br>
+    Boston University<br>
+    </h6>
+  </div>
+  
+  <div>
+    <h4><a href="https://quantum.utk.edu/people/adrian-del-maestro-2/">Adrian Del Maestro</a></h4>
+    <h6>Professor<br>
+    Department of Physics & Astronomy and <br> 
+    Department of Electrical Engineering and Computer Science <br>
+    University of Tennessee<br>
+    </h6>
+  </div>
+  
+  <div>
+    <h4><a href="https://www.ornl.gov/staff-profile/thomas-maier">Thomas Maier</a></h4>
+    <h6>Distinguished Research Staff and Section Head<br>
+    Oak Ridge National Lab<br>
+    </h6>
+  </div>
+  
+</div>
+
+<div class="mycontainer">
+
+  <div>
+    {{< figure src="bostonu_logo_chamon150.png" width="100">}}
+  </div>
+  
+  <div>
+    {{< figure src="utk_logo_maestro.jpeg" width="150" height="150">}}
+  </div>
+  
+  <div>
+    {{< figure src="ornl_logo_maier.png" width="150" height="150">}}
+  </div>
+  
+</div>
+
+<br>
+
+<div class="mycontainer">
+
+  <div>
+    {{< figure src="m_troyer150.png" width="150" height="150">}}
   </div>
   
 </div>
@@ -104,64 +158,11 @@ h4 {
     </h6>
   </div>
   
-  <div>
-    <h4><a href="https://www.ornl.gov/staff-profile/thomas-maier">Thomas Maier</a></h4>
-    <h6>Distinguished Research Staff and Section Head<br>
-    Oak Ridge National Lab<br>
-    </h6>
-  </div>
-  
-  <div>
-    <h4><a href="https://www.bu.edu/eng/profile/claudio-chamon/">Claudio Chamon</a></h4>
-    <h6>Professor of Physics<br>
-    Boston University<br>
-    </h6>
-  </div>
-  
 </div>
 
 <div class="mycontainer">
-
   <div>
     {{< figure src="microsoft_logo_troyer.png" width="150" height="150">}}
-  </div>
-  
-  <div>
-    {{< figure src="ornl_logo_maier.png" width="150" height="150">}}
-  </div>
-  
-  <div>
-    {{< figure src="bostonu_logo_chamon150.png" width="100">}}
-  </div>
-  
-</div>
-
-
-<div class="mycontainer">
-
-  <div>
-    {{< figure src="maestro150.png" width="150" height="150">}}
-  </div>
-  
-</div>
-
-<div class="mycontainer">
-
-  <div>
-    <h4><a href="https://quantum.utk.edu/people/adrian-del-maestro-2/">Adrian Del Maestro</a></h4>
-    <h6>Professor<br>
-    Department of Physics & Astronomy and <br> 
-    Department of Electrical Engineering and Computer Science <br>
-    University of Tennessee<br>
-    </h6>
-  </div>
-  
-</div>
-
-<div class="mycontainer">
-
-  <div>
-    {{< figure src="utk_logo_maestro.jpeg" width="150" height="150">}}
   </div>
   
 </div>
