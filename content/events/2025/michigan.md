@@ -8,20 +8,11 @@ sidebar:
 ---
 ## Location
 
-The meeting will be held at the University of Michigan, Ann Arbor, in the West Conference Room of the Rackham Graduate school.
+The meeting has been held at the University of Michigan, Ann Arbor, in the East Conference Room of the Rackham Graduate school.
 
 Room information can be found [here](https://rackham.umich.edu/about/rackham-building/east-and-west-conference-rooms/).
 
 Information about Rackham (with directions and driving information) is available [here](https://rackham.umich.edu/about/rackham-building/driving-directions/).
-
-## Accommodations
-Accommodations are currently being arranged. More info will follow.
-
-## Meeting Schedule
-
-meeting schedule here...
-
-## Meeting Participants
 
 ## Contact Info
 Please contact [Sergei Iskakov](siskakov@umich.edu) and [Emanuel Gull](egull@umich.edu) for more information.
