@@ -2,7 +2,7 @@
 ---
 title: Directed Loop Algorithm with SSE 
 math: true
-weight: 2
+weight: 4
 ---
 
 ## Introduction

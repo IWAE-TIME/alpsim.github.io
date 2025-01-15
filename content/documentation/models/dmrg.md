@@ -2,7 +2,7 @@
 ---
 title: The Density Matrix Renormalization Group 
 math: true
-weight: 9
+weight: 11
 ---
 
 ## Introduction

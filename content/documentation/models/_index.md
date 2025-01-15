@@ -4,6 +4,26 @@ title: Models and Methods in ALPS
 description: "Available Models and Methods"
 weight: 3
 ---
+
+## Exact Diagonalization
+<br>
+{{< hextra/feature-grid maxcolumns="2" >}}
+ {{< hextra/feature-card
+    title="sparsediag"
+    subtitle="Sparse Diagonalization (Lanczos)"
+    link="sparsediag"
+    icon=""
+  >}}
+  {{< hextra/feature-card
+    title="fulldiag"
+    subtitle="Full Diagonalization"
+    link="fulldiag"
+    icon=""
+  >}}
+{{< /hextra/feature-grid >}}
+
+
+## Classical Monte Carlo Simulations
 <br>
 {{< hextra/feature-grid maxcolumns="2" >}}
   {{< hextra/feature-card
@@ -12,6 +32,12 @@ weight: 3
     link="spinmc"
     icon=""
   >}}
+{{< /hextra/feature-grid >}}
+
+
+## Quantum Monte Carlo Simulations
+<br>
+{{< hextra/feature-grid maxcolumns="2" >}}
   {{< hextra/feature-card
     title="SSE"
     subtitle="Directed Loop Algorithm with SSE"
@@ -36,18 +62,30 @@ weight: 3
     link="qwl"
     icon=""
   >}}
- {{< hextra/feature-card
-    title="sparsediag"
-    subtitle="Sparse Diagonalization (Lanczos)"
-    link="sparsediag"
-    icon=""
-  >}}
   {{< hextra/feature-card
-    title="fulldiag"
-    subtitle="Full Diagonalization"
-    link="fulldiag"
+    title="Bose Glass"
+    subtitle="Disordered models"
+    link="boseglass"
     icon=""
   >}}
+{{< /hextra/feature-grid >}}
+
+
+## Dynamical Mean Field Theory
+<br>
+{{< hextra/feature-grid maxcolumns="2" >}}
+  {{< hextra/feature-card
+    title="DMFT"
+    subtitle="Dynamical Mean Field Theory and Impurity Solvers"
+    link="dmft"
+    icon=""
+  >}}
+{{< /hextra/feature-grid >}}
+
+
+## Density Matrix Renormalization Group
+<br>
+{{< hextra/feature-grid maxcolumns="2" >}}
   {{< hextra/feature-card
     title="Non-interacting DMRG"
     subtitle="Particle in a box"
@@ -60,26 +98,4 @@ weight: 3
     link="dmrg"
     icon=""
   >}}
-  {{< hextra/feature-card
-    title="DMFT"
-    subtitle="Dynamical Mean Field Theory and Impurity Solvers"
-    link="dmft"
-    icon=""
-  >}}
-  {{< hextra/feature-card
-    title="TEBD"
-    subtitle="Time-Evolving Block Decimation"
-    link="tebd"
-    icon=""
-  >}}
-  {{< hextra/feature-card
-    title="Bose Glass"
-    subtitle="Disordered models"
-    link="boseglass"
-    icon=""
-  >}}
 {{< /hextra/feature-grid >}}
-
-
-
-

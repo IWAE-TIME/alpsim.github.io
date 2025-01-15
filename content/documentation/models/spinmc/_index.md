@@ -2,7 +2,7 @@
 ---
 title: Monte Carlo Simulations of Spins
 math: true
-weight: 1
+weight: 3
 ---
 
 - [Introduction](intro)

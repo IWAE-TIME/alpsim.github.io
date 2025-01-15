@@ -2,7 +2,7 @@
 ---
 title: Dynamical Mean Field Theory and Impurity Solvers
 math: true
-weight: 10
+weight: 9
 ---
 
 ## List of Parameters

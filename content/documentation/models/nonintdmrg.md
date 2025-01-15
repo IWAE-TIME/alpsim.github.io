@@ -2,7 +2,7 @@
 ---
 title: Particle in a box 
 math: true
-weight: 8
+weight: 10
 ---
 
 ## ALPS application: noninteracting DMRG

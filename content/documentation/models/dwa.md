@@ -2,7 +2,7 @@
 ---
 title: Directed Worm Algorithm 
 math: true
-weight: 4
+weight: 6
 ---
 
 **Attention:** this implementation is an experimental code and should be used only for the Bose Hubbard model without interactions between neighbors. Otherwise the code may crash or yield incorrect results.

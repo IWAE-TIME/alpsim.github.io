@@ -2,7 +2,7 @@
 ---
 title: Bose Glass 
 math: true
-weight: 12
+weight: 8
 ---
 
 ## The Bose glass model

@@ -2,7 +2,7 @@
 ---
 title: Sparse Diagonalization (Lanczos) 
 math: true
-weight: 6
+weight: 1
 ---
 
 ## Introduction

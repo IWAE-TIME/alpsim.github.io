@@ -2,7 +2,7 @@
 ---
 title: Quantum Wang-Landau Algorithm 
 math: true
-weight: 5
+weight: 7
 ---
 
 ## Introduction
