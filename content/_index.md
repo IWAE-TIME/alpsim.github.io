@@ -2,7 +2,7 @@
 title: Welcome to the ALPS Software Package
 linkTitle: ALPS Documentation
 layout: alps-home
-toc: false
+toc: true
 ---
 
 <style>
