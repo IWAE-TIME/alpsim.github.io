@@ -43,7 +43,7 @@ ALPS has been used by hundreds of researchers in 52 countries since its inceptio
 One-, two-, and three-dimensional lattice systems with model parameters that describe real materials. 
 
 ## Our Evolution
-ALPS progress needs the support of the user community. If you identify any potential bugs in the codes, please submit an [bug report](https://github.com/ALPSim/ALPS/issues).
+ALPS progress needs the support of the user community. If you identify any potential bugs in the codes, please submit a [bug report](https://github.com/ALPSim/ALPS/issues).
 
 ## Our Collaborations
 We are happy to collaborate with researcher and educators around the world on projects or codes that can have an ALPS application or can be included in the ALPS framework. If you are interested, please reach out to one of our [steering committee members](govern#alps-community-steering-committee).

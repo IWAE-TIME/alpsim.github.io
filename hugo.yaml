@@ -1,5 +1,5 @@
 # Configuration
-baseURL: 'https://alps.comp-phys.com/'
+baseURL: 'https://alps.comp-phys.org/'
 title: 'ALPS Software Package'
 
 enableRobotsTXT: true

@@ -10,18 +10,18 @@ Our software release publications are shown on [this page](../documentation/pubs
 
 ### Where can I ask questions about ALPS installation, documnetation, or tutorials?
 
-We created a discord channel for community discussions. You can ask your questions in [Github](https://github.com/ALPSim/ALPS/discussions/categories/q-a) or [in our Discord channel](https://discord.gg/JRNWnnva9g).
+We created a discord channel for community discussions. You can ask your questions in our [Github repository discussions](https://github.com/ALPSim/ALPS/discussions/categories/q-a) or in our [Discord channel](https://discord.gg/JRNWnnva9g).
 
 ### How can I report a bug in the codes?
 
-We encourage you to report the bug in our [Github](https://github.com/ALPSim/ALPS/issues) repository. The potential bug will be immediately investigated by one of our developers.
+We encourage you to report the bug in the [issues section of our Github repository](https://github.com/ALPSim/ALPS/issues). The potential bug will be immediately investigated by one of our developers.
 
 ### How can I install ALPS?
 
-Please follow the instructions on our [installation page](https://alps.comp-phys.com/install/) for Linux and Mac systems. Currently we do not support Windows system.
+Please follow the instructions on our [installation page](../documentation/install/) for Linux and Mac systems. Currently we do not support Windows system.
 
 
 ### How can I contribute to ALPS?
 
-Please [contact](https://alps.comp-phys.com/govern/) one of our leaderships for further information. We will be happy to talk to you about your project.
+Please [contact](../govern#alps-community-steering-committee) one of our leaderships for further information. We will be happy to talk to you about your project.
 
