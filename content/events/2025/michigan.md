@@ -5,6 +5,7 @@ description: "First Developer Meeting"
 toc: false
 sidebar:
   exclude: true
+type: event
 ---
 ## Location
 

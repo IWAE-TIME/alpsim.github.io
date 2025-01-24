@@ -1,39 +1,78 @@
 ---
-title: Welcome to the ALPS Software Package
-linkTitle: ALPS Documentation
 layout: alps-home
 toc: false
 ---
 
 <style>
-div.mycontainer {
-  width:100%;
-  overflow:auto;
+.leftX {
+  #flex: 1 1 1%;
+  padding-right: 1em;
+  #outline: 1px solid red;
 }
-div.mycontainer div {
-  width: 50%;  
+.rightX {
+  #flex: 1 1 1%;
+  padding-left: 1em;
+  #outline: 1px solid blue;
   float: left;
-  display: inline-block;
-  text-align: center;
 }
+
+.flexBox {
+  display: flex;
+  #justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+
+@media (min-width: 800px) {
+  .flexBox {
+    grid-template-columns: 1fr 5fr;
+  }
+  .leftX {
+    flex: 1 1 1%;
+    padding-right: 1em;
+    #outline: 1px solid red;
+  }
+ .rightX {
+    flex: 1 1 1%;
+    padding-left: 1em;
+    #outline: 1px solid blue;
+    float: left;
+  }
+}
+
+
+.logoX {
+  content:url("/figs/Alps-disciplines.webp");
+}
+
+:is(html[class~="dark"]) .logoX {
+  content:url("/figs/Alps-disciplines-dark.webp");
+}
+
 </style>
 
-## Our Software
 
-The ALPS libraries aim to provide a set of well tested, robust, and standardized components for numerical simulations of condensed matter systems, incluing bosonic, fermionic, and spin systems. They consist of a set of components that are used in state-of-the-art high performance codes. 
+<div class="flexBox" >
+<div class="leftX">
 
-<br>
-<div class="mycontainer">
+## Welcome to the ALPS Software Package
 
-<div>
-{{< cta-button text="Getting Started" link="documentation/start/intro" icon="build" >}}
-</div>
+The ALPS libraries aim to provide a set of well tested, robust, and standardized components for numerical simulations of condensed matter systems, incluing bosonic, fermionic, and spin systems. They consist of a set of components that are used in state-of-the-art high performance codes.
 
-<div>
+<div class="cta-buttons" style="text-align:left;width:100%;">
+{{< cta-button text="Get started" link="documentation/start/intro" icon="build"  prim="yes" >}}
 {{< cta-button text="Tutorials" link="tutorials/" icon="launch" >}}
 </div>
+</div>
+<div class="rightX" >
+<img class="logoX" />
+</div>
 
 </div>
+
+
+
+
 
 
 ## Our Impacts

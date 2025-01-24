@@ -1,7 +1,6 @@
-
 ---
-title: Documentation
 description: "ALPS Documentation"
+icon: house
 cascade:
     type: docs
 ---

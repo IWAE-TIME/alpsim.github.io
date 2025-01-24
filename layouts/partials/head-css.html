@@ -1,3 +1,4 @@
+
 {{- if and (not hugo.IsProduction) (eq hugo.Environment "theme") }}
   {{- $styles := resources.Get "css/styles.css" }}
   {{- $styles = $styles | resources.PostCSS (dict "inlineImports" true) }}

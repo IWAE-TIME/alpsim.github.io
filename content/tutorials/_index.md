@@ -1,6 +1,7 @@
 
 ---
 title: Tutorials
+icon: school
 description: "Tutorials for ALPS"
 toc: true
 cascade:
