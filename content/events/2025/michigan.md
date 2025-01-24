@@ -17,3 +17,6 @@ Information about Rackham (with directions and driving information) is available
 
 ## Contact Info
 Please contact [Sergei Iskakov](siskakov@umich.edu) and [Emanuel Gull](egull@umich.edu) for more information.
+
+
+
