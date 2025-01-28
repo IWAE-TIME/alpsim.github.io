@@ -1,0 +1,36 @@
+<!-- layouts/shortcodes/gallery.html -->
+{{ if .Page.Params.images }}
+  <div class="gallery">
+    {{ $images := .Page.Params.images }}
+    {{ range $images }}
+      <div class="gallery-item">
+        <img src="{{ .url | absURL }}" alt="{{ .alt }}" />
+        <p>{{ .caption }}</p>
+      </div>
+    {{ end }}
+  </div>
+
+  <style>
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .gallery-item {
+      flex: 1 1 calc(33.333% - 20px);
+      box-sizing: border-box;
+    }
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    .gallery-item p {
+      text-align: center;
+      margin-top: 5px;
+    }
+  </style>
+{{ else }}
+  <p style="color: red;">Error: No images found. Please define the `images` field in the front matter.</p>
+{{ end }}
+

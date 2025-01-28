@@ -13,3 +13,8 @@ The prebuilt binary [`pyALPS`](https://pypi.org/project/pyalps/) can be installe
     pip install pyalps
 
 Please make sure your version of Python is Python >= 3.9.
+
+## Walkthrough Video
+
+- [Installation in a virtual box environment.](https://youtu.be/Te6IApFjHJs)
+
