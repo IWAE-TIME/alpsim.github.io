@@ -52,30 +52,44 @@ h4 {
   <div>
     <h4><a href="https://cos.northeastern.edu/people/adrian-feiguin/">Adrian Feiguin</a></h4>
     <h6>Professor of Physics<br>
-    Northeastern University<br>
-    <a href="mailto:a.feiguin@northeastern.edu">a.feiguin@northeastern.edu</a>
+    Northeastern University
     </h6>
   </div>
   
   <div>
     <h4><a href="https://lsa.umich.edu/physics/people/faculty/egull.html">Emanuel Gull</a></h4>
     <h6>Professor of Physics<br>
-    University of Michigan<br>
-    <a href="mailto:egull@umich.edu">egull@umich.edu</a>
+    University of Michigan
     </h6>
   </div>
   
   <div>
-    <p>
     <h4><a href="https://scarola.phys.vt.edu/">Vito Scarola</a></h4>
     <h6>Professor of Physics<br>
-    Virginia Tech<br>
-    <a href="mailto:scarola@vt.edu">scarola@vt.edu</a>
+    Virginia Tech
     </h6>
-    </p>
   </div>
   
 </div>
+
+<div class="mycontainer">
+  <div>
+    <p>
+    <a href="mailto:a.feiguin@northeastern.edu">a.feiguin@northeastern.edu</a>
+    </p>
+  </div>
+  <div>
+    <p>
+    <a href="mailto:egull@umich.edu">egull@umich.edu</a>
+    </p>
+  </div>
+  <div>
+    <p>
+    <a href="mailto:scarola@vt.edu">scarola@vt.edu</a>
+    </p>
+  </div>
+</div>
+
 
 ## ALPS External Advisory Board
 
@@ -97,62 +111,76 @@ h4 {
 </div>
 
 <div class="mycontainer">
-
   <div>
     <h4><a href="https://www.bu.edu/eng/profile/claudio-chamon/">Claudio Chamon</a></h4>
-    <h6>Professor of Physics<br>
-    Boston University<br>
-    </h6>
   </div>
-  
+
   <div>
     <h4><a href="https://quantum.utk.edu/people/adrian-del-maestro-2/">Adrian Del Maestro</a></h4>
+  </div>
+
+  <div>
+    <h4><a href="https://www.ornl.gov/staff-profile/thomas-maier">Thomas Maier</a></h4>
+  </div>
+
+</div>
+
+<div class="mycontainer">
+  <div>
+    <h6>
+    Professor of Physics <br>
+    Boston University
+    </h6>
+  </div>
+
+  <div>
     <h6>Professor<br>
     Department of Physics & Astronomy and <br> 
     Department of Electrical Engineering and Computer Science <br>
     University of Tennessee<br>
     </h6>
   </div>
-  
+
   <div>
-    <h4><a href="https://www.ornl.gov/staff-profile/thomas-maier">Thomas Maier</a></h4>
     <h6>Distinguished Research Staff and Section Head<br>
     Oak Ridge National Lab<br>
     </h6>
   </div>
-  
+
 </div>
+
 
 <div class="mycontainer">
 
   <div>
     {{< figure src="bostonu_logo_chamon150.png" width="100">}}
   </div>
-  
   <div>
     {{< figure src="utk_logo_maestro.jpeg" width="150" height="150">}}
   </div>
-  
   <div>
     {{< figure src="ornl_logo_maier.png" width="150" height="150">}}
   </div>
-  
 </div>
 
 <br>
 
 <div class="mycontainer">
-
   <div>
     {{< figure src="m_troyer150.png" width="150" height="150">}}
   </div>
-  
 </div>
 
 <div class="mycontainer">
 
   <div>
     <h4><a href="https://www.microsoft.com/en-us/research/people/mtroyer/">Matthias Troyer</a></h4>
+  </div>
+
+</div>
+<div class="mycontainer">
+
+  <div>
     <h6>Technical Fellow and Corporate Vice President of Quantum<br>
     Microsoft<br>
     </h6>

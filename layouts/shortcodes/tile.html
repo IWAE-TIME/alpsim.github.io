@@ -1,0 +1,10 @@
+{{ $title := .Get "title" | default "" }}
+
+<div class = "tile">
+  <div>
+    <h4 class="tile-header">{{ $title }}</h4>
+    <div class="tile-text">
+{{ .Inner | markdownify }}
+    </div>
+  </div>
+</div>
