@@ -14,7 +14,7 @@ This will install `ALPS` python package that can be imported in either `Python` 
 
 
 ---
-Alternatively you can build ALPS from sources by following the instruction below:
+Alternatively, you can build ALPS from sources by following the instruction below:
 
   ```ShellSession
   $ git clone https://github.com/alpsim/ALPS alps-src
@@ -29,4 +29,4 @@ Alternatively you can build ALPS from sources by following the instruction below
   ```
 
 This will download, build, test and install `ALPS` into a specified path.
-For more detailed instruction and troubleshooting please check the [installation page](/documentation/install)
+For more detailed instructions and troubleshootings please check out the [installation page](/documentation/install).
