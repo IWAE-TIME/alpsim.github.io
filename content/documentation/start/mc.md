@@ -2,7 +2,7 @@
 linkTitle: Classic Monte Carlo
 title: Running Classic Monte Carlo
 description: "How to use ALPS"
-weight: 3
+weight: 4
 math: true
 ---
 

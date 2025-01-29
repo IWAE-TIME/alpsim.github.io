@@ -5,5 +5,5 @@ weight: 1
 ---
 
 ALPS is a software package for simulating correlated systems. 
-It provides codes for [classical Monte Carlo](mc), [quantum Monte Carlo](qmc), [Density Matrix Renorm Group](dmrg) and [Exact Diagonaloization](ed) simulations.
+It provides codes for [Classical Monte Carlo](mc), [Quantum Monte Carlo](qmc), [Density Matrix Renormalization Group](dmrg) and [Exact Diagonalization](ed) simulations.
 
