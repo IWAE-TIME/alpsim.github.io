@@ -22,7 +22,7 @@ ALPS documentation includes basic theory, code and data structure of various sim
   {{< hextra/feature-card
     title="API Reference"
     subtitle="What API calls are available in ALPS?"
-    link="pythonapi"
+    link="api"
     icon=""
   >}}
   {{< hextra/feature-card
