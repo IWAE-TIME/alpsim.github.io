@@ -16,5 +16,8 @@ Please make sure your version of Python is Python >= 3.9.
 
 ## Walkthrough Video
 
-- [Installation in a virtual box environment.](https://youtu.be/Te6IApFjHJs)
+### Installation in a virtual box environment.
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Te6IApFjHJs?si=Poxx3lA5jlakkZeh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 
