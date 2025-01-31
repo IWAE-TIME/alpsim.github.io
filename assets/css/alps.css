@@ -44,12 +44,15 @@
     padding-left: 1em;
     #outline: 1px solid blue;
     float: left;
+    display: flex;
+    align-items: flex-end;
   }
 }
 
 
 .logoX {
   content:url("/figs/Alps-disciplines.webp");
+  margin-bottom: 0;
 }
 
 :is(html[class~="dark"]) .logoX {
@@ -69,8 +72,14 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     margin-top: 10px;
+    border-top-color: rgb(229 229 229 / 0.7);
+    border-top-style: solid;
+    border-top-width: 1px;
 }
 
+:is(html[class~="dark"]) .tile-list {
+    border-top-color: hsl(var(--primary-hue) var(--primary-saturation) 94% / 0.1);
+}
 .tile {
     -webkit-box-shadow: 0 2px 1px rgba(0,0,0,.1),0 3px 8px rgba(0,0,0,.13);
     box-shadow: 0 2px 1px rgba(0,0,0,.1),0 3px 8px rgba(0,0,0,.13);
@@ -114,7 +123,7 @@
 
 @media (min-width: 544px) {
     .tile {
-        width:calc(50% - 10px);
+        width:calc(100% - 10px);
         padding: 48px 24px
     }
 }
@@ -127,10 +136,19 @@
     }
 }
 
+:is(html[class~="dark"]) .tile {
+    -webkit-box-shadow: 0 2px 1px rgba(120,120,120,.1),0 3px 8px rgba(120,120,120,.13);
+    box-shadow: 0 2px 1px rgba(120,120,120,.1),0 3px 8px rgba(120,120,120,.13);
+}
 .tile:hover {
     cursor: pointer;
     -webkit-box-shadow: 0 2px 8px rgba(0,0,0,.2),0 3px 20px rgba(0,0,0,.23);
     box-shadow: 0 2px 8px rgba(0,0,0,.2),0 3px 20px rgba(0,0,0,.23)
+}
+:is(html[class~="dark"]) .tile:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0 2px 8px rgba(100,100,100,.2),0 3px 20px rgba(100,100,100,.23);
+    box-shadow: 0 2px 8px rgba(100,100,100,.2),0 3px 20px rgba(100,100,100,.23)
 }
 
 .row {
