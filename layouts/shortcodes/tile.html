@@ -1,8 +1,16 @@
 {{ $title := .Get "title" | default "" }}
+{{ $link := .Get "link" | default "" }}
+
 
 <div class = "tile">
   <div>
-    <h4 class="tile-header">{{ $title }}</h4>
+    <h4 class="tile-header">
+      {{ if $link }}
+        <a href="{{ $link }}" style="text-decoration:none">{{ $title }}</a>
+      {{ else }}
+        {{ $title }}
+      {{ end }}
+    </h4>
     <div class="tile-text">
 {{ .Inner | markdownify }}
     </div>

@@ -1,6 +1,6 @@
 
 ---
-title: Matrix Product State
+title: Matrix Product States
 description: "Tutorials for ALPS"
 toc: true
 weight: 5

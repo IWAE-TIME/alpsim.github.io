@@ -26,7 +26,7 @@ The ALPS (Algorithms and Libraries for Physics Simulations) software package aim
 ALPS has been used by hundreds of researchers in 52 countries since its inception and has produced thousands of publications by different groups. In addition, ALPS has been applied to more than 20 research disciplines, as evidenced by the research citations. We are pround of its contribution in advancing the understanding of material properties.
 
 {{< tile-list >}}
-  {{< tile title="Our systems" >}}
+  {{< tile title="Our Systems" link="about/sys" >}}
   One-, two-, and three-dimensional lattice systems with model parameters that describe real materials.
   {{< /tile >}}
   {{< tile title="Our Evolution" >}}
