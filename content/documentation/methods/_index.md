@@ -9,13 +9,13 @@ weight: 4
  {{< hextra/feature-card
     title="ED"
     subtitle="Exact Diagonalization"
-    link="ising"
+    link="ed"
     icon=""
   >}}
   {{< hextra/feature-card
     title="MC"
     subtitle="Classical Monte Carlo"
-    link="mc"
+    link="spinmc"
     icon=""
   >}}
 {{< /hextra/feature-grid >}}
