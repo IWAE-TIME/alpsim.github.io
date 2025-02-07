@@ -1,20 +1,21 @@
 ---
-title: Models in ALPS
+title: Methods in ALPS
 math: true
-weight: 3
+weight: 4
 ---
 
 <br>
 {{< hextra/feature-grid maxcolumns="2" >}}
  {{< hextra/feature-card
-    title="Ising Model"
+    title="ED"
+    subtitle="Exact Diagonalization"
     link="ising"
     icon=""
   >}}
   {{< hextra/feature-card
-    title="Transverse Field Ising"
-    link="transising"
+    title="MC"
+    subtitle="Classical Monte Carlo"
+    link="mc"
     icon=""
   >}}
 {{< /hextra/feature-grid >}}
-

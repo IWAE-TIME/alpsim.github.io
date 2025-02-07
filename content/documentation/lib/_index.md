@@ -2,7 +2,7 @@
 ---
 title: The ALPS Libraries
 description: "ALPS Libraries"
-weight: 7
+weight: 6
 ---
 
 1. [Overview](overview)

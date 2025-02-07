@@ -77,3 +77,11 @@ plt.show()
 After that we should obtain the following figure for magnetization in 2D Ising model
 
 ![alt text](/figs/Ising_2D_m.png)
+
+
+## Walkthrough Video
+
+<br>
+
+{{< youtube id="3_4WCeKDtKc" >}}
+

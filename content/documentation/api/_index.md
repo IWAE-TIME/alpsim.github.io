@@ -2,7 +2,7 @@
 ---
 title: API Reference
 description: "Python APIs"
-weight: 9
+weight: 5
 ---
 
 This manual contains a summary of the `pyalps` functions used in the ALPS tutorials. The Python API section is structure as follow:
