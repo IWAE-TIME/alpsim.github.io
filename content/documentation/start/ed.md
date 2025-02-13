@@ -5,9 +5,9 @@ description: "How to use ALPS"
 weight: 6
 ---
 
-As en axample of sparse Exact diagonalization method we will obtain a triplet gap as function of system size for spin chain model.
+As an example of the sparse exact diagonalization method, we will obtain the triplet gap as a function of system size for the spin chain model.
 
-First step we need to import required packages
+First step is import required packages.
 
 ```Python
 import pyalps
@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 import pyalps.plot
 ```
 
-Prepare the input parameters and write them into a specific format
+Then we prepare each set of input parameters and write them into the format `ALPS` expects.
 ```Python
 parms = []
 for l in [4, 6, 8, 10, 12, 14, 16]:
@@ -36,12 +36,12 @@ for l in [4, 6, 8, 10, 12, 14, 16]:
 input_file = pyalps.writeInputFiles('parm2a',parms)
 ```
 
-for all parameters run an `sparsediag` application
+Then we run sparsediag for each set of parameters:
 ```Python
 res = pyalps.runApplication('sparsediag',input_file)
 ```
 
-Extract the ground state energies over all momenta for every simulation
+And extract the ground state energies over all momenta for every simulation.
 ```Python
 for sim in data:
   l = int(sim[0].props['L'])
@@ -53,7 +53,7 @@ for sim in data:
   min_energies[(l,sz)]= np.min(all_energies)
 ```
 
-Make a plot of the triplet gap as function of system size
+Finally, we make a plot of the triplet gap as a function of system size.
 ```Python
 gapplot = pyalps.DataSet()
 gapplot.x = 1./np.sort(lengths)
@@ -80,7 +80,7 @@ plt.plot(x, f(None, 1/x, pars))
 plt.show()
 ```
 
-The final result should look like
+The final result should look like this:
 ![ED](/figs/ED_spin.png)
 
 

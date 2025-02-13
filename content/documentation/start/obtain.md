@@ -5,12 +5,12 @@ weight: 2
 ---
 
 
-The simplest way to start using `ALPS` is to installed prebuild `Python` package from `pypi.org`:
+The simplest way to start using `ALPS` is to install a prebuilt `Python` package from `pypi.org`:
 
   ```ShellSession
   $ pip install pyalps
   ```
-This will install `ALPS` python package that can be imported in either `Python` script or `Jupyter` notebook.
+This will install the `ALPS` python package that can be imported in either `Python` script or a `Jupyter` notebook.
 
 
 ---
@@ -29,4 +29,4 @@ Alternatively, you can build ALPS from sources by following the instruction belo
   ```
 
 This will download, build, test and install `ALPS` into a specified path.
-For more detailed instructions and troubleshootings please check out the [installation page](/documentation/install).
+For more detailed instructions and troubleshootings, please check out the [installation page](/documentation/install).

@@ -9,7 +9,7 @@ math: true
 As a simple example for classic Monte Carlo we consider obtaining a phase transition in
 2D Ising model.
 
-First step we need to import required packages
+First, we need to import required packages.
 
 ```Python
 import pyalps
@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 import pyalps.plot
 ```
 
-Prepare the input parameters
+Then we prepare the input parameters. Here we consider lattices of sizes $4\times 4$, $8\times 8$, $16\times 16$, for different temperatures.
 ```Python
 parms = []
 for l in [4,8,16]:
@@ -48,16 +48,14 @@ for l in [4,8,16]:
             }
     )
 ```
-Here we consider lattices of sizes $4\times 4$, $8\times 8$, $16\times 16$, for different temperatures.
-
-After that we write the input into `ALPS` specific format and run spin Monte Carlo simulation (`spinmc`):
+After that, we write the input into the format ALPS expects using Python, and tell it to run a spin Monte Carlo simulation (`spinmc`) using the input file:
 ```Python
 #write the input file and run the simulation
 input_file = pyalps.writeInputFiles('parm7a',parms)
 pyalps.runApplication('spinmc',input_file,Tmin=5)
 ```
 
-After the simulation is finished we can evaluate and plot the results.
+After the simulation is finished, we can evaluate and plot the results.
 ```Python
 pyalps.evaluateSpinMC(pyalps.getResultFiles(prefix='parm7a'))
 
@@ -74,7 +72,7 @@ plt.title('2D Ising model')
 plt.show()
 ```
 
-After that we should obtain the following figure for magnetization in 2D Ising model
+We should obtain the following figure for magnetization in the 2D Ising model:
 
 ![alt text](/figs/Ising_2D_m.png)
 
