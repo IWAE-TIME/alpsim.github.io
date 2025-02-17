@@ -1,7 +1,7 @@
 ---
-title: Fermi-Hubbard Model
+title: Hubbard Model
 math: true
-weight: 4
+weight: 5
 ---
 
 ## Introduction

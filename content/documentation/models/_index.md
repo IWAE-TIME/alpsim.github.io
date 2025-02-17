@@ -23,27 +23,27 @@ weight: 3
   >}}
   {{< hextra/feature-card
     title="Spinless Fermion Model"
-    link=""
+    link="sfm"
     icon=""
   >}}
   {{< hextra/feature-card
-    title="Fermi-Hubbard Model"
-    link="fhb"
+    title="Hubbard Model"
+    link="hubbard"
     icon=""
   >}}
   {{< hextra/feature-card
     title="t-J Model"
-    link=""
+    link="tj"
     icon=""
   >}}
   {{< hextra/feature-card
     title="Hardcore Boson Model"
-    link=""
+    link="hardcorebm"
     icon=""
   >}}
   {{< hextra/feature-card
     title="Bose-Hubbard Model"
-    link=""
+    link="bhm"
     icon=""
   >}}
   {{< hextra/feature-card
