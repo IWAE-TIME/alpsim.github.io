@@ -157,3 +157,8 @@ plt.show()
 
 After that, you will have the following plot:
 ![kondo](/figs/Kondo.png)
+
+## Walkthrough Video
+
+<br>
+{{< youtube id="uAMQTJmvvts" >}}

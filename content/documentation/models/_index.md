@@ -12,8 +12,43 @@ weight: 3
     icon=""
   >}}
   {{< hextra/feature-card
-    title="Transverse Field Ising"
+    title="Transverse Field Ising Model"
     link="transising"
+    icon=""
+  >}}
+  {{< hextra/feature-card
+    title="Heisenberg Model"
+    link="heisenberg"
+    icon=""
+  >}}
+  {{< hextra/feature-card
+    title="Spinless Fermion Model"
+    link="sfm"
+    icon=""
+  >}}
+  {{< hextra/feature-card
+    title="Hubbard Model"
+    link="hubbard"
+    icon=""
+  >}}
+  {{< hextra/feature-card
+    title="t-J Model"
+    link="tj"
+    icon=""
+  >}}
+  {{< hextra/feature-card
+    title="Hardcore Boson Model"
+    link="hardcorebm"
+    icon=""
+  >}}
+  {{< hextra/feature-card
+    title="Bose-Hubbard Model"
+    link="bhm"
+    icon=""
+  >}}
+  {{< hextra/feature-card
+    title="Kondo Lattice Model"
+    link=""
     icon=""
   >}}
 {{< /hextra/feature-grid >}}
