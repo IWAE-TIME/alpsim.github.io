@@ -2,7 +2,7 @@
 ---
 title: Full Diagonalization 
 math: true
-weight: 2
+weight: 4
 ---
 
 ## Introduction
