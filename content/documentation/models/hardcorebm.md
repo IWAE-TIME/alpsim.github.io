@@ -6,7 +6,7 @@ weight: 7
 
 ## Introduction
 
-The **hardcore boson model** is a fundamental theoretical framework in condensed matter physics and quantum many-body theory, used to study systems of bosonic particles with an infinite on-site repulsion that prevents more than one particle from occupying the same lattice site. This constraint, known as the "hardcore" condition, mimics the Pauli exclusion principle for fermions but applies to bosons, making the model a unique bridge between bosonic and fermionic behavior.
+The **hardcore boson model** is a fundamental theoretical framework in condensed matter physics and quantum many-body theory, used to study systems of bosonic particles with an infinite on-site repulsion that prevents more than one particle from occupying the same lattice site. This constraint, known as the "hardcore" condition, mimics the Pauli exclusion principle for fermions but applied to bosons, making the model a unique bridge between bosonic and fermionic behavior.
 
 In the hardcore boson model, the particles are described by creation ($b_i^\dagger$) and annihilation ($b_i$) operators that obey modified commutation relations due to the hardcore constraint. Specifically, the operators satisfy:
 

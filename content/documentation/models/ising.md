@@ -28,7 +28,7 @@ The Ising model has been applied to a wide range of physical systems and phenome
 
 ## Methods
 
-The Ising model without the magnetic field can be exactly solved in 1D and 2D. But various numerical methods have also been developed to study its properties. Below is a summary of key numerical techniques related to ALPS:
+The Ising model without the magnetic field can be exactly solved in 1D and 2D, but various numerical methods have also been developed to study its properties. Below is a summary of key numerical techniques related to ALPS:
 
 | Method                     | Strengths                                                                 | Limitations                                                                 | Applications                                                                 |
 |----------------------------|---------------------------------------------------------------------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------|
