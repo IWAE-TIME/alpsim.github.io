@@ -32,4 +32,4 @@ The transition between these phases is a paradigmatic example of a **quantum pha
 
 The Bose-Hubbard model is also closely related to other models in condensed matter physics, such as the **Josephson junction array** and the **XY model**, and serves as a foundation for studying more complex systems, including disordered and long-range interacting bosonic systems.
 
-## Method
+## Methods

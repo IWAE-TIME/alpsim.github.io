@@ -35,5 +35,5 @@ The hardcore boson model is widely used to explore phenomena such as:
 
 Despite its simplicity, the hardcore boson model captures essential features of strongly correlated bosonic systems and serves as a valuable tool for understanding quantum many-body physics. It is also closely related to other models, such as the XY model and the Heisenberg model, through mappings between bosonic and spin degrees of freedom.
 
-## Method
+## Methods
 
