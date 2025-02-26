@@ -47,5 +47,5 @@ The Kondo Lattice Model exhibits a variety of intriguing physical phenomena, inc
 - **Unconventional Superconductivity**: In some heavy fermion materials, the Kondo lattice model can give rise to unconventional superconducting states with non-trivial pairing symmetries.
 
 
-## Method
+## Methods
 

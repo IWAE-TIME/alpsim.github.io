@@ -3,6 +3,8 @@
 title: Exact Diagonalization
 description: "Exact Diagonalization"
 weight: 1
+cascade:
+    type: docs
 ---
 
 <br>

@@ -2,6 +2,8 @@
 title: Methods in ALPS
 math: true
 weight: 4
+cascade:
+    type: docs
 ---
 
 <br>
