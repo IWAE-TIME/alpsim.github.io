@@ -31,5 +31,5 @@ The t-J model is particularly notable for its ability to capture key phenomena i
 
 Despite its simplicity compared to the full Hubbard model, the t-J model provides deep insights into the physics of strongly correlated materials and remains a central tool in theoretical and computational studies of quantum many-body systems.
 
-## Method
+## Methods
 

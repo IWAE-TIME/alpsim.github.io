@@ -48,7 +48,7 @@ weight: 3
   >}}
   {{< hextra/feature-card
     title="Kondo Lattice Model"
-    link=""
+    link="kondo"
     icon=""
   >}}
 {{< /hextra/feature-grid >}}

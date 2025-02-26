@@ -30,5 +30,5 @@ The spinless fermion model is widely used to explore phenomena such as:
 
 Despite its simplicity, the spinless fermion model captures essential features of more complex systems and serves as a stepping stone for studying richer models, such as the Hubbard model, where spin degrees of freedom are included.
 
-## Method
+## Methods
 

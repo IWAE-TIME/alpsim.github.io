@@ -2,8 +2,75 @@
 ---
 title: Full Diagonalization 
 math: true
-weight: 2
+weight: 4
 ---
+
+Full diagonalization of matrices is a powerful numerical method for understanding small quantum systems, especially when the excited states of a quantum system is required. We will focus on two numerical methods [**Jacobi rotation**](jacobi) and **QR factorization**, which are widely used in computational physics.
+
+### 1. Jacobi Rotation Method
+
+The Jacobi method is an iterative algorithm for diagonalizing symmetric matrices. It works by systematically eliminating off-diagonal elements through a series of rotations.
+
+- **Key Idea**: The method applies a sequence of orthogonal transformations (rotations) to the matrix, gradually reducing the magnitude of the off-diagonal elements. Each rotation targets the largest off-diagonal element and zeros it out.
+  
+- **Algorithm**:
+  1. Identify the largest off-diagonal element \( A_{ij} \) in the matrix \( A \).
+  2. Construct a rotation matrix \( R \) that zeroes out \( A_{ij} \).
+  3. Update the matrix \( A \) as \( A' = R^T A R \).
+  4. Repeat the process until all off-diagonal elements are sufficiently small.
+
+- **Advantages**:
+  - Simple and robust for small to medium-sized matrices.
+  - Guaranteed to converge for symmetric matrices.
+
+- **Limitations**:
+  - Slow convergence for large matrices.
+  - Not efficient for sparse matrices.
+
+- **Application in Quantum Mechanics**: The Jacobi method is often used to diagonalize Hamiltonians in small quantum systems, such as spin chains or small molecular systems.
+
+---
+
+### 2. QR Factorization
+
+The QR algorithm is one of the most widely used numerical methods for diagonalizing general matrices. It is based on the decomposition of a matrix into an orthogonal matrix \( Q \) and an upper triangular matrix \( R \).
+
+- **Key Idea**: The QR algorithm iteratively applies the QR decomposition to a matrix, converging it to a diagonal or triangular form containing the eigenvalues.
+
+- **Algorithm**:
+  1. Factorize the matrix \( A \) into \( Q \) and \( R \): \( A = QR \).
+  2. Compute the updated matrix \( A' = RQ \).
+  3. Repeat the process until \( A' \) converges to a diagonal matrix (for symmetric matrices) or a triangular matrix (for non-symmetric matrices).
+
+- **Advantages**:
+  - Efficient for large matrices.
+  - Works for both symmetric and non-symmetric matrices.
+
+- **Limitations**:
+  - Requires multiple iterations for convergence.
+  - Computationally expensive for very large matrices.
+
+- **Application in Quantum Mechanics**: The QR algorithm is commonly used to diagonalize large Hamiltonians in many-body quantum systems, such as those arising in condensed matter physics or quantum chemistry.
+
+---
+
+
+
+## Comparison of Numerical Methods
+
+| Method              | Matrix Type       | Efficiency       | Applications in Quantum Mechanics          |
+|---------------------|-------------------|------------------|-------------------------------------------|
+| Jacobi Rotation     | Symmetric         | Small matrices   | Small quantum systems, spin chains        |
+| QR Factorization    | General           | Large matrices   | Many-body systems, quantum chemistry      |
+| Lanczos Algorithm   | Sparse symmetric  | Very large       | Lattice models, quantum field theory      |
+| Power Iteration     | General           | Dominant eigen   | Ground state calculations                 |
+| Arnoldi Iteration   | Non-symmetric     | Large sparse     | Open quantum systems, dissipative systems |
+
+---
+
+## Conclusion
+
+Numerical methods for matrix diagonalization are indispensable tools in quantum mechanics, enabling the study of complex systems that cannot be solved analytically. Techniques such as Jacobi rotation, QR factorization, Lanczos algorithm, power iteration, and Arnoldi iteration provide efficient and accurate ways to approximate eigenvalues and eigenvectors, even for large or sparse matrices. The choice of method depends on the specific properties of the matrix and the physical system under investigation. By leveraging these numerical techniques, researchers can gain deeper insights into the behavior of quantum systems, from small molecules to large-scale many-body problems.
 
 ## Introduction
 
