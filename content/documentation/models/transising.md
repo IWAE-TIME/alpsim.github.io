@@ -25,12 +25,12 @@ Some interesting phenomena about the model are listed below.
 
 - **Quantum Phase Transitions**
     + The TFIM exhibits a **quantum phase transition** at zero temperature, driven by the strength of the transverse field $\Gamma$.
-    + For $\Gamma \lt \Gamma_c$, the system is in an **ordered phase** (spontaneous symmetry breaking, e.g., ferromagnetic or antiferromagnetic order).
-    + For $\Gamma \gt \Gamma_c$, the system is in a **disordered phase** (quantum fluctuations dominate, and symmetry is restored).
+    	+ For $\Gamma \lt \Gamma_c$, the system is in an **ordered phase** (spontaneous symmetry breaking, e.g., ferromagnetic or antiferromagnetic order).
+    	+ For $\Gamma \gt \Gamma_c$, the system is in a **disordered phase** (quantum fluctuations dominate, and symmetry is restored).
 
 - **Quantum Criticality**
     + Near the critical point $\Gamma = \Gamma_c$, the TFIM displays **quantum critical behavior**, characterized by universal scaling laws and critical exponents.
-    + This provides insights into the nature of quantum fluctuations and their role in driving phase transitions.
+    	+ This provides insights into the nature of quantum fluctuations and their role in driving phase transitions.
 
 
 

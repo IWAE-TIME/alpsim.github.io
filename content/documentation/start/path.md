@@ -4,7 +4,7 @@ description: "How to use ALPS"
 weight: 3
 ---
 
-Once `pyalps` is successfully installed through the binary installation, we can start to use it by importing it into `python`. However, the system might not know the path to the `python` command. Here is an example to set the correct path in the `.bash_profile` file for a Mac system. For a Linux system, the corresponding file is `.bashrc`.
+Once `pyalps` is successfully installed through the binary installation, we can start to use it by importing it into `python`. However, the system might not know the path to the `python` command. Here is an example of how to set the correct path in the `.bash_profile` file for a Mac system. For a Linux system, the corresponding file is `.bashrc`.
 
 ### Check your `python` installation directory with an `ls` command in your terminal.
 
@@ -41,11 +41,11 @@ Press the `esc` key and enter `:x`. This will save your changes to the file and 
 ### Tell the system your path and aliases for the binaries:
 In your terminal, type `source ~/.bash_profile`.
 
-You can now start to run any `Python` files. Your `pyalps` library is probably installed in the following directory:
+You can now run any `Python` files. Your `pyalps` library is probably installed in the following directory:
 
 `/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages` 
 
-Use `ls` the above or a similar directory to check if the package is correctly installed.
+Use `ls` in the above or a similar directory to check if the package is correctly installed.
 
 
 

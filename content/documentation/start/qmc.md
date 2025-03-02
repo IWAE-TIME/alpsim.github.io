@@ -6,11 +6,11 @@ weight: 5
 math: true
 ---
 
-As an example for Quantum Monte Carlo simulation we show simulation of the effective local moment of the impurity
-with decreasing temperature due to Kondo screening, with semielliptical density of states is used as a hybridization function.
+As an example of Quantum Monte Carlo simulation we present a simulation of the effective local moment of the impurity
+with decreasing temperature due to Kondo screening, with the semielliptical density of states used as a hybridization function.
 
 
-First we import all required python modules
+First, we import all required python modules:
 ```Python
 from pyalps.hdf5 import archive       # hdf5 interface
 import pyalps.cthyb as cthyb      # the solver module
@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt   # for plotting results
 from numpy import exp,log,sqrt,pi # some math
 ```
 
-Generate a sequence of $10$ temperatures between $0.05$ and $100.0$ which are equidistant on a logarithmic scale
+Now we generate a sequence of $10$ temperatures between $0.05$ and $100.0$ which are equidistant on a logarithmic scale
 ```Python
 N_T  = 10    # number of temperatures
 Tmin = 0.05  # maximum temperature
@@ -31,14 +31,14 @@ for i in range(N_T+1):
   T/=Tdiv
 ```
 
-Set up the values of onsite interaction, number of time points and timelimit for each simulation
+We set up the values of the onsite interaction, the number of time points, and the time limit for each simulation:
 ```Python
 Uvalues=[0.,2.] # the values of the on-site interaction
 N_TAU = 1000    # number of tau-points; must be large enough for the lowest temperature (set to at least 5*BETA*U)
 runtime = 5     # solver runtime (in seconds)
 ```
 
-Setup the parameters for the simulation
+Then we set up the parameters for the simulation:
 ```Python
 values=[[] for u in Uvalues]
 errors=[[] for u in Uvalues]
@@ -80,7 +80,7 @@ for un,u in enumerate(Uvalues):
         )
 ```
 
-For each set of parameters setup hybridization function
+For each set of parameters, we set up the hybridization function
 ```Python
 for parms in parameters:
     ar=archive(parms['BASENAME']+'.out.h5','a')
@@ -112,7 +112,7 @@ for parms in parameters:
 
 ```
 
-and run Monte Carlo simulation
+Finally, we run the Monte Carlo simulation for each set of parameters.
 ```Python
 for parms in parameters:
     # solve the impurity model in parallel
@@ -121,7 +121,7 @@ for parms in parameters:
 ```
 
 
-After simulation is finished, we obtain results for each set of parameters, postprocess them and plot
+After the simulation is finished, we obtain results for each set of parameters, postprocess them, and plot them.
 ```Python
 for parms in parameters:
     # extract the local spin susceptiblity
@@ -155,7 +155,7 @@ plt.legend()
 plt.show()
 ```
 
-After that you will have following plot
+After that, you will have the following plot:
 ![kondo](/figs/Kondo.png)
 
 ## Walkthrough Video
