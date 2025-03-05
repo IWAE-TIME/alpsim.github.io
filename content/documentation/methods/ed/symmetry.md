@@ -51,17 +51,17 @@ Within each $S^z\_{\text{total}}$ sector, we can further block-diagonalize using
 For example, in the $S^z\_{\text{total}} = 0$ sector, the states can be organized into momentum eigenstates:
 
 $$
-|k\rangle = \frac{1}{\sqrt{4}} \sum\_{n=0}^3 e^{ikn} T^n |\psi\rangle
+|\phi\rangle = \frac{1}{\sqrt{4}} \sum\_{n=0}^3 e^{ikn} T^n |\psi\rangle
 $$
 
-where $|\psi\rangle$ is a representative state.
+where $|\psi\rangle$ is a representative state in real space and $|\phi\rangle$ is a state in momentum space.
 
 ### Step 3: Constructing the Hamiltonian Blocks
 
 For each $S^z\_{\text{total}}$ and momentum $k$, we construct the Hamiltonian matrix in the reduced basis. The matrix elements are:
 
 $$
-\langle \psi' | \mathcal{H} | \psi \rangle = J \sum\_{i=1}^4 \langle \psi' | \mathbf{S}\_i \cdot \mathbf{S}\_{i+1} | \psi \rangle
+\langle \phi^{\prime} | \mathcal{H} | \phi \rangle = J \sum\_{i=1}^4 \langle \phi^{\prime} | \mathbf{S}\_i \cdot \mathbf{S}\_{i+1} | \phi \rangle
 $$
 
 ### Step 4: Diagonalization
@@ -70,14 +70,101 @@ Finally, we diagonalize each block of the Hamiltonian to obtain the eigenvalues 
 
 ### Example: $S^z\_{\text{total}} = 0$ Sector
 
-In the $S^z\_{\text{total}} = 0$ sector, the basis states are:
+The $S^z\_{\text{total}} = 0$ sector consists of states with exactly 2 spins up ($\uparrow$) and 2 spins down ($\downarrow$). For a 4-site chain, there are $\binom{4}{2} = 6$ basis states in this sector:
 
 $$
 |\psi_1\rangle = |\uparrow, \uparrow, \downarrow, \downarrow\rangle, \quad |\psi_2\rangle = |\uparrow, \downarrow, \uparrow, \downarrow\rangle, \quad |\psi_3\rangle = |\uparrow, \downarrow, \downarrow, \uparrow\rangle, \\\
 |\psi_4\rangle = |\downarrow, \uparrow, \uparrow, \downarrow\rangle, \quad |\psi_5\rangle = |\downarrow, \uparrow, \downarrow, \uparrow\rangle, \quad |\psi_6\rangle = |\downarrow, \downarrow, \uparrow, \uparrow\rangle
 $$
 
-We can then construct the Hamiltonian matrix in this basis and diagonalize it.
+#### Momentum Sectors
+The momentum $k$ is given by $k = \frac{2\pi n}{4}$, where $n = 0, 1, 2, 3$. The translation operator $T$ acts on a state $|\psi_i\rangle$ as:
+
+$$
+T |\psi_i\rangle = e^{ik} |\psi_i\rangle.
+$$
+
+We construct translationally symmetric states for each momentum sector.
+
+#### $S^z\_{\text{total}} = 0$ and $k = 0$ Sector
+The momentum $k = 0$ sector consists of translationally symmetric states. For $S^z\_{\text{total}} = 0$, there is only one basis state:
+
+$$
+|\phi_1\rangle = \frac{1}{2} \left( |\psi_1\rangle + |\psi_2\rangle + |\psi_3\rangle + |\psi_4\rangle + |\psi_5\rangle + |\psi_6\rangle \right).
+$$
+
+The Hamiltonian matrix in this sector is:
+
+$$
+\mathcal{H} = \begin{pmatrix}
+-J
+\end{pmatrix}.
+$$
+
+#### $S^z\_{\text{total}} = 0$ and $k = 1$ Sector
+The momentum $k = 1$ sector corresponds to $k = \frac{\pi}{2}$. For $S^z\_{\text{total}} = 0$, there is only one basis state:
+
+$$
+|\phi_1\rangle = \frac{1}{2} \left( |\psi_1\rangle + i|\psi_2\rangle - |\psi_3\rangle - i|\psi_4\rangle + |\psi_5\rangle + i|\psi_6\rangle \right).
+$$
+
+The Hamiltonian matrix in this sector is:
+
+$$
+\mathcal{H} = \begin{pmatrix}
+-J
+\end{pmatrix}.
+$$
+
+#### $S^z\_{\text{total}} = 0$ and $k = 2$ Sector
+The momentum $k = 2$ sector corresponds to $k = \pi$. For $S_z = 0$, there are three basis states:
+
+$$
+|\phi_1\rangle = \frac{1}{\sqrt{2}} \left( |\psi_1\rangle - |\psi_6\rangle \right),
+$$
+$$
+|\phi_2\rangle = \frac{1}{\sqrt{2}} \left( |\psi_2\rangle - |\psi_5\rangle \right),
+$$
+$$
+|\phi_3\rangle = \frac{1}{\sqrt{2}} \left( |\psi_3\rangle - |\psi_4\rangle \right).
+$$
+
+The Hamiltonian matrix in this sector is:
+
+$$
+\mathcal{H} = J \begin{pmatrix}
+-1 & 0 & 0 \\\
+0 & -1 & 0 \\\
+0 & 0 & -1 \\\
+\end{pmatrix}.
+$$
+
+#### $S^z\_{\text{total}} = 0$ and $k = 3$ Sector
+The momentum $k = 3$ sector corresponds to $k = \frac{3\pi}{2}$. For $S_z = 0$, there is only one basis state:
+
+$$
+|\phi_1\rangle = \frac{1}{2} \left( |\psi_1\rangle - i|\psi_2\rangle - |\psi_3\rangle + i|\psi_4\rangle + |\psi_5\rangle - i|\psi_6\rangle \right).
+$$
+
+The Hamiltonian matrix in this sector is:
+
+$$
+\mathcal{H} = \begin{pmatrix}
+-J
+\end{pmatrix}.
+$$
+
+#### Summary
+- **$k = 0$**: 1 state, energy $-J$.
+- **$k = 1$**: 1 state, energy $-J$.
+- **$k = 2$**: 3 states, each with energy $-J$.
+- **$k = 3$**: 1 state, energy $-J$.
+
+The ground state energy in each sector is $-J$, and the $k = 2$ sector has three degenerate states.
+
+---
+
+
 
 ### Final Result
 
