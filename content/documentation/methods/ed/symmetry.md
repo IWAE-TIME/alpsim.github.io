@@ -77,6 +77,19 @@ $$
 |\psi_4\rangle = |\downarrow, \uparrow, \uparrow, \downarrow\rangle, \quad |\psi_5\rangle = |\downarrow, \uparrow, \downarrow, \uparrow\rangle, \quad |\psi_6\rangle = |\downarrow, \downarrow, \uparrow, \uparrow\rangle
 $$
 
+The full Hamiltonian matrix for the $S^z\_{\text{total}}=0$ sector is given by
+$$
+\mathcal{H} = J\begin{pmatrix}
+ 0 & 0.5 & 0 & 0 & 0.5 & 0 \\\
+ 0.5 & -1 & 0.5 & 0.5 & 0 & 0.5 \\\
+ 0 & 0.5 & 0 & 0 & 0.5 & 0 \\\
+ 0 & 0.5 & 0 & 0 & 0.5 & 0 \\\
+ 0.5 & 0 & 0.5 & 0.5 & -1 & 0.5 \\\
+ 0 & 0.5 & 0 & 0 & 0.5 & 0 \\\
+\end{pmatrix}.
+$$
+Exact diagonalization of the above matrix gives $E_1=-2J$, $E_2=-J$, $E_3=0$, $E_4=0$, $E_5=0$, and $E_6=J$.
+
 #### Momentum Sectors
 The momentum $k$ is given by $k = \frac{2\pi n}{4}$, where $n = 0, 1, 2, 3$. The translation operator $T$ acts on a state $|\psi_i\rangle$ as:
 
@@ -87,87 +100,86 @@ $$
 We construct translationally symmetric states for each momentum sector.
 
 #### $S^z\_{\text{total}} = 0$ and $k = 0$ Sector
-The momentum $k = 0$ sector consists of translationally symmetric states. For $S^z\_{\text{total}} = 0$, there is only one basis state:
+The momentum $k = 0$ sector consists of translationally symmetric states. For $S^z\_{\text{total}} = 0$, there are 2 basis states:
 
 $$
-|\phi_1\rangle = \frac{1}{2} \left( |\psi_1\rangle + |\psi_2\rangle + |\psi_3\rangle + |\psi_4\rangle + |\psi_5\rangle + |\psi_6\rangle \right).
+|\phi_1\rangle = \frac{1}{2} \left( |\psi_1\rangle + |\psi_4\rangle + |\psi_6\rangle + |\psi_3\rangle \right).
 $$
 
-The Hamiltonian matrix in this sector is:
-
 $$
-\mathcal{H} = \begin{pmatrix}
--J
+|\phi\_2\rangle = \frac{1}{\sqrt{2}}(|\psi_2\rangle + |\psi_5\rangle).
+$$
+In the above construction of basis states in momentum space, two **representative states** $|\psi_1\rangle$ and $|\psi_2\rangle$ have been used with the translational operator $T$ to generate the basis states. No other independent states can be generated. Therefore, the dimension of the $S^z\_{\text{total}} = 0$ and $k = 0$ Sector is 2.
+
+The Hamiltonian matrix in this sector is given by:
+$$
+\mathcal{H} = J\begin{pmatrix}
+0 & \sqrt{2} \\\
+\sqrt{2} & -1 \\\
 \end{pmatrix}.
 $$
+Exact diagonalization of the matrix gives $E_1=-2J$ and $E_2=J$.
 
 #### $S^z\_{\text{total}} = 0$ and $k = 1$ Sector
-The momentum $k = 1$ sector corresponds to $k = \frac{\pi}{2}$. For $S^z\_{\text{total}} = 0$, there is only one basis state:
+The momentum $k = 1$ sector corresponds to $k = \frac{\pi}{2}$. For $S^z\_{\text{total}} = 0$, there is only 1 basis state:
 
 $$
-|\phi_1\rangle = \frac{1}{2} \left( |\psi_1\rangle + i|\psi_2\rangle - |\psi_3\rangle - i|\psi_4\rangle + |\psi_5\rangle + i|\psi_6\rangle \right).
+|\phi_1\rangle = \frac{1}{2} \left( |\psi_1\rangle + i|\psi_4\rangle - |\psi_6\rangle - i|\psi_3\rangle \right).
 $$
 
 The Hamiltonian matrix in this sector is:
 
 $$
 \mathcal{H} = \begin{pmatrix}
--J
+0
 \end{pmatrix}.
 $$
+Therefore, the eigenvalue of the $S^z\_{\text{total}} = 0$ and $k = 1$ Sector is $E_3=0$.
 
 #### $S^z\_{\text{total}} = 0$ and $k = 2$ Sector
-The momentum $k = 2$ sector corresponds to $k = \pi$. For $S_z = 0$, there are three basis states:
+The momentum $k = 2$ sector corresponds to $k = \pi$. For $S_z = 0$, there are 2 basis states:
 
 $$
-|\phi_1\rangle = \frac{1}{\sqrt{2}} \left( |\psi_1\rangle - |\psi_6\rangle \right),
+|\phi_1\rangle = \frac{1}{2} \left( |\psi_1\rangle - |\psi_4\rangle + |\psi_6\rangle -|\psi_3\rangle \right),
 $$
 $$
 |\phi_2\rangle = \frac{1}{\sqrt{2}} \left( |\psi_2\rangle - |\psi_5\rangle \right),
-$$
-$$
-|\phi_3\rangle = \frac{1}{\sqrt{2}} \left( |\psi_3\rangle - |\psi_4\rangle \right).
 $$
 
 The Hamiltonian matrix in this sector is:
 
 $$
 \mathcal{H} = J \begin{pmatrix}
--1 & 0 & 0 \\\
-0 & -1 & 0 \\\
-0 & 0 & -1 \\\
-\end{pmatrix}.
+0 & 0 \\\
+0 & -1 \\\
+\end{pmatrix},
 $$
+the exact diagonalization of which gives $E_4=-J$ and $E_5=0$.
 
 #### $S^z\_{\text{total}} = 0$ and $k = 3$ Sector
-The momentum $k = 3$ sector corresponds to $k = \frac{3\pi}{2}$. For $S_z = 0$, there is only one basis state:
+The momentum $k = 3$ sector corresponds to $k = \frac{3\pi}{2}$. For $S_z = 0$, there is only 1 basis state:
 
 $$
-|\phi_1\rangle = \frac{1}{2} \left( |\psi_1\rangle - i|\psi_2\rangle - |\psi_3\rangle + i|\psi_4\rangle + |\psi_5\rangle - i|\psi_6\rangle \right).
+|\phi_1\rangle = \frac{1}{2} \left( |\psi_1\rangle - i|\psi_4\rangle - |\psi_6\rangle + i|\psi_3\rangle \right).
 $$
 
 The Hamiltonian matrix in this sector is:
 
 $$
 \mathcal{H} = \begin{pmatrix}
--J
+0
 \end{pmatrix}.
 $$
+The last eigenvalue is then $E_6=0$.
 
 #### Summary
-- **$k = 0$**: 1 state, energy $-J$.
-- **$k = 1$**: 1 state, energy $-J$.
-- **$k = 2$**: 3 states, each with energy $-J$.
-- **$k = 3$**: 1 state, energy $-J$.
+- **$k = 0$**: 2 state, energies $-2J$ and $J$.
+- **$k = 1$**: 1 state, energy $0$.
+- **$k = 2$**: 2 states,energies $-J$ and $0$.
+- **$k = 3$**: 1 state, energy $0$.
 
-The ground state energy in each sector is $-J$, and the $k = 2$ sector has three degenerate states.
+These energy levels are in agreement with those from the direct exact diagonalization of the $6\times 6$ Hamiltonian matrix for the $S^z\_{\text{total}}=0$ sector without the translational symmetry.
 
----
-
-
-
-### Final Result
-
-After diagonalizing all blocks, we obtain the exact eigenvalues and eigenstates of the 4-site Heisenberg model with periodic boundary conditions. The use of symmetries significantly reduces the size of the matrices that need to be diagonalized.
+After diagonalizing all blocks, we obtain the exact eigenvalues and eigenstates of the 4-site Heisenberg chain with periodic boundary conditions. The use of symmetries reduces the size of the matrices by approximately a factor of $1/N$, where $N$ is the number of lattice sites.
 
 This approach can be generalized to larger systems, although the computational cost still grows exponentially with system size.
