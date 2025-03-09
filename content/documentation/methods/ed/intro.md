@@ -49,7 +49,7 @@ $$
 $$
 S_i^y=\frac{1}{2i}(S_i^{\dagger}-S_i^{-}),
 $$
-who act on the basis states in the following way:
+which act on the basis states in the following way:
 $$
 S_i^{\dagger}|s\rangle = \sqrt{S(S+1)-s(s+1)}|s+1\rangle,
 $$

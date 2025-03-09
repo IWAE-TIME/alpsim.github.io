@@ -6,9 +6,11 @@ weight: 2
 ---
 The size of the Hilbert space of a Hamiltonian grows exponentially with the number of lattice sites, which limits the size of a quantum model that can be studied. It is, however, possible to reduce the full Hamiltonian matrix into several smaller matrices by block diagonalization with lattice and Hamiltonian symmetries. 
 
+In the following we will use a 4-site spin-$\frac{1}{2}$ chain with periodic boundary to illustrate how to employ these symmetries for block-diagonalizing the full Hamiltonian matrix.
+
 ## Hilbert Space
 
-The Hilbert space for a 4-site spin-$\frac{1}{2}$ system has dimension $2^4 = 16$. A basis for this space can be written as:
+The Hilbert space for a 4-site spin-$\frac{1}{2}$ chain has dimension $2^4 = 16$. A basis for this space can be written as:
 
 $$
 \{ |s_1, s_2, s_3, s_4\rangle \}, \quad s_i \in \{\uparrow, \downarrow\}
@@ -48,13 +50,13 @@ The possible values of $S^z\_{\text{total}}$ are $-2, -1, 0, 1, 2$. We can divid
 
 Within each $S^z\_{\text{total}}$ sector, we can further block-diagonalize using translational symmetry. The translation operator $T$ has eigenvalues $e^{ik}$, where $k = 0, \pi/2, \pi, 3\pi/2$ (since $T^4 = 1$).
 
-For example, in the $S^z\_{\text{total}} = 0$ sector, the states can be organized into momentum eigenstates:
+For example, in the $S^z\_{\text{total}} = 0$ sector, the states can be organized into momentum eigenstates. One of the states with total momentum $k$ is given by
 
 $$
-|\phi\rangle = \frac{1}{\sqrt{4}} \sum\_{n=0}^3 e^{ikn} T^n |\psi\rangle
+|\phi\rangle = \frac{1}{\sqrt{M}} \sum\_{n=0}^3 e^{ikn} T^n |\psi\rangle,
 $$
 
-where $|\psi\rangle$ is a representative state in real space and $|\phi\rangle$ is a state in momentum space.
+where $|\psi\rangle$ is a representative state in real space and $|\phi\rangle$ is a state in momentum space, which is invariant under the application of $T$. The normalization factor $M=4$ unless the cyclic periodicity of the state is less than 4, which will be discussed later.
 
 ### Step 3: Constructing the Hamiltonian Blocks
 
@@ -91,13 +93,15 @@ $$
 Exact diagonalization of the above matrix gives $E_1=-2J$, $E_2=-J$, $E_3=0$, $E_4=0$, $E_5=0$, and $E_6=J$.
 
 #### Momentum Sectors
-The momentum $k$ is given by $k = \frac{2\pi n}{4}$, where $n = 0, 1, 2, 3$. The translation operator $T$ acts on a state $|\psi_i\rangle$ as:
+The momentum $k$ is given by $k = 0, \pi/2, \pi, 3\pi/2$, as discussed above. The translation operator $T$ acts on a state $|\psi_i\rangle$ as:
 
 $$
-T |\psi_i\rangle = e^{ik} |\psi_i\rangle.
+T^n |\psi_i\rangle = e^{ikn} |\psi_j\rangle.
 $$
 
-We construct translationally symmetric states for each momentum sector.
+For $n=1$, each site spin configuration shifts to the right by 1 lattice spacing. When $n=4$, the state $|\psi_j\rangle=|\psi_i\rangle$. It is possible that a state cyclic periodicity is smaller than $4$. For example, $|\psi_2\rangle$ and $|\psi_5\rangle$ both have periodicity 2. The normalization factor $M=2$ in the above transformation equation.
+
+In the following, we construct translationally symmetric states for each momentum sector.
 
 #### $S^z\_{\text{total}} = 0$ and $k = 0$ Sector
 The momentum $k = 0$ sector consists of translationally symmetric states. For $S^z\_{\text{total}} = 0$, there are 2 basis states:
@@ -109,7 +113,7 @@ $$
 $$
 |\phi\_2\rangle = \frac{1}{\sqrt{2}}(|\psi_2\rangle + |\psi_5\rangle).
 $$
-In the above construction of basis states in momentum space, two **representative states** $|\psi_1\rangle$ and $|\psi_2\rangle$ have been used with the translational operator $T$ to generate the basis states. No other independent states can be generated. Therefore, the dimension of the $S^z\_{\text{total}} = 0$ and $k = 0$ Sector is 2.
+In the above construction of basis states in momentum space, two **representative states** $|\psi_1\rangle$ and $|\psi_2\rangle$ have been used with the translational operator $T$ to generate the basis states. No other independent states can be generated. Therefore, the dimension of the $S^z\_{\text{total}} = 0$ and $k = 0$ sector is 2.
 
 The Hamiltonian matrix in this sector is given by:
 $$
@@ -173,13 +177,13 @@ $$
 The last eigenvalue is then $E_6=0$.
 
 #### Summary
-- **$k = 0$**: 2 state, energies $-2J$ and $J$.
-- **$k = 1$**: 1 state, energy $0$.
-- **$k = 2$**: 2 states,energies $-J$ and $0$.
-- **$k = 3$**: 1 state, energy $0$.
+- **$k = 0$**: two state, energies $-2J$ and $J$.
+- **$k = 1$**: one state, energy $0$.
+- **$k = 2$**: two states,energies $-J$ and $0$.
+- **$k = 3$**: one state, energy $0$.
 
 These energy levels are in agreement with those from the direct exact diagonalization of the $6\times 6$ Hamiltonian matrix for the $S^z\_{\text{total}}=0$ sector without the translational symmetry.
 
 After diagonalizing all blocks, we obtain the exact eigenvalues and eigenstates of the 4-site Heisenberg chain with periodic boundary conditions. The use of symmetries reduces the size of the matrices by approximately a factor of $1/N$, where $N$ is the number of lattice sites.
 
-This approach can be generalized to larger systems, although the computational cost still grows exponentially with system size.
+This approach can be generalized to larger systems, although one needs to think of an efficent way in the exact diagonalization code to index and access all states in the Hilbert space. The computational cost still grows exponentially with system size.
