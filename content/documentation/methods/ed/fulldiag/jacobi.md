@@ -3,7 +3,7 @@
 title: Jacobi Rotation
 description: "Jacobi Rotation Method"
 math: true
-weight: 2
+weight: 1
 ---
 
 The **Jacobi rotation method** is a classical iterative algorithm used to diagonalize symmetric matrices. It is particularly well-suited for small to medium-sized matrices and is known for its simplicity and robustness. The method works by systematically eliminating off-diagonal elements through a series of orthogonal transformations (rotations), eventually converging to a diagonal matrix whose elements are the eigenvalues of the original matrix.

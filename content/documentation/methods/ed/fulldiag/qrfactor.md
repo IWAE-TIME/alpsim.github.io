@@ -3,7 +3,7 @@
 title: QR Factorization
 description: "QR Factorization Method"
 math: true
-weight: 3
+weight: 2
 ---
 
 **QR factorization** is one of the most efficient and widely used methods for diagonalizing general matrices, including symmetric and non-symmetric matrices. The QR algorithm works by iteratively decomposing a matrix $A$ into the product of an orthogonal matrix $Q$ and an upper triangular matrix $R$. By repeatedly applying this decomposition and reconstructing the matrix as $A^{\prime} = RQ$, the matrix converges to a diagonal or triangular form, from which the eigenvalues can be extracted. The eigenvectors are obtained from the accumulated product of the $Q$ matrices.

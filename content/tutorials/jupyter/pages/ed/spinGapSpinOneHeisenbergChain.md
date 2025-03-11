@@ -21,7 +21,7 @@ $$S_y=\frac{1}{2i}(S^{\dagger}-S^{-})$$,
 who act on the basis states in the following way:
 $$S^{\dagger}|s\rangle = \sqrt{S(S+1)-s(s+1)}|s+1\rangle$$,
 $$S^{-}|s\rangle = \sqrt{S(S+1)-s(s-1)}|s-1\rangle$$,
-where $S=1$ and $s=-S, -S+1, \cdots, S$.
+where $S=1/2$ and $s=-S, -S+1$.
 
 With the above basis states for each lattice site, the Hamiltonian can be written as a Hermitian matrix. The size of the matrix can be reduced when the total magnetization is fixed, i.e., setting Sz_total = 0 (singlet sector) or Sz_total = 1 (triplet sector) in the simulations. 
 

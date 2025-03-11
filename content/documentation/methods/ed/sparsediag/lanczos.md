@@ -1,15 +1,9 @@
 
 ---
-title: Sparse Diagonalization
+title: Lanczos Algorithm
 math: true
-weight: 3
+weight: 1
 ---
-
-The Lanczos method is a powerful algorithm for finding a few extremal eigenvalues and their corresponding eigenvectors of large, sparse matrices. It is particularly useful for quantum lattices, where systems are often described by high-dimensional matrices that are too large to handle with dense matrix techniques. The Lanczos method exploits the sparsity of these matrices to efficiently compute the desired eigenvalues and eigenvectors.
-
-The Hamiltonian matrix in quantum mechanics for systems with local interactions are **sparse**, meaning most of their entries are zero. Storing and manipulating dense matrices of size $N \times N$ requires $O(N^2)$ memory and $O(N^3)$ computational time for diagonalization. For large $N$, this becomes infeasible. The Lanczos method is designed to take advantage of this sparsity, requiring only matrix-vector products rather than explicit matrix storage or manipulation.
-
-## The Lanczos Algorithm
 
 The Lanczos method is an iterative algorithm that reduces a symmetric matrix $A$ of size $N \times N$ to a tridiagonal matrix $T$ of size $m \times m$, where $m \ll N$. The eigenvalues of $T$ approximate the extremal eigenvalues of $A$, and the corresponding eigenvectors can be reconstructed.
 
@@ -67,17 +61,3 @@ The Lanczos method is an iterative algorithm that reduces a symmetric matrix $A$
 
 3. **Convergence**:
    - Convergence to the extremal eigenvalues is typically fast, but interior eigenvalues may require many iterations.
-
-## Sparse Diagonalization in ALPS
-
-The `sparsediag` is an exact diagonalization program in ALPS, using the Lanczos algorithm of the IETL library to compute low-lying eigestates of the Hamiltonian. Hence, it can be used for computing ground-state properties of any model that can be defined using the ALPS libraries. The main limitation is the size of the quantum system, i.e., memory and CPU time may become unacceptable at sizes where other, more specialized applications still work well.
-
-## Input Parameters in ALPS
-
-The `sparsediag` code takes the following parameters:
-
-| **Parameter** | **Default** | **Meaning** |
-| :------------ | :---------- | :---------- |
-| NUMBER_EIGENVALUES | 1 | the number of low-lying eigenstates to be calculated |
-
-
