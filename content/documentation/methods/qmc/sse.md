@@ -107,15 +107,13 @@ where $N$ is the cutoff of the expansion order and $\{H\_{i,j}\}$ represents a s
 1. **Initialization**: Start with an initial state $|\alpha\rangle$ and an empty operator sequence.
 2. **Operator Insertion**: Propose to insert or remove diagonal operators $H\_{i,j}$ into the sequence, updating the state $|\alpha\rangle$ accordingly.
 3. **Diagonal Updates**: Ensure that the sequence of operators is consistent with the Hamiltonian and the basis states.
-4. **Loop Updates**: Perform non-local updates to improve sampling efficiency, often using cluster or loop algorithms tailored to the Heisenberg model [^Syljuasen02].
+4. **Loop Updates**: Perform non-local updates to improve sampling efficiency, often using cluster or loop algorithms tailored to the spin or other bosonic models [^Syljuasen02] [^pollet04] [^Alet05].
 5. **Measurement**: Compute physical quantities, such as energy, magnetization, and correlation functions, by averaging over the sampled configurations.
 
-The SSE method is particularly advantageous for the Heisenberg model because it avoids the sign problem for certain geometries (e.g., bipartite lattices) and provides efficient sampling of both low-temperature and high-temperature regimes [^Alet05]. It has been successfully applied to study a wide range of phenomena, including quantum phase transitions, spin dynamics, the effects of frustration in magnetic systems [^Sandvik10], and Bosonic systems [^Pollet12].
+The SSE method is particularly advantageous for the Heisenberg model because it avoids the sign problem for certain geometries (e.g., bipartite lattices) and provides efficient sampling of both low-temperature and high-temperature regimes. It has been successfully applied to study a wide range of phenomena, including quantum phase transitions, spin dynamics, and Bosonic systems.
 
 
-[^Sandvik99]: Sandvik, A. W., "Stochastic Series Expansion Method with Operator-Loop Update", *Physical Review B*, 59(22), R14157-R14160 (1999).
-[^Syljuasen02]: Syljuåsen, O. F., & Sandvik, A. W., "Quantum Monte Carlo with Directed Loops", *Physical Review E*, 66(4), 046701 (2002).
-[^Sandvik03]: Sandvik, A. W., "Loop Updates for Variational and Projector Quantum Monte Carlo Simulations in the Valence-Bond Basis", *Physical Review B*, 68(5), 054419 (2003).
-[^Alet05]: Alet, F., et al., "Stochastic Series Expansion Quantum Monte Carlo for Frustrated Systems", *Physical Review E*, 71(3), 036706 (2005).
-[^Sandvik10]: Sandvik, A. W., "Ground States of a Frustrated Quantum Spin Chain with Long-Range Interactions", *Physical Review Letters*, 104(13), 137204 (2010).
-[^Pollet12]: Pollet, L., "Recent developments in quantum Monte Carlo simulations with applications for cold gases", *Rep. Prog. Phys.* 75, 094501 (2012).
+[^Sandvik99]: Sandvik, A. W., "Stochastic Series Expansion Method with Operator-Loop Update", *Physical Review B*, 59, R14157-R14160 (1999).
+[^Syljuasen02]: Syljuåsen, O. F. and Sandvik, A. W., "Quantum Monte Carlo with Directed Loops", *Physical Review E*, 66, 046701 (2002).
+[^pollet04]: Pollet, L., et al., "Optimal Monte Carlo Updating", *Physical Review E*, 70, 056705 (2004).
+[^Alet05]: Alet, F., et al., "Generalized Directed Loop Method for Quantum Monte Carlo Simulations", *Physical Review E*, 71, 036706 (2005).
