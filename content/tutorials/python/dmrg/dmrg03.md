@@ -5,7 +5,7 @@ math: true
 toc: true
 ---
 
-As local observables we consider observables that are linked to one specific site. In the case of spin chains, the meaningful local observable is the local magnetization $\langle S^z_i \rangle$ .
+We consider observables that are linked to one specific site to be local observables. In the case of spin chains, the meaningful local observable is the local magnetization $\langle S^z_i \rangle$ .
 
 ## Excitations in the Spin-1 Chain
 
@@ -13,7 +13,7 @@ Take a chain of length $L=96$ and $D=200$. Calculate the local magnetization $\l
 
 What you should obtain is an essentially flat curve for sector 0, a magnetisation which is essentially concentrated at the chain ends for sector 1, and a magnetisation which is both at the chain ends and in the bulk of the chain for sector 2. This means that the first excitation of the open chain is a boundary excitation, which would not exist on a closed system, and the second excitation of the open chain is a boundary plus a bulk excitation, which is the one we are interested in. For an as of now unknown reason, the energy of the first bulk excitation therefore has to be extracted from comparing sectors 1 and 2.
 
-The morale of the story is that by looking at this local observable, we can distinguish boundary from bulk excitations in the spin-1 chain.
+The moral of the story is that by looking at this local observable, we can distinguish boundary from bulk excitations in the spin-1 chain.
 
 ### Using parameter files
 
