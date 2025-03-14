@@ -16,8 +16,26 @@ cascade:
   >}}
   {{< hextra/feature-card
     title="MC"
-    subtitle="Classical Monte Carlo"
+    subtitle="Classical Monte Carlo Simulations"
     link="spinmc"
+    icon=""
+  >}}
+  {{< hextra/feature-card
+    title="QMC"
+    subtitle="Quantum Monte Carlo Simulations"
+    link="qmc"
+    icon=""
+  >}}
+  {{< hextra/feature-card
+    title="DMFT"
+    subtitle="Dynamical Mean Field Theory"
+    link="dmft"
+    icon=""
+  >}}
+  {{< hextra/feature-card
+    title="DMRG"
+    subtitle="Density Matrix Renormalization Group"
+    link="dmrg"
     icon=""
   >}}
 {{< /hextra/feature-grid >}}

@@ -6,7 +6,7 @@ weight: 9
 
 ## Introduction
 
-In condensed matter physics, the **Kondo Lattice Model (KLM)** is used to describe the interaction between localized magnetic moments and conduction electrons in a metallic system. This model is particularly important for understanding the behavior of heavy fermion materials, where the interplay between localized f-electrons and delocalized conduction electrons leads to rich and complex phenomena such as Kondo screening, magnetic ordering, and unconventional superconductivity.
+In condensed matter physics, the **Kondo lattice model (KLM)** is used to describe the interaction between localized magnetic moments and conduction electrons in a metallic system. This model is particularly important for understanding the behavior of heavy fermion materials, where the interplay between localized f-electrons and delocalized conduction electrons leads to rich and complex phenomena such as Kondo screening, magnetic ordering, and unconventional superconductivity.
 
 The Hamiltonian for the Kondo Lattice Model can be written as:
 

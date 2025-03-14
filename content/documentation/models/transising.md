@@ -10,7 +10,7 @@ cascade:
 
 ## Introduction
 
-The **Transverse Field Ising Model (TFIM)** is a generalization of the classical Ising model that incorporates quantum mechanical effects. It is one of the most important models in quantum statistical mechanics and condensed matter physics, providing insights into quantum phase transitions, critical phenomena, and the interplay between classical and quantum fluctuations.
+The **transverse field Ising model (TFIM)** is a generalization of the classical Ising model that incorporates quantum mechanical effects. It is one of the most important models in quantum statistical mechanics and condensed matter physics, providing insights into quantum phase transitions, critical phenomena, and the interplay between classical and quantum fluctuations.
 
 The transverse field quantum Ising model is given by the Hamiltonian
 
