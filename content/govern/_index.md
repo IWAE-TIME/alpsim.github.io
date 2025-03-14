@@ -252,7 +252,7 @@ Contributions and changes to ALPS occur using a consensus model.  Proposals for 
 
 Developers wishing to make ALPS contributions should contact a member of the [Governing Council](#alps-community-steering-committee), who will discuss onboarding.  Contributors and their group members will join the ALPS team by contributing code to integrate into the package using GitHub.  Codes will be released under the MIT open source license.  Community engagement will take place through regular [ALPS workshops](https://alps.comp-phys.com/events/). 
 
-Contributors will arrange for a maintenance time commitment that will help sustain ALPS.  Maintenance will include updating existing codes, help with the website, responding to forum help requests and other ALP community maintenance tasks.  The time commitment will be monitored using GitHub and Discord.  
+Contributors will arrange for a maintenance time commitment that will help sustain ALPS.  Maintenance will include updating existing codes, help with the website, responding to forum help requests and other ALPS community maintenance tasks.  The time commitment will be monitored using GitHub and Discord.  
 
 ALPS releases will be accompanied by an announcement publication. Active contributors to ALPS will be added as coauthors.  The Governing Council will be responsible for deciding the author list.
 
