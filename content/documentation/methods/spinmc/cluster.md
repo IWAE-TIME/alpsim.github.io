@@ -4,7 +4,7 @@ math: true
 weight: 3
 ---
 
-Near the critical temperature $T_c$, the system exhibits long-range correlations, and local update methods become inefficient due to critical slowing down. Cluster update algorithms address this issue by flipping large clusters of spins in a single step, allowing the system to explore configuration space more effectively.
+Near the critical temperature $T_c$ of a system, the system exhibits long-range correlations, and local update methods become inefficient due to critical slowing down. Local update propositions are always rejected during the simulation, and the system seems to be trapped in a specific state configuration. Cluster update algorithms address this issue by flipping large clusters of spins in a single step, allowing the system to explore configuration space more effectively.
 
 ## Wolff Algorithm
 
