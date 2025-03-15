@@ -56,6 +56,6 @@ Alternatively, the heat-bath algorithm can be used for local updates. For each s
    These probabilities ensure that the spin is sampled from its equilibrium distribution given its local environment.
 
 ### 3. Repeat for Many Sweeps
-- A **sweep** consists of attempting to update every spin in the lattice once.
+- A sweep consists of attempting to update every spin in the lattice once.
 - Repeat the local update process for many sweeps to allow the system to reach equilibrium and to collect statistics.
 
