@@ -4,7 +4,9 @@ math: true
 weight: 2
 ---
 
-In a Monte Carlo simulation, system states are usually sampled through local updates, where individual site configuration is updated one at a time based on its local environment. We will use Ising model to illustrate how the sampling of states is achieved. The Hamiltonian of the Ising model is given by the Hamiltonian:
+In a Monte Carlo simulation, system states are usually sampled through local updates, where individual site configuration is updated one at a time based on its local environment. We will use Ising model to illustrate how the sampling of states is achieved. 
+
+The Hamiltonian of the Ising model is given by the Hamiltonian:
 $$
 \mathcal{H} = -J \sum_{\langle i,j \rangle} s_i^z s_j^z - h \sum_i s_i^z,
 $$
@@ -32,12 +34,12 @@ For each spin $s_i^z$:
    $$
    Here, the sum is over the nearest neighbors of spin $s_i^z$.
 3. **Accept or reject the flip**:
-   - If $\Delta E \leq 0$, accept the flip.
-   - If $\Delta E > 0$, accept the flip with probability:
      $$
      P_{\text{accept}} = \text{min}(1, e^{-\beta \Delta E}),
      $$
-     where $\beta = 1/(k_B T)$ is the inverse temperature.
+     where $\beta = 1/(k_B T)$ is the inverse temperature. This means
+   - If $\Delta E \leq 0$, always accept the flip.
+   - If $\Delta E > 0$, accept the flip with probability: $e^{-\beta \Delta E}$.
    - If the flip is rejected, leave the spin unchanged.
 
 #### Heat-Bath Local Update
