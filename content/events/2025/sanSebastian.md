@@ -9,7 +9,7 @@ weight: 2
 ---
 ## Location
 
-The meeting will be held at the [Hotel Olarain](www.olarain.com) in San Sebastian, Spain. 
+The meeting will be held at the [Hotel Olarain](https://www.olarain.com) in San Sebastian, Spain. 
 
 ## Accommodations
 
