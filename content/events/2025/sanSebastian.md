@@ -9,11 +9,11 @@ weight: 2
 ---
 ## Location
 
-The meeting will be held at the [Hotel Olarain](https://www.olarain.com) in San Sebastian, Spain. 
+The meeting will be held at Facultad de Ciencias Químicas, UPV/EHU, in San Sebastian, Spain. 
 
 ## Accommodations
 
-We will provide accommodations at the hotel Olarain. The rooms are reserved for June 23-26. These are shared rooms for two participants. We suggest you contact other workshop participants and let us know who you want to share the room with. We include a list of participants below. 
+We will provide accommodations at the [Hotel Olarain](https://www.olarain.com). The rooms are reserved for June 23-26. These are shared rooms for two participants. We suggest you contact other workshop participants and let us know who you want to share the room with. We include a list of participants below. 
 
 If you prefer to make separate arrangements, please let us know. We cannot guarantee it, but we might be able to partially reimburse you for the same amount we would pay at the Olarain. 
 
