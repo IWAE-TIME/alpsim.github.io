@@ -9,7 +9,7 @@ ALPS is a software package for simulating correlated systems, with codes for cla
 
 ## Licensing
 
-All codes under ALPS framework are released under the Boost open-source license. Future codes will be released under the MIT license.
+All codes under ALPS framework are released under the MIT open-source license.
 
 ## Acknowledgements
 
