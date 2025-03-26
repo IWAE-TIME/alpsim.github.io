@@ -1,98 +1,119 @@
 
 ---
-title: Directed Loop Algorithm with SSE 
+title: Stochastic Series Expansion (SSE)
 math: true
 weight: 4
 ---
 
-## Introduction
+The Stochastic Series Expansion (SSE) method is a finite-temperature QMC technique that expands the partition function $Z$ of the quantum system in a power series of the Hamiltonian. It was originally applied to the Heisenberg model [^Sandvik99], but can be easily extended to other quantum models, such as Bose-Hubbard model.
 
-The `dirloop_sse` package provides a full generic implementation of the Quantum Monte Carlo (QMC) method called directed loop algorithm in the Stochastic Series Expansion representation. The `dirloop_SSE` method was invented and developped by Anders Sandvik and coworkers. It is a powerful and elegant QMC method to study quantum spin or bosonic lattice models.
+The partition function of a quantum model is given by:
 
-The current implementation we present here uses the most recent developments of this method published in:
-- A. W. Sandvik, Phys. Rev. B 59, 14157 (1999).
-- F. Alet, S. Wessel, and M. Troyer Phys. Rev. E 71, 036706 (2005).
-- L. Pollet, S. M. A. Rombouts, K. Van Houcke, and K. Heyde, Phys. Rev. E 70, 056705 (2005).
+$$
+Z = \text{Tr}(e^{-\beta \mathcal{H}}),
+$$
 
-This version allows to simulate on arbitrary lattices:
-- Quantum spin (even frustrated - see remark below) models with arbitrary spin size, magnetic field and anisotropy
-- (Softcore) bosonic models
+where $\beta = 1/(k_B T)$ is the inverse temperature and $\mathcal{H}$ is the Hamiltonian. The key idea of SSE is to express the exponential operator $e^{-\beta \mathcal{H}}$ as a Taylor series:
 
-This release allows to simulate systems with a sign problem (e.g. frustrated spin systems). However, this case was moderately tested so please be careful if your model has a sign problem ...
+$$
+e^{-\beta \mathcal{H}} = \sum\_{n=0}^\infty \frac{(-\beta)^n}{n!} \mathcal{H}^n.
+$$
 
-**Please note** that for frustrated models, some values of the parameter Epsilon might render the algorithm non ergodic (for example, when you have a "pure loop" algorithm). One needs to check this carefully.
+By inserting a complete set of basis states $\{|\alpha\rangle\}$, the partition function can be rewritten as:
 
-## Running a simulation
+$$
+Z = \sum\_{\alpha} \sum\_{n=0}^\infty \frac{(-\beta)^n}{n!} \langle \alpha | \mathcal{H}^n | \alpha \rangle.
+$$
 
-is discussed in the tutorial.
+Depending on the temperatures, the SSE expansion order in the simulation will never exceed a finite order $N$. The SSE method then truncates this expansion series at order $N$ and samples the terms stochastically. The Hamiltonian $\mathcal{H}$ is typically decomposed into a sum of elementary interaction terms $H\_{i,j}$, such as bond operators for the Heisenberg model:
 
-## Input parameters
+$$
+\mathcal{H} = -\sum\_{i,j} H\_{i,j}.
+$$
 
-In addition to the common input parameters of the ALPS applications the `dirloop_sse` application takes the following input parameters for experts (use only if you see what it means!):
+Each term $H\_{i,j}$ acts on a pair of sites and can be represented in a suitable basis. The SSE algorithm then samples configurations consisting of a sequence of these operators.
 
-| **Parameter** | **Default** | **Meaning** |
-| :------------ | :---------- | :---------- |
-| SKIP | 1 | the number of Monte Carlo sweeps between each measurement |
-| RESTRICT_MEASUREMENTS[N] |  | if defined this restricts measurements to configurations where the quantum number N (particle number) has the value given as this parameter. Note that the simulation will still be performed in the grand canonical ensemble and the chemical potential needs to be tuned to the right range, to actually sample configurations with the desired particle number.|
-| RESTRICT_MEASUREMENTS[Sz] | | if defined this restricts measurements to configurations where the quantum number Sz (magnetization) has the value given as this parameter. Note that the simulation will still performed in the grand canonical ensemble and the magnetic field needs to be tuned to the right range, to actually sample configurations with the desiredmagnetization.|
-| NUMBER_OF_WORMS_PER_SWEEP | Calculated self consistently | number of worms done during the loop update. By default, this number is calculated self-consistently during the thermalization part. Nevertheless, you can force its value during the whole simulation |
-| EPSILON | 0 | supplementary diagonal energy shift for all interactions. The value of EPSILON affects the performances of the algorithm with the following tradeoff : the higher it is, the longer the simulation time but the lowest are bounce probabilities. Current wisdom indicates that one should use non-zero values for Epsilon, but not too high (for example S/2 for spin S models). Please note that for frustrated models, some values of Epsilon might render the algorithm non-ergodic. You have to check carefully. |
-| WHICH_LOOP_TYPE | "minbounce" | string to indicate which type of updates should be used for the scattering at the vertices : ( "heatbath" ) heatbath, see A. W. Sandvik, Phys. Rev. B 59, 14157 (1999). ( "minbounce" ) minimum bounces, see F. Alet, S. Wessel, and M. Troyer Phys. Rev. E 71, 036706 (2005). ( "locopt" ) locally optimal, see L. Pollet, S. M. A. Rombouts, K. Van Houcke, and K. Heyde, Phys. Rev. E 70, 056705 (2005). By default the algorithm uses the "minbounce" updates. |
-| NO_WORMWEIGHT | 0 | boolean to indicate whether the worm matrixelement should be set to unity (NO_WORMWEIGHT = true) or to its real value depending on the spin/density configuration (NO_WORMWEIGHT=false). By default, NO_WORMWEIGHT is false. |
+For the Heisenberg model, the bond operator $H_{i,j}$ can be expressed as:
 
-## Measurements
+$$
+H_{i,j} = J \left( S_i^z S_j^z + \frac{1}{2} (S_i^+ S_j^- + S_i^- S_j^+) \right),
+$$
 
-The following observables are measured by the `dirloop_sse` for any model application:
+where $S_i^z$ is the $z$-component of the spin operator, and $S_i^+$ and $S_i^-$ are the spin raising and lowering operators, respectively. The first term, $S_i^z S_j^z$, represents the **diagonal part** of the interaction, while the second term, $\frac{1}{2} (S_i^+ S_j^- + S_i^- S_j^+)$, represents the **off-diagonal part**.
 
-| **Name** | **Description** |
-| :------- | :-------------- |
-| Energy | total energy of the system |
-| Energy Density | energy per site |
+### Diagonal and Off-Diagonal Matrix Elements
 
-The following observables are measured by the dirloop_sse for spin models, i.e. models that have an Sz quantumnumber defined:
+#### Heisenberg Model
+In the SSE framework, the Heisenberg Hamiltonian is expressed in terms of diagonal and off-diagonal operators. For a given basis state $|\alpha\rangle$, the matrix elements of the bond operator $H\_{i,j}$ are:
 
-| **Name** | **Description** |
-| :------- | :-------------- |
-| Magnetization | the z-component of the total magnetization |
-| Magnetization Density | the z-component of the total magnetization per site |
-| \|Magnetization\| | absolute value of the z-component of the magnetization |
-| \|Magnetization Density\| | absolute value of the z-component of the magnetization per site |
-| Magnetization^2 | square of the z-component of the total magnetization |
-| Magnetization Density^2 | square of the z-component of the total magnetization per site |
-| Magnetization^4 | fourth power of the z-component of the total magnetization |
-| Magnetization Density^4 | fourth power of the z-component of the total magnetization per site |
-| Susceptibility | the uniform susceptibility (spin models) |
+1. **Diagonal Matrix Elements**:
+   These correspond to the $S_i^z S_j^z$ term and are given by:
+   $$
+   \langle \alpha | S_i^z S_j^z | \alpha \rangle = S_i^z S_j^z,
+   $$
+   where $S_i^z$ and $S_j^z$ are the $z$-components of the spins in the state $|\alpha\rangle$.
 
-Spin models on bipartite lattices also have a staggered magnetization:
+2. **Off-Diagonal Matrix Elements**:
+   These correspond to the spin-flip terms $S_i^+ S_j^-$ and $S_i^- S_j^+$. For a state $|\alpha\rangle$, the off-diagonal matrix elements are:
+   $$
+   \langle \alpha | S_i^+ S_j^- | \alpha^{\prime} \rangle = \frac{1}{2} \delta_{\alpha, \alpha^{\prime} \text{ with } S_i^+ S_j^-},
+   $$
+   and
+   $$
+   \langle \alpha | S_i^- S_j^+ | \alpha^{\prime} \rangle = \frac{1}{2} \delta_{\alpha, \alpha' \text{ with } S_i^- S_j^+},
+   $$
+   where $\alpha$ and $\alpha^{\prime}$ is the state obtained by flipping the spins at sites $i$ and $j$.
+   
+#### Bose-Hubbard Model
+The Bose-Hubbard model describes bosons on a lattice with on-site interactions and nearest-neighbor hopping. The Hamiltonian is given by:
 
-| **Name** | **Description** |
-| :------- | :-------------- |
-| Staggered Magnetization | the z-component of the staggered magnetization |
-| Staggered Magnetization Density | the z-component of the staggered magnetization per site |
-| Staggered Magnetization^2 | square of the z-component of the staggered magnetization |
-| Staggered Magnetization Density^2 | square of the z-component of the staggered magnetization per site |
+$$
+H = -t \sum_{\langle i,j \rangle} (b_i^\dagger b_j + \text{h.c.}) + \frac{U}{2} \sum_i n_i (n_i - 1) - \mu \sum_i n_i,
+$$
 
-The following observables are measured by the `dirloop_sse` for particle models, i.e. models that have an N quantumnumber defined:
+where:
+- $t$ is the hopping amplitude,
+- $U$ is the on-site interaction strength,
+- $\mu$ is the chemical potential,
+- $b_i^\dagger$ and $b_i$ are the bosonic creation and annihilation operators at site $i$,
+- $n_i = b_i^\dagger b_i$ is the number operator,
+- $\langle i,j \rangle$ denotes nearest-neighbor pairs.
 
-| **Name** | **Description** |
-| :------- | :-------------- |
-| Density | particle density |
-| Density^2 | square of the particle density |
+The Bose-Hubbard Hamiltonian $\mathcal{H}$ is decomposed into a set of bond operators $H\_{i,j}$ (for hopping) and $H_i$ (for on-site interactions):
+$$
+H = -\sum_b H_b,
+$$
+where $b$ labels the bonds or sites. For the Bose-Hubbard model:
+- Hopping terms: $H_{i,j} = t (b_i^\dagger b_j + b_j^\dagger b_i)$,
+- On-site terms: $H_i = \frac{U}{2} n_i (n_i - 1) - \mu n_i$.
 
-And for all models
+### Insertion of Basis States
 
-| **Name** | **Description** |
-| :------- | :-------------- |
-| Stiffness | stiffness of the system (both for spin and bosonic models)|
+In the SSE method, the partition function is expanded in terms of basis states $|\alpha\rangle$ and operator sequences. A typical configuration in the SSE expansion consists of:
 
-Other observables might also be available depending on the exact version of the application.
+1. A basis state $|\alpha_0\rangle$ (the initial state).
+2. A sequence of operators $H\_{i,j}$ acting on the state.
 
-## Contributors
+The partition function can then be written as:
 
-The following persons have contributed to the `dirloop_sse` application:
+$$
+Z = \sum_{\alpha_0} \sum\_{n=0}^N \frac{(-\beta)^n}{n!} \sum_{\{H_{i,j}\}} \langle \alpha_0 | H_{i_1,j_1} H_{i_2,j_2} \cdots H_{i_n,j_n} | \alpha_0 \rangle,
+$$
 
-- Fabien Alet
-- Matthias Troyer 
-- Lode Pollet
+where $N$ is the cutoff of the expansion order and $\{H\_{i,j}\}$ represents a sequence of $n$ operators. The matrix elements of the operators are evaluated in the basis states, and the sequence of operators must satisfy the condition that the final state matches the initial state $|\alpha_0\rangle$.
+
+### Steps in the SSE Algorithm
+
+1. **Initialization**: Start with an initial state $|\alpha\rangle$ and an empty operator sequence.
+2. **Operator Insertion**: Propose to insert or remove diagonal operators $H\_{i,j}$ into the sequence, updating the state $|\alpha\rangle$ accordingly.
+3. **Diagonal Updates**: Ensure that the sequence of operators is consistent with the Hamiltonian and the basis states.
+4. **Loop Updates**: Perform non-local updates to improve sampling efficiency, often using cluster or loop algorithms tailored to the spin or other bosonic models [^Syljuasen02] [^pollet04] [^Alet05].
+5. **Measurement**: Compute physical quantities, such as energy, magnetization, and correlation functions, by averaging over the sampled configurations.
+
+The SSE method is particularly advantageous for the Heisenberg model because it avoids the sign problem for certain geometries (e.g., bipartite lattices) and provides efficient sampling of both low-temperature and high-temperature regimes. It has been successfully applied to study a wide range of phenomena, including quantum phase transitions, spin dynamics, and Bosonic systems.
 
 
+[^Sandvik99]: Sandvik, A. W., "Stochastic Series Expansion Method with Operator-Loop Update", *Physical Review B*, 59, R14157-R14160 (1999).
+[^Syljuasen02]: Syljuåsen, O. F. and Sandvik, A. W., "Quantum Monte Carlo with Directed Loops", *Physical Review E*, 66, 046701 (2002).
+[^pollet04]: Pollet, L., et al., "Optimal Monte Carlo Updating", *Physical Review E*, 70, 056705 (2004).
+[^Alet05]: Alet, F., et al., "Generalized Directed Loop Method for Quantum Monte Carlo Simulations", *Physical Review E*, 71, 036706 (2005).

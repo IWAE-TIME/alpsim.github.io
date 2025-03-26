@@ -244,15 +244,15 @@ The external advisory board will recommend:
     
 - To contribute to ALPS please contact a member of the [Governing Council](#alps-community-steering-committee).
 
-### Decision making process 
+### Decision Making Process 
 
 Contributions and changes to ALPS occur using a consensus model.  Proposals for modifications will be reviewed by both maintainers and core maintainers once posted to the GitHub repository.  Modifications will be accepted if no comments are made within 6 weeks or if all maintainers agree on the modifications.  Controversial proposals decisions can be appealed to the governing council.
 
-### Contribution process
+### Contribution Process
 
 Developers wishing to make ALPS contributions should contact a member of the [Governing Council](#alps-community-steering-committee), who will discuss onboarding.  Contributors and their group members will join the ALPS team by contributing code to integrate into the package using GitHub.  Codes will be released under the MIT open source license.  Community engagement will take place through regular [ALPS workshops](https://alps.comp-phys.com/events/). 
 
-Contributors will arrange for a maintenance time commitment that will help sustain ALPS.  Maintenance will include updating existing codes, help with the website, responding to forum help requests and other ALP community maintenance tasks.  The time commitment will be monitored using GitHub and Discord.  
+Contributors will arrange for a maintenance time commitment that will help sustain ALPS.  Maintenance will include updating existing codes, help with the website, responding to forum help requests and other ALPS community maintenance tasks.  The time commitment will be monitored using GitHub and Discord.  
 
 ALPS releases will be accompanied by an announcement publication. Active contributors to ALPS will be added as coauthors.  The Governing Council will be responsible for deciding the author list.
 

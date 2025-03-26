@@ -34,12 +34,40 @@ $$
 
 For a 4-site system with spin-1/2 particles, the Hilbert space has $2^4 = 16$ basis states. These states are product states of individual spin configurations, denoted as $| \sigma_1 \sigma_2 \sigma_3 \sigma_4 \rangle$, where $\sigma_i = \uparrow$ or $\downarrow$. For example, one basis state is $| \uparrow \uparrow \downarrow \downarrow \rangle$.
 
+The basis states are eigen states of $S_i^z$ operators. When it is applied to the $i$'th site, it gives
+$$
+S\_i^z|\uparrow\rangle = \frac{1}{2}|\uparrow\rangle,
+$$
+and
+$$
+S\_i^z|\downarrow\rangle = -\frac{1}{2}|\downarrow\rangle.
+$$
+To see the result of applying Hamiltonian to the basis states, we need to express the off-diagonal operators, i.e., $S_i^x$ and $S_i^y$ in terms of raising $S^{\dagger}$ and lowering $S^{-}$ operators:
+$$
+S\_i^x=\frac{1}{2}(S_i^{\dagger}+S_i^{-}),
+$$
+$$
+S_i^y=\frac{1}{2i}(S_i^{\dagger}-S_i^{-}),
+$$
+which act on the basis states in the following way:
+$$
+S_i^{\dagger}|s\rangle = \sqrt{S(S+1)-s(s+1)}|s+1\rangle,
+$$
+$$
+S_i^{-}|s\rangle = \sqrt{S(S+1)-s(s-1)}|s-1\rangle,
+$$
+where $S=1/2$ and $s=-1/2, 1/2$.
+With the above transformation, the Hamiltonian element becomes
+$$
+\mathbf{S}\_i \cdot \mathbf{S}\_j = \frac{1}{2}(S_i^{\dagger}S_j^{-}+S_i^{-}S_j^{\dagger})+S\_i^zS\_j^z.
+$$
+
 ### Hamiltonian Matrix
 
 To construct the Hamiltonian matrix, we evaluate the action of $\mathcal{H}$ on each basis state. For instance, consider the term $\mathbf{S}\_1 \cdot \mathbf{S}\_2$:
 
 $$
-\mathbf{S}\_1 \cdot \mathbf{S}\_2 = \frac{1}{4} \left( \sigma_1^x \sigma_2^x + \sigma_1^y \sigma_2^y + \sigma_1^z \sigma_2^z \right).
+\mathbf{S}\_1 \cdot \mathbf{S}\_2 = \frac{1}{2}(S_1^{\dagger}S_2^{-}+S_1^{-}S_2^{\dagger})+S\_1^zS\_2^z.
 $$
 
 This term flips spins at sites 1 and 2 if they are antiparallel and contributes a factor of $\frac{1}{4}$ if they are parallel. For example:
@@ -52,7 +80,7 @@ Repeating this process for all terms in $\mathcal{H}$ and all basis states, we c
 
 ## Diagonalization
 
-Once the Hamiltonian matrix is constructed, it is diagonalized numerically to obtain the eigenstates and eigenvalues. These results provide insights into the ground state energy, low-lying excitations, and magnetic properties of the system. For example, in the 4-site antiferromagnetic Heisenberg chain ($J > 0$), ED reveals a singlet ground state with no long-range order, consistent with the Bethe ansatz solution for larger systems.
+Once the Hamiltonian matrix is constructed, it is diagonalized numerically to obtain the eigenstates and eigenvalues. These results provide insights into the ground state energy, low-lying excitations, and magnetic properties of the system. For example, for the antiferromagnetic Heisenberg chain ($J > 0$), ED reveals a singlet ground state with no long-range order, consistent with the Bethe ansatz solution for larger systems.
 
 ### Scaling with Lattice Size
 
