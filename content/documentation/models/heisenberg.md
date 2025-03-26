@@ -6,7 +6,7 @@ weight: 3
 
 ## Introduction
 
-The Heisenberg model is one of the most fundamental and widely studied models in condensed matter physics and quantum magnetism. It was introduced by Werner Heisenberg in 1928 to describe the magnetic properties of materials, particularly the exchange interactions between localized spins in a crystal lattice. The model has since been used for understanding magnetic ordering, spin dynamics, and quantum phase transitions in a variety of systems.
+The **Heisenberg model** is one of the most fundamental and widely studied models in condensed matter physics and quantum magnetism. It was introduced by Werner Heisenberg in 1928 to describe the magnetic properties of materials, particularly the exchange interactions between localized spins in a crystal lattice. The model has since been used for understanding magnetic ordering, spin dynamics, and quantum phase transitions in a variety of systems.
 
 The Hamiltonian of the Heisenberg model is given by:
 

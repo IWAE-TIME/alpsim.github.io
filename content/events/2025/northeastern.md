@@ -5,6 +5,7 @@ description: "Developer Meeting at Northeastern University"
 toc: false
 sidebar:
   exclude: true
+weight: 3
 ---
 ## Travel
 

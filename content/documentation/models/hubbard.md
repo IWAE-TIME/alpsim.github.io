@@ -6,7 +6,7 @@ weight: 5
 
 ## Introduction
 
-The Hubbard model was first introduced by John Hubbard in 1963 to describe the behavior of electrons in a lattice, particularly in transition metal oxides and other materials with strong electron-electron interactions. It was later extended to describe any Fermions with on-site interactions on a lattice. If only one energy band is used to form the lattice model, then each lattice site can accommodate at most $2s+1$ Fermions with spin $s$.
+The **Hubbard model** was first introduced by John Hubbard in 1963 to describe the behavior of electrons in a lattice, particularly in transition metal oxides and other materials with strong electron-electron interactions. It was later extended to describe any Fermions with on-site interactions on a lattice. If only one energy band is used to form the lattice model, then each lattice site can accommodate at most $2s+1$ Fermions with spin $s$.
 
 The one-band Hubbard model with spin-$\frac{1}{2}$ Fermions is given by the following Hamiltonian
 
