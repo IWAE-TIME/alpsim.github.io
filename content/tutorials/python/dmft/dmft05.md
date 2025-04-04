@@ -85,4 +85,4 @@ plt.legend()
 plt.show()
 ```
 
-Convergency may be checked by `tutorial5b.py`, showing all iterations of $G_f^{it}(\tau)$ on logarithmic scale.
+Convergency may be checked by [`tutorial5b.py`](https://github.com/ALPSim/ALPS/blob/daa73925b95389c0ec5e0d76ce592b56f3cd6738/tutorials/dmft-05-osmt/tutorial5b.py), showing all iterations of $G_f^{it}(\tau)$ on logarithmic scale.
