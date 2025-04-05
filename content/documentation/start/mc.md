@@ -1,12 +1,12 @@
 ---
-linkTitle: Classic Monte Carlo
-title: Running Classic Monte Carlo
+linkTitle: Classical Monte Carlo
+title: Running Classical Monte Carlo
 description: "How to use ALPS"
 weight: 4
 math: true
 ---
 
-As a simple example for classic Monte Carlo we consider obtaining a phase transition in
+As a simple example for classical Monte Carlo we consider obtaining a phase transition in
 2D Ising model.
 
 First, we need to import required packages.
