@@ -44,7 +44,7 @@ There are several ways you can get involved, depending on your interests and ski
 
 - Primary Platform: We work primarily via GitHub, where you can collaborate with the ALPS team and other contributors from around the world.
 - Co-Authorship: With serious commitment to Level 2 or higher, you will have the opportunity to be a co-author on our next release paper.
-- Learning Opportunities: Gain hands-on experience with Monte Carlo simulations, software development, and scientific research.
+- Learning Opportunities: Gain hands-on experience with Monte Carlo simulations (or other methods in ALPS), software development, and scientific research.
 
 ## Why Join ALPS?
 
@@ -54,7 +54,7 @@ There are several ways you can get involved, depending on your interests and ski
 
 ## Ready to Get Started?
 
-If you are interested in joining the ALPS collaboration, please reach out to us via GitHub or contact a member of the ALPS Governing Council directly. We look forward to working with you and seeing your contributions to this exciting project!
+If you are interested in joining the ALPS collaboration, please reach out to us via GitHub or contact a member of the [ALPS Governing Council](../../govern#alps-community-steering-committee) directly. We look forward to working with you and seeing your contributions to this exciting project!
 
 Best regards,  
 The ALPS Collaboration

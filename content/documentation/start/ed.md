@@ -11,14 +11,16 @@ First step is import required packages.
 
 ```Python
 import pyalps
+import numpy as np
 import matplotlib.pyplot as plt
 import pyalps.plot
+import pyalps.fit_wrapper as fw
 ```
 
 Then we prepare each set of input parameters and write them into the format `ALPS` expects.
 ```Python
 parms = []
-for l in [4, 6, 8, 10, 12, 14, 16]:
+for l in [4, 6, 8, 10, 12]:
   for sz in [0, 1]:
       parms.append(
         {.
@@ -41,8 +43,15 @@ Then we run sparsediag for each set of parameters:
 res = pyalps.runApplication('sparsediag',input_file)
 ```
 
+We then load measurements for all states:
+```Python
+data = pyalps.loadSpectra(pyalps.getResultFiles(prefix='parm2a'))
+```
+
 And extract the ground state energies over all momenta for every simulation.
 ```Python
+lengths = []
+min_energies = {}
 for sim in data:
   l = int(sim[0].props['L'])
   if l not in lengths: lengths.append(l)
