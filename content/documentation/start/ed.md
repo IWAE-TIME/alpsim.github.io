@@ -20,7 +20,7 @@ import pyalps.fit_wrapper as fw
 Then we prepare each set of input parameters and write them into the format `ALPS` expects.
 ```Python
 parms = []
-for l in [4, 6, 8, 10, 12]:
+for l in [4, 6, 8, 10, 12, 14, 16]:
   for sz in [0, 1]:
       parms.append(
         {.
@@ -80,7 +80,7 @@ plt.ylim(0,1.0)
 
 pars = [fw.Parameter(0.411), fw.Parameter(1000), fw.Parameter(1)]
 f = lambda self, x, p: p[0]()+p[1]()*np.exp(-x/p[2]())
-# we fit only a range from 8 to 14
+# we fit only a range from 8 to 16
 fw.fit(None, f, pars, np.array(gapplot.y)[2:], np.sort(lengths)[2:])
 
 x = np.linspace(0, 1./min(lengths), 100)
