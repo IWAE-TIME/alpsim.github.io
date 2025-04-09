@@ -23,8 +23,8 @@ parms = []
 for l in [4, 6, 8, 10, 12, 14, 16]:
   for sz in [0, 1]:
       parms.append(
-        {.
-          'LATTICE'                   : "chain lattice",.
+        {
+          'LATTICE'                   : "chain lattice",
           'MODEL'                     : "spin",
           'local_S'                   : 1,
           'J'                         : 1,
