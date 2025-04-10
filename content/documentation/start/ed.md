@@ -83,7 +83,7 @@ f = lambda self, x, p: p[0]()+p[1]()*np.exp(-x/p[2]())
 # we fit only a range from 8 to 16
 fw.fit(None, f, pars, np.array(gapplot.y)[2:], np.sort(lengths)[2:])
 
-x = np.linspace(0, 1./min(lengths), 100)
+x = np.linspace(0.0001, 1./min(lengths), 100)
 plt.plot(x, f(None, 1/x, pars))
 
 plt.show()
