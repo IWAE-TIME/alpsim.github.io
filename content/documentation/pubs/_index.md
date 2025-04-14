@@ -7,4 +7,5 @@ weight: 10
 
 - [ALPS Release Papers](papers)
 - [References](refs)
+- [Citations](citations)
 

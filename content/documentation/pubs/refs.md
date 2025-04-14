@@ -2,7 +2,7 @@
 ---
 title: Code and Method References
 description: "ALPS References"
-weight: 3
+weight: 2
 ---
 
 The following list contains additional references for individual libraries, applications, and the implemented numerical methods:
