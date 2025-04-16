@@ -15,10 +15,6 @@ The ALPS quick examples section illustrates how to set up input parameters and c
 <br>
 {{< hextra/feature-grid maxcolumns="2" >}}
   {{< hextra/feature-card
-    title="General Introduction"
-    link="general"
-  >}}
-  {{< hextra/feature-card
     title="Monte Carlo"
     link="mcs"
   >}}
