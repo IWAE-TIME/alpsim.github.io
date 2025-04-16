@@ -1,9 +1,9 @@
-
 ---
-title: General introduction to running simulations using ALPS
-description: "Tutorials for the Legacy ALPS"
-toc: true
-weight: 1
+title: General Introduction
+math: true
+weight: 3
+cascade:            
+    type: docs
 ---
 
 - [Running and evaluating simulations using ALPS](runalps)
@@ -11,7 +11,3 @@ weight: 1
 - [Definition of models](modeldef)
 - [Definition of custom measurements](measuredef)
 - [Common parameters](parameters)
-
-
-
-
