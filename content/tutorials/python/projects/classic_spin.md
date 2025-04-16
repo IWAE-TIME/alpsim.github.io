@@ -3,7 +3,7 @@ title: Classical Spin Systems
 linkTitle: Classical Spin Systems
 layout: alps-home
 toc: false
-weight: 1
+weight: 3
 ---
 
 ### The Ising model in two dimensions
