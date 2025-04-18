@@ -11,49 +11,41 @@ ALPS documentation includes basic theory, code and data structure of various sim
     title="Introduction"
     subtitle="How to run ALPS?"
     link="intro"
-    icon=""
   >}}
   {{< hextra/feature-card
     title="Models"
     subtitle="What does ALPS simulate?"
     link="models"
-    icon=""
   >}}
   {{< hextra/feature-card
     title="Methods"
     subtitle="How does ALPS simulate models?"
     link="methods"
-    icon=""
   >}}
   {{< hextra/feature-card
     title="API"
     subtitle="What API calls are available in ALPS?"
     link="api"
-    icon=""
   >}}
   {{< hextra/feature-card
     title="Libraries"
     subtitle="What libraries are available in ALPS?"
     link="lib"
-    icon=""
   >}}
   {{< hextra/feature-card
     title="Development"
     subtitle="How to develop codes for ALPS?"
     link="codedev"
-    icon=""
   >}}
   {{< hextra/feature-card
     title="ALPSize"
     subtitle="How to contribute your codes to ALPS?"
     link="alpsize"
-    icon=""
   >}}
   {{< hextra/feature-card
     title="Publications"
     subtitle="What papers to cite for using ALPS?"
     link="pubs"
-    icon=""
   >}}
 {{< /hextra/feature-grid >}}
 

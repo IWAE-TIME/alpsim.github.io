@@ -18,12 +18,17 @@ Please make sure your version of Python is Python >= 3.9.
 
 For Windows computers one can either first install a Linux subsystem and then install ALPS or install ALPS in a virtual box environment.
 
-### Linux subsystem installation for Windows.
+### Installation of Windows Subsystem for Linux (WSL).
 <br>
 
 {{< youtube id="hEYWDLJmNpc" >}}
 
-### Installation in a virtual box environment for Windows.
+### Installation of ALPS in WSL.
+<br>
+
+{{< youtube id="FevhLNcQCHY" >}}
+
+### Installation of ALPS in a virtual box environment for Windows.
 <br>
 
 {{< youtube id="Te6IApFjHJs" >}}

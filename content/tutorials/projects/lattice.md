@@ -8,6 +8,6 @@ weight: 1
 
 Under Construction
 
-In this turotial, we show you how to set up lattices for ALPS.
+In this turotial, we will show you how to set up lattices for ALPS.
 
 <!--more-->

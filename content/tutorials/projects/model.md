@@ -8,6 +8,6 @@ weight: 2
 
 Under Construction
 
-In this turotial, we show you how to set up model Hamiltonians for ALPS.
+In this turotial, we will show you how to set up model Hamiltonians for ALPS.
 
 <!--more-->

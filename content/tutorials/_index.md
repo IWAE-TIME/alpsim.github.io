@@ -14,8 +14,12 @@ We provide tutorials for ALPS in both Python scripts and Jupyter notebooks. Acco
     title="Python Scripts"
     link="python"
   >}}
-    {{< hextra/feature-card
+  {{< hextra/feature-card
     title="Jupyter Notebooks"
     link="jupyter"
+  >}}
+  {{< hextra/feature-card
+    title="Projects for Students"
+    link="projects"
   >}}
 {{< /hextra/feature-grid >}}
