@@ -1,17 +1,17 @@
 
 ---
-title: Examples:Neel Transition
+title: DMFT-09 Neel Transition
 math: true
 toc: true
 ---
 
-## Néel transition in single site DMFT
+## Tutorial 09: Néel transition in single site DMFT
 
 In this example we reproduce Fig. 11 in the DMFT review by [Georges it et al.](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.68.13). The series of six curves shows how the system, a Hubbard model on the Bethe lattice with interaction $U=3D/\sqrt{2}$ at half filling, enters an antiferromagnetic phase upon cooling.
 
 These examples can either be started by directly invoking a command or python script on the command line. Running one of the dmft parameter sets manually, e.g. by entering the directory 'beta_14_U3_tsqrt2' in `tutorials/dmft-0j-xxx`, and running the dmft code '/opt/alps/bin/dmft xxx.param' leads to the same results.
 
-Note: the example merges the tutorials [DMFT-02 CT-HYB: the CT-HYB QMC solver](../../dmft/dmft02), [DMFT-03 CT-INT: the CT-INT QMC solver](../../dmft/dmft03) and [DMFT-07 The Hirsch-Fye solver](../../dmft/dmft07) .
+Note: the example merges the tutorials [DMFT-02 CT-HYB: the CT-HYB QMC solver](../dmft02), [DMFT-03 CT-INT: the CT-INT QMC solver](../dmft03) and [DMFT-07 The Hirsch-Fye solver](../dmft07) .
 
 ### Hybridization Expansion CT-HYB
 

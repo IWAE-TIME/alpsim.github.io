@@ -65,7 +65,7 @@ for p in parms:
 
 A paper using the same sample parameters can be found [here](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.72.081103).
 
-As discussed in the previous tutorial [ALPS 2 Tutorials:DMFT-04 Mott]({{<relref "/tutorials/python/dmft/dmft04">}}), the (non-)metallicity of the Green's function is best observed by plotting the data on a logarithmic scale.
+As discussed in the previous tutorial [ALPS 2 Tutorials:DMFT-04 Mott](../dmft04), the (non-)metallicity of the Green's function is best observed by plotting the data on a logarithmic scale.
 
 ```
 listobs = ['0', '2']   # flavor 0 is SYMMETRIZED with 1, flavor 2 is SYMMETRIZED with 3

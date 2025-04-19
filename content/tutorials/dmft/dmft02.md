@@ -85,7 +85,7 @@ MU = 0   // Chemical potential; for particle-hole symmetric models corresponds M
 t = 0.707106781187   // hopping parameter; for the Bethe lattice considered here $W=2D=4t$
 ```
 
-Note that there is no parameter specifying the band structure or lattice type. By default a Bethe lattice is assumed, but this can be changed (see [DMFT-08 Setting a particular lattice]({{<relref "/tutorials/python/dmft/dmft08">}})).
+Note that there is no parameter specifying the band structure or lattice type. By default a Bethe lattice is assumed, but this can be changed (see [DMFT-08 Setting a particular lattice](../dmft08)).
 
 A specification of the initial Weiss field (set by the variables G0OMEGA_INPUT or G0TAU_INPUT) is missing as well - the program will thus at initialization compute the non-interacting Green's function. It will use the initial magnetic field H_INIT, which produces in this case a small difference between flavors (0 and 1 representing $\uparrow$,\ $\downarrow$) to start away from the paramagnetic solution - the reason for that is that in very short simulations (like this tutorial) starting from a paramagnetic Weiss field could mean that the random noise would not produce enough difference in the first few iterations to get the system away from the paramagnetic regime. A badly converged paramagnet would then appear as a solution. The dependence of H_INIT on BETA serves for optimization of the run, lowering the number of needed iterations.
 

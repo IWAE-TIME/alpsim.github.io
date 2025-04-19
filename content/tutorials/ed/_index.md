@@ -3,7 +3,7 @@
 title: Exact Diagonalization
 description: "Tutorials for ALPS"
 toc: true
-weight: 3
+weight: 2
 ---
 
 - [ED-01 Sparse Diagonalization (Lanczos)](ed01)

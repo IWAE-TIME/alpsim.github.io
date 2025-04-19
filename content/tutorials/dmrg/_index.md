@@ -3,7 +3,7 @@
 title: Density Matrix Renormalization Group
 description: "Tutorials for ALPS"
 toc: true
-weight: 4
+weight: 3
 ---
 
 - [DMRG-01 Density Matrix Renormalization Group Introduction](dmrg01)

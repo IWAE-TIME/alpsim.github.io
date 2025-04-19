@@ -3,7 +3,7 @@
 title: Monte Carlo Simulations
 description: "Tutorials for ALPS"
 toc: true
-weight: 2
+weight: 1
 ---
 
 - [Which code to choose for your simulation?](com)

@@ -3,7 +3,7 @@
 title: Dynamical Mean Field Theory (DMFT) Solvers
 description: "Tutorials for ALPS"
 toc: true
-weight: 6
+weight: 4
 ---
 
 - [DMFT-01 An introduction to DMFT](dmft01)
@@ -14,6 +14,8 @@ weight: 6
 - [DMFT-06 Paramagnetic metal](dmft06)
 - [DMFT-07 The Hirsch-Fye solver](dmft07)
 - [DMFT-08 Setting a particular lattice](dmft08)
+- [DMFT-09 Néel transition in single site DMFT](dmft09)
+- [DMFT-10 Paramagnetic metal and extrapolation errors](dmft10)
 
 
 

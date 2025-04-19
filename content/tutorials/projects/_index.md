@@ -2,7 +2,9 @@
 title: Projects for students
 layout: alps-home
 toc: false
-weight: 3
+weight: 7
+cascade:
+    type: docs
 ---
 
 ## Projects for students

@@ -3,7 +3,7 @@
 title: Jupyter Notebooks
 description: "Tutorials for ALPS in Jupyter Notebooks"
 toc: true
-weight: 2
+weight: 6
 cascade:
     type: docs
 ---
