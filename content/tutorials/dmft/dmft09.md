@@ -1,11 +1,11 @@
 
 ---
-title: DMFT-09 Neel Transition
+title: DMFT-09 Néel Transition
 math: true
 toc: true
 ---
 
-## Tutorial 09: Néel transition in single site DMFT
+## Néel transition in single site DMFT
 
 In this example we reproduce Fig. 11 in the DMFT review by [Georges it et al.](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.68.13). The series of six curves shows how the system, a Hubbard model on the Bethe lattice with interaction $U=3D/\sqrt{2}$ at half filling, enters an antiferromagnetic phase upon cooling.
 

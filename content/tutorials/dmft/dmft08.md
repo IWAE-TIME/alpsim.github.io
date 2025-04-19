@@ -5,7 +5,7 @@ math: true
 toc: true
 ---
 
-## Tutorial 08: Setting a particular lattice
+## Setting a particular lattice
 
 ### Option DOSFILE
 

@@ -5,7 +5,7 @@ math: true
 toc: true
 ---
 
-## Tutorial 04: Mott Transition
+## Mott Transition
 
 Mott transitions are metal insulator transitions (MIT) that occur in many materials, e.g. transition metal compounds, as a function of pressure or doping. The review by Imada et al. gives an excellent introduction to the subject and mentions $V_2O_3$ and the organics as typical examples.
 

@@ -5,7 +5,7 @@ math: true
 toc: true
 ---
 
-## Tutorial 02: Hybridization Expansion CT-HYB
+## Hybridization Expansion CT-HYB
 
 We start by running a continuous-time quantum Monte Carlo code - the hybridization expansion algorithm CT-HYB. As an example we reproduce Fig. 11 in the DMFT review by Georges et al.. The series of six curves shows how the system, a Hubbard model on the Bethe lattice with interaction $U=3D/\sqrt{2}$r at half filling, enters an antiferromagnetic phase upon cooling. In tutorials 03 and 07 we will reproduce the same results with the interaction expansion continuous-time solver and with the discrete-time Quantum Monte Carlo Hirsch-Fye code, respectively. The input parameters are the same, apart from a few solver-related parameters.
 

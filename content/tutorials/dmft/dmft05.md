@@ -5,7 +5,7 @@ math: true
 toc: true
 ---
 
-## Tutorial 05: Orbitally Selective Mott Transition
+## Orbitally Selective Mott Transition
 
 An interesting phenomenon in multi-orbital models is the orbitally selective Mott transition, first examined by [Anisimov et al.]() A variant of this, a *momentum-selective* Mott transition, has recently been discussed in [cluster calculations](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.80.045120) as a cluster representation of pseudogap physics.
 

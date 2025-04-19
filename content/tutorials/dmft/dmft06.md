@@ -1,11 +1,11 @@
 
 ---
-title: DMFT-06 Paramagnet Metal
+title: DMFT-06 Paramagnet
 math: true
 toc: true
 ---
 
-## Tutorial 06: Paramagnetic metal and extrapolation errors
+## Paramagnetic metal and extrapolation errors
 
 In this example we simulate the Hubbard model on the Bethe lattice with interaction $U=3D/\sqrt{2}$ at a temperature $\beta =32 \sqrt{2}/D$ using a paramagnetic self-consistency. We will calculate the self-energy and compare it to Fig. 15 in the DMFT review by [Georges it et al.](https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.68.13), where Hirsch-Fye and Exact Diagonalization results are shown for the same system. In contrast to the Hirsch-Fye algorithm the two Continuous time Monte Carlo algorithms CT-HYB and CT-INT do not suffer from discretization errors and reproduce the ED results.
 
